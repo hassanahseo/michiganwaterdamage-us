@@ -1,0 +1,74 @@
+---
+import GuidePage from '../layouts/GuidePage.astro';
+import phonesData from '../data/phones.json';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Contact', url: '/contact/' },
+];
+---
+
+<GuidePage
+  title="Contact Referral Network | Michigan Water Damage Referral Network"
+  metaDescription="Contact the Michigan Water Damage Referral Network for 24/7 property damage restoration, mold remediation, and emergency plumbing phone connections."
+  h1="Contact Our Referral Network"
+  breadcrumbs={breadcrumbs}
+  pageType="trust-page"
+>
+  <h2>24/7 Telephone Referral Connections Across Michigan</h2>
+  <p>
+    Michigan Water Damage Referral Network operates 24/7 telephone connection lines for property owners facing emergency water damage, sewer backups, mold concerns, and urgent plumbing failures. When you call our published routing numbers, our telecommunications system routes you directly to an independent local contractor who services your Michigan municipality.
+  </p>
+  <p>
+    Please select the telephone routing line dedicated to your specific property issue:
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+    <div class="rounded-xl border border-slate-200 bg-slate-50 p-6">
+      <h3 class="text-lg font-bold text-slate-900 mb-1">Disaster Restoration Line</h3>
+      <p class="text-xs text-slate-500 mb-3">Water Damage · Mold Remediation · Fire Damage · Sewage · Biohazard</p>
+      <a
+        href={`tel:${phonesData.restoration.tel}`}
+        class="inline-flex items-center gap-2 rounded-lg bg-amber-600 px-4 py-2.5 text-base font-bold text-white hover:bg-amber-700"
+      >
+        <span>Call {phonesData.restoration.display}</span>
+      </a>
+      <p class="text-xs text-slate-500 mt-2">Available 24/7 across all Michigan service regions.</p>
+    </div>
+
+    <div class="rounded-xl border border-slate-200 bg-slate-50 p-6">
+      <h3 class="text-lg font-bold text-slate-900 mb-1">Emergency Plumbing Line</h3>
+      <p class="text-xs text-slate-500 mb-3">Leak Detection · Burst Pipes · Drain Cleaning · Sump Pumps</p>
+      <a
+        href={`tel:${phonesData.plumbing.tel}`}
+        class="inline-flex items-center gap-2 rounded-lg bg-amber-600 px-4 py-2.5 text-base font-bold text-white hover:bg-amber-700"
+      >
+        <span>Call {phonesData.plumbing.display}</span>
+      </a>
+      <p class="text-xs text-slate-500 mt-2">Available 24/7 for pressurized supply and drainage emergencies.</p>
+    </div>
+  </div>
+
+  <h2>What Information to Have Ready When Calling</h2>
+  <p>
+    To ensure the responding independent contractor can provide clear diagnostic guidance and dispatch relevant equipment, please have the following basic details ready when you call:
+  </p>
+  <ul>
+    <li><strong>Property Location:</strong> Your municipal jurisdiction, street address, and county (e.g., Wayne, Kent, Washtenaw, Ingham, or Macomb).</li>
+    <li><strong>Source of Water Intrusion:</strong> Indicate whether the water is from an overhead pipe burst, an overflowing toilet, an exterior foundation seep, a failed sump pump, or a municipal sewer backflow.</li>
+    <li><strong>Scope of Affected Area:</strong> Estimate the number of flooded rooms and whether materials like finished carpeting, drywall, or hardwood subflooring are saturated.</li>
+    <li><strong>Current Safety Status:</strong> Note whether the main water shutoff valve has been closed and whether electrical circuits in wet areas have been disconnected.</li>
+  </ul>
+
+  <h2>Administrative, Editorial & Contractor Inquiries</h2>
+  <p>
+    For non-emergency communications, administrative correspondence, or factual corrections to our published municipal data, please contact our administrative team via email:
+  </p>
+  <ul>
+    <li><strong>Editorial & Data Corrections:</strong> <code>editorial@michiganwaterdamage.us</code> — For corrections or updates to municipal utility citations, housing data, or emergency resources.</li>
+    <li><strong>Contractor Network Inquiries:</strong> <code>network@michiganwaterdamage.us</code> — Independent Michigan licensed plumbing contractors and disaster restoration companies interested in receiving telephone referral traffic may inquire regarding regional network participation requirements.</li>
+  </ul>
+  <p class="text-sm text-slate-600 mt-4">
+    <em>Notice: Emergency service requests cannot be scheduled or dispatched via email. For active property emergencies requiring rapid attention, please call our 24/7 referral phone lines above.</em>
+  </p>
+</GuidePage>

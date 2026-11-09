@@ -1,0 +1,82 @@
+---
+import Base from './Base.astro';
+import Breadcrumbs, { type BreadcrumbItem } from '../components/Breadcrumbs.astro';
+import CallButton from '../components/CallButton.astro';
+import CostTable from '../components/CostTable.astro';
+import LastReviewed from '../components/LastReviewed.astro';
+import JsonLd from '../components/JsonLd.astro';
+
+interface Props {
+  title: string;
+  metaDescription: string;
+  h1: string;
+  breadcrumbs: BreadcrumbItem[];
+  service?: string;
+  serviceName?: string;
+  costTopic?: string;
+  pageType?: 'cost-guide' | 'problem-guide' | 'trust-page';
+}
+
+const {
+  title,
+  metaDescription,
+  h1,
+  breadcrumbs,
+  service = 'water-damage',
+  serviceName = 'damage specialist',
+  costTopic,
+  pageType = 'problem-guide',
+} = Astro.props;
+---
+
+<Base
+  title={title}
+  description={metaDescription}
+  service={service}
+  serviceName={serviceName}
+  pageType={pageType}
+>
+  <JsonLd
+    type="article"
+    title={title}
+    description={metaDescription}
+    url={Astro.url.pathname}
+  />
+
+  <div class="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="my-6">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
+        {h1}
+      </h1>
+      <p class="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
+        {metaDescription}
+      </p>
+
+      {pageType !== 'trust-page' && (
+        <div class="mt-6">
+          <CallButton service={service} serviceName={serviceName} />
+        </div>
+      )}
+    </header>
+
+    {costTopic && <CostTable topic={costTopic} />}
+
+    <div class="prose prose-slate max-w-none my-8 leading-relaxed">
+      <slot />
+    </div>
+
+    {pageType !== 'trust-page' && (
+      <div class="my-10 rounded-2xl bg-amber-50 border border-amber-200 p-6 text-center">
+        <h2 class="text-xl font-bold text-slate-900 mb-2">Speak Directly With a Local Michigan Specialist</h2>
+        <p class="text-sm text-slate-600 mb-4 max-w-xl mx-auto">
+          Need immediate evaluation or emergency cleanup support? Our referral network connects you 24/7 with independent local professionals.
+        </p>
+        <CallButton service={service} serviceName={serviceName} />
+      </div>
+    )}
+
+    <LastReviewed />
+  </div>
+</Base>

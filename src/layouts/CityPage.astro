@@ -1,0 +1,120 @@
+---
+import Base from './Base.astro';
+import Breadcrumbs, { type BreadcrumbItem } from '../components/Breadcrumbs.astro';
+import CallButton from '../components/CallButton.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import NeighborhoodGrid from '../components/NeighborhoodGrid.astro';
+import CityGrid from '../components/CityGrid.astro';
+import Faq from '../components/Faq.astro';
+import LastReviewed from '../components/LastReviewed.astro';
+import JsonLd from '../components/JsonLd.astro';
+
+interface Props {
+  title: string;
+  metaDescription: string;
+  h1: string;
+  citySlug: string;
+  cityName: string;
+  service?: string;
+  serviceName?: string;
+  breadcrumbs: BreadcrumbItem[];
+  faqs?: Array<{ question: string; answer: string }>;
+  pageType?: string;
+  showFaqComponent?: boolean;
+  showNeighborhoodGrid?: boolean;
+  showServiceGrid?: boolean;
+  showCityGrid?: boolean;
+  showLandlordBlock?: boolean;
+}
+
+const {
+  title,
+  metaDescription,
+  h1,
+  citySlug,
+  cityName,
+  service = 'water-damage',
+  serviceName = 'damage restoration',
+  breadcrumbs,
+  faqs = [],
+  pageType = 'city-hub',
+  showFaqComponent = true,
+  showNeighborhoodGrid = true,
+  showServiceGrid = true,
+  showCityGrid = true,
+  showLandlordBlock = true,
+} = Astro.props;
+---
+
+<Base
+  title={title}
+  description={metaDescription}
+  service={service}
+  serviceName={serviceName}
+  city={cityName}
+  pageType={pageType}
+>
+  <JsonLd
+    type="service"
+    title={title}
+    description={metaDescription}
+    areaServed={`${cityName}, MI`}
+    faqs={faqs}
+  />
+
+  <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="my-6">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
+        {h1}
+      </h1>
+      <p class="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
+        {metaDescription}
+      </p>
+
+      <div class="mt-6">
+        <CallButton service={service} serviceName={serviceName} />
+      </div>
+    </header>
+
+    <div class="prose prose-slate max-w-none my-8 leading-relaxed">
+      <slot />
+    </div>
+
+    <!-- Landlord & Property Manager Block (SPEC Sec 6) -->
+    {showLandlordBlock && (
+      <div class="my-8 rounded-xl border border-slate-200 bg-slate-50 p-6">
+        <h3 class="text-lg font-bold text-slate-900 mb-2">For {cityName} Landlords & Property Managers</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-3">
+          Managing multi-unit buildings or rental homes across {cityName}? Fast response to tenant water leaks or mold reports protects property value and satisfies Michigan habitability standards.
+        </p>
+        <a
+          href="/guides/landlord-tenant-water-damage-mold/"
+          class="text-xs font-bold text-amber-700 hover:text-amber-800 underline"
+        >
+          Read our Michigan Landlord Guide: Handling Tenant Water & Mold Reports →
+        </a>
+      </div>
+    )}
+
+    <!-- Neighborhoods (if available for this city) -->
+    {showNeighborhoodGrid && <NeighborhoodGrid citySlug={citySlug} cityName={cityName} />}
+
+    <!-- Services Grid for this City -->
+    {showServiceGrid && (
+      <section class="my-10" aria-label={`Emergency Services in ${cityName}`}>
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900 mb-2">
+          Emergency Referral Services in {cityName}, MI
+        </h2>
+        <ServiceGrid citySlug={citySlug} cityName={cityName} currentService={service} />
+      </section>
+    )}
+
+    {showFaqComponent && faqs.length > 0 && <Faq items={faqs} />}
+
+    {showCityGrid && <CityGrid currentCity={citySlug} title="Other Michigan Communities Served" />}
+
+    <LastReviewed />
+  </div>
+</Base>

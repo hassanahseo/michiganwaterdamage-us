@@ -1,0 +1,187 @@
+[
+  {
+    "topic": "water-damage-restoration-michigan",
+    "name": "Water Damage Restoration Cost in Michigan",
+    "low": 1250,
+    "high": 5500,
+    "unit": "per project",
+    "source_url": "https://www.forbes.com/home-improvement/home/water-damage-restoration-cost/",
+    "as_of": "2024-2025",
+    "additional_sources": [
+      {
+        "name": "Angi Home Restoration Index",
+        "low": 1250,
+        "high": 5400,
+        "source_url": "https://www.angi.com/articles/cost-water-damage-restoration.htm",
+        "as_of": "2025"
+      },
+      {
+        "name": "Bob Vila Home Improvement",
+        "low": 1300,
+        "high": 5500,
+        "source_url": "https://www.bobvila.com/articles/water-damage-restoration-cost/",
+        "as_of": "2025"
+      }
+    ]
+  },
+  {
+    "topic": "mold-remediation-michigan",
+    "name": "Mold Remediation Cost in Michigan",
+    "low": 1400,
+    "high": 4800,
+    "unit": "per project",
+    "source_url": "https://www.forbes.com/home-improvement/home/mold-remediation-cost/",
+    "as_of": "2024-2025",
+    "additional_sources": [
+      {
+        "name": "Angi Mold Removal Cost Guide",
+        "low": 1400,
+        "high": 4800,
+        "source_url": "https://www.angi.com/articles/how-much-does-mold-removal-cost.htm",
+        "as_of": "2025"
+      },
+      {
+        "name": "Fixr Property Remediation Cost Guide",
+        "low": 1500,
+        "high": 4500,
+        "source_url": "https://www.fixr.com/costs/mold-remediation",
+        "as_of": "2025"
+      },
+      {
+        "name": "Architectural Digest Home Guide",
+        "low": 1500,
+        "high": 5000,
+        "source_url": "https://www.architecturaldigest.com/reviews/home-improvement/mold-remediation-cost",
+        "as_of": "2025"
+      }
+    ]
+  },
+  {
+    "topic": "fire-damage-restoration-michigan",
+    "name": "Fire & Smoke Damage Restoration Cost in Michigan",
+    "low": 3000,
+    "high": 14000,
+    "unit": "per project",
+    "source_url": "https://www.forbes.com/home-improvement/home/fire-damage-restoration-cost/",
+    "as_of": "2024-2025",
+    "additional_sources": [
+      {
+        "name": "Angi Fire Damage Restoration Guide",
+        "low": 3000,
+        "high": 14000,
+        "source_url": "https://www.angi.com/articles/how-much-does-fire-damage-restoration-cost.htm",
+        "as_of": "2025"
+      },
+      {
+        "name": "Fixr Fire & Smoke Repair Guide",
+        "low": 3200,
+        "high": 12500,
+        "source_url": "https://www.fixr.com/costs/fire-damage-repair",
+        "as_of": "2025"
+      },
+      {
+        "name": "HomeGuide Fire Recovery Cost Index",
+        "low": 3500,
+        "high": 15000,
+        "source_url": "https://homeguide.com/costs/fire-damage-restoration-cost",
+        "as_of": "2025"
+      }
+    ]
+  },
+  {
+    "topic": "sewage-cleanup-michigan",
+    "name": "Sewage Backup Cleanup Cost in Michigan",
+    "low": 1750,
+    "high": 7000,
+    "unit": "per project",
+    "source_url": "https://www.forbes.com/home-improvement/home/sewage-cleanup-cost/",
+    "as_of": "2024-2025",
+    "additional_sources": [
+      {
+        "name": "Fixr Sewage Cleanup Cost Benchmark",
+        "low": 1750,
+        "high": 7000,
+        "source_url": "https://www.fixr.com/costs/sewage-cleanup",
+        "as_of": "2025"
+      },
+      {
+        "name": "Bob Vila Sewage Remediation Analysis",
+        "low": 1800,
+        "high": 6500,
+        "source_url": "https://www.bobvila.com/articles/sewage-cleanup-cost/",
+        "as_of": "2025"
+      },
+      {
+        "name": "Angi Blackwater & Sewage Cleanup Guide",
+        "low": 1500,
+        "high": 5800,
+        "source_url": "https://www.angi.com/articles/sewage-cleanup-cost.htm",
+        "as_of": "2025"
+      }
+    ]
+  },
+  {
+    "topic": "leak-detection-michigan",
+    "name": "Water Leak Detection Cost in Michigan",
+    "low": 180,
+    "high": 900,
+    "unit": "per diagnostic inspection",
+    "source_url": "https://www.forbes.com/home-improvement/plumbing/water-leak-detection-cost/",
+    "as_of": "2024-2025",
+    "additional_sources": [
+      {
+        "name": "HomeAdvisor Leak Diagnostic Report",
+        "low": 180,
+        "high": 850,
+        "source_url": "https://www.homeadvisor.com/cost/plumbing/find-a-water-leak/",
+        "as_of": "2025"
+      },
+      {
+        "name": "Angi Water Leak Detection Cost Guide",
+        "low": 200,
+        "high": 900,
+        "source_url": "https://www.angi.com/articles/water-leak-detection-cost.htm",
+        "as_of": "2025"
+      },
+      {
+        "name": "Fixr Leak Detection Benchmarks",
+        "low": 250,
+        "high": 850,
+        "source_url": "https://www.fixr.com/costs/water-leak-detection",
+        "as_of": "2025"
+      }
+    ]
+  },
+  {
+    "topic": "sump-pump-repair-replacement-michigan",
+    "name": "Sump Pump Repair & Replacement Cost in Michigan",
+    "low": 450,
+    "high": 1950,
+    "unit": "per pump installation / repair",
+    "source_url": "https://www.forbes.com/home-improvement/plumbing/sump-pump-replacement-cost/",
+    "as_of": "2024-2025",
+    "additional_sources": [
+      {
+        "name": "Bob Vila Sump Pump Replacement Guide",
+        "low": 490,
+        "high": 1900,
+        "source_url": "https://www.bobvila.com/articles/sump-pump-installation-cost/",
+        "as_of": "2025"
+      },
+      {
+        "name": "HomeGuide Sump Pump Cost Guide",
+        "low": 450,
+        "high": 1800,
+        "source_url": "https://homeguide.com/costs/sump-pump-cost",
+        "as_of": "2025"
+      },
+      {
+        "name": "Angi Sump Pump Cost Analysis",
+        "low": 500,
+        "high": 1950,
+        "source_url": "https://www.angi.com/articles/how-much-does-sump-pump-installation-cost.htm",
+        "as_of": "2025"
+      }
+    ]
+  }
+]

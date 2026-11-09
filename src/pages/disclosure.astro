@@ -1,0 +1,81 @@
+---
+import GuidePage from '../layouts/GuidePage.astro';
+import Disclosure from '../components/Disclosure.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Disclosure', url: '/disclosure/' },
+];
+---
+
+<GuidePage
+  title="Referral Disclosure | Michigan Water Damage Referral Network"
+  metaDescription="Mandatory legal and referral disclosure for Michigan Water Damage Referral Network. Learn how independent contractor referrals operate across Michigan."
+  h1="Referral Service Disclosure"
+  breadcrumbs={breadcrumbs}
+  pageType="trust-page"
+>
+  <div class="my-6">
+    <Disclosure variant="full" />
+  </div>
+
+  <h2>1. Independent Referral Service Model</h2>
+  <p>
+    Michigan Water Damage Referral Network operates strictly as a commercial advertising and referral publishing platform available 24/7. We are not a direct property damage restoration company, general contracting entity, or plumbing firm. We do not provide physical labor, employ field technicians, dispatch service vans, or perform emergency water extraction, mold remediation, fire cleanup, biohazard removal, or plumbing repairs.
+  </p>
+  <p>
+    When you call any telephone number published on this website, your call is connected to an independent third-party contractor who services your geographic area. All emergency mitigation, structural drying, repairs, and inspections are performed exclusively by independent third-party contractors who operate their own independent businesses.
+  </p>
+
+  <h2>2. Commercial Referral Compensation</h2>
+  <p>
+    Michigan Water Damage Referral Network receives commercial advertising compensation, referral commissions, or pay-per-call marketing fees from participating independent contractors when consumers place telephone calls through our routing phone numbers. 
+  </p>
+  <p>
+    This marketing compensation enables our platform to maintain continuous 24/7 telephone connection technology, publish comprehensive local municipal water resources, and update Michigan disaster guides without charging property owners access fees. Callers are never obligated to hire, contract with, or compensate any service provider to whom they are connected through our service.
+  </p>
+
+  <h2>3. Independent Contractor Operating Status</h2>
+  <p>
+    Each participating contractor connected through our service operates as a completely separate and independent legal entity. Michigan Water Damage Referral Network does not act as an employer, partner, franchisor, joint venturer, or supervisor of any participating contractor or their personnel.
+  </p>
+  <p>
+    Independent contractors establish their own:
+  </p>
+  <ul>
+    <li>Standard hourly labor rates, project minimums, and diagnostic fees.</li>
+    <li>Emergency dispatch availability, after-hours policies, and arrival schedules.</li>
+    <li>Trade licensing, municipal registrations, and business permits.</li>
+    <li>Commercial general liability, workers' compensation, and pollution insurance coverage.</li>
+    <li>Contractual terms, warranty conditions, payment options, and cancellation policies.</li>
+  </ul>
+
+  <h2>4. Consumer Due Diligence and Verification Guidelines</h2>
+  <p>
+    Because contractor requirements and local ordinances vary across Michigan municipalities—such as Detroit, Grand Rapids, Ann Arbor, Lansing, Warren, and Sterling Heights—property owners are advised to exercise standard consumer due diligence before authorizing physical work or signing contractual agreements:
+  </p>
+  <ul>
+    <li><strong>Verify Trade Licensing:</strong> In Michigan, mechanical, plumbing, and electrical trades require state licensure under the Michigan Department of Licensing and Regulatory Affairs (LARA). Ask the responding contractor for their license number and verify it via the public LARA license database.</li>
+    <li><strong>Review Proof of Insurance:</strong> Request a current Certificate of Insurance (COI) demonstrating active commercial general liability and workers' compensation coverage before equipment is placed on your property.</li>
+    <li><strong>Demand Itemized Written Quotes:</strong> Ensure the contractor provides an itemized written estimate outlining equipment run hours, moisture testing procedures, labor hours, and disposal fees before work begins.</li>
+    <li><strong>Consult Your Insurance Carrier:</strong> If you plan to file a property casualty claim under your homeowners or commercial insurance policy, consult directly with your insurance representative regarding deductibles, coverage riders, and mandatory documentation requirements.</li>
+  </ul>
+
+  <h2>5. Limitation of Liability and Warranties</h2>
+  <p>
+    Michigan Water Damage Referral Network makes no express or implied representations, warranties, or endorsements regarding the quality, timeliness, pricing, or outcome of work performed by any independent third-party contractor. We expressly disclaim all liability for any direct, indirect, incidental, consequential, or punitive damages arising from interactions, agreements, or physical work conducted between you and any participating contractor.
+  </p>
+  <p>
+    Any legal claim, dispute, warranty issue, or dissatisfaction regarding services rendered, pricing disputes, or property damage must be addressed directly with the independent contractor who performed the work.
+  </p>
+
+  <h2>6. Telephone Call Recording and Quality Assurance</h2>
+  <p>
+    Calls placed to any telephone number displayed on this website—including our dedicated restoration referral line (877) 422-0329 and plumbing referral line (866) 487-0556—may be recorded or monitored for quality assurance, telecommunication routing verification, and dispute resolution purposes. By placing a telephone call through our published phone numbers, you consent to call monitoring and recording.
+  </p>
+
+  <h2>7. Informational Purpose of Website Content</h2>
+  <p>
+    All informational guides, municipal infrastructure data, cost estimates, and disaster checklists published on this website are provided strictly for general educational purposes. They do not constitute formal legal, architectural, engineering, structural, or insurance advice. For specific guidance regarding your property's condition or insurance coverage, consult directly with licensed structural engineers, attorneys, or insurance claims adjusters.
+  </p>
+</GuidePage>

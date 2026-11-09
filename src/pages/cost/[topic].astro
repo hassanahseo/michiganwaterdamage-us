@@ -1,0 +1,89 @@
+---
+import GuidePage from '../../layouts/GuidePage.astro';
+import costsData from '../../data/costs.json';
+
+export async function getStaticPaths() {
+  return costsData.map((cost) => {
+    // Map vertical for correct phone line
+    const isPlumbing = cost.topic.includes('plumbing') || cost.topic.includes('leak') || cost.topic.includes('sump');
+    return {
+      params: { topic: cost.topic },
+      props: {
+        cost,
+        service: isPlumbing ? 'plumbing' : 'water-damage',
+        serviceName: isPlumbing ? 'plumber' : 'restoration specialist',
+      },
+    };
+  });
+}
+
+const { cost, service, serviceName } = Astro.props;
+
+// Dynamically load MDX content for cost guide if available
+const costGuidesMdx = import.meta.glob('/src/content/cost-guides/*.mdx', { eager: true }) as Record<string, any>;
+const cPath = `/src/content/cost-guides/${cost.topic}.mdx`;
+const CostBodyContent = costGuidesMdx[cPath]?.default;
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Cost Guides', url: '/cost/water-damage-restoration-michigan/' },
+  { name: cost.name, url: `/cost/${cost.topic}/` },
+];
+---
+
+<GuidePage
+  title={`${cost.name} (${cost.as_of} Guide) | Referral Network`}
+  metaDescription={`Verified Michigan cost breakdown for ${cost.name.toLowerCase()}. Typical ranges: $${cost.low.toLocaleString()} to $${cost.high.toLocaleString()}. Learn pricing factors and insurance basics.`}
+  h1={cost.name}
+  breadcrumbs={breadcrumbs}
+  service={service}
+  serviceName={serviceName}
+  costTopic={cost.topic}
+  pageType="cost-guide"
+>
+  {CostBodyContent ? (
+    <CostBodyContent />
+  ) : (
+    <>
+      <h2>Michigan Price Range Overview</h2>
+      <p>
+        According to verified industry benchmarks as of {cost.as_of}, typical property owners in Michigan spend between <strong class="text-emerald-700">${cost.low.toLocaleString()} and ${cost.high.toLocaleString()}</strong> for professional {cost.name.toLowerCase()} ({cost.unit}).
+      </p>
+      <p>
+        Costs vary significantly based on the total area affected, the class of damage, required structural drying duration, and whether contamination like raw sewage or toxic mold is present.
+      </p>
+
+      <h2>Key Factors Influencing Final Project Costs</h2>
+      <ul>
+        <li>
+          <strong>Extent of Affected Materials:</strong> Porous materials like drywall, carpet padding, and hardwood subflooring require intensive drying or complete replacement.
+        </li>
+        <li>
+          <strong>Water Category & Contamination:</strong> Clean supply pipe water (Category 1) incurs lower sanitization costs than greywater (Category 2) or blackwater sewage backups (Category 3).
+        </li>
+        <li>
+          <strong>Diagnostic & Structural Drying Time:</strong> Industrial desiccant dehumidifiers and commercial air movers typically run continuously for 3 to 5 days to reach target moisture levels.
+        </li>
+        <li>
+          <strong>Emergency Dispatch Timing:</strong> After-hours calls during holiday periods or regional catastrophic storms may carry different emergency diagnostic fees.
+        </li>
+      </ul>
+
+      <h2>Homeowners Insurance Considerations in Michigan</h2>
+      <p>
+        Many sudden water events, such as ruptured frozen pipes or water heater failure, are commonly eligible for insurance claims under Michigan homeowner policies. However, gradual leaks, foundation seepage, or deferred maintenance are typically excluded.
+      </p>
+      <p>
+        Always consult directly with your insurance representative to review your specific deductible, coverage limits, and required claims documentation before commencing demolition.
+      </p>
+
+      <h2>How to Get an Accurate Estimate</h2>
+      <p>
+        Because structural moisture migration cannot be accurately diagnosed over the phone, independent restoration contractors perform an initial physical assessment using moisture meters and thermal imaging tools.
+      </p>
+      <p>
+        Call our 24/7 Michigan referral line to connect with an independent local contractor who can evaluate your damage on-site and provide transparent project pricing.
+      </p>
+    </>
+  )}
+</GuidePage>

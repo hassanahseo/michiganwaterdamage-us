@@ -1,0 +1,85 @@
+---
+import Base from './Base.astro';
+import Breadcrumbs, { type BreadcrumbItem } from '../components/Breadcrumbs.astro';
+import CallButton from '../components/CallButton.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import NeighborhoodGrid from '../components/NeighborhoodGrid.astro';
+import LastReviewed from '../components/LastReviewed.astro';
+import JsonLd from '../components/JsonLd.astro';
+
+interface Props {
+  title: string;
+  metaDescription: string;
+  h1: string;
+  citySlug: string;
+  cityName: string;
+  neighborhoodSlug: string;
+  neighborhoodName: string;
+  breadcrumbs: BreadcrumbItem[];
+  showServiceGrid?: boolean;
+}
+
+const {
+  title,
+  metaDescription,
+  h1,
+  citySlug,
+  cityName,
+  neighborhoodSlug,
+  neighborhoodName,
+  breadcrumbs,
+  showServiceGrid = true,
+} = Astro.props;
+---
+
+<Base
+  title={title}
+  description={metaDescription}
+  service="water-damage"
+  serviceName="property damage specialist"
+  city={cityName}
+  pageType="neighborhood"
+>
+  <JsonLd
+    type="service"
+    title={title}
+    description={metaDescription}
+    areaServed={`${neighborhoodName}, ${cityName}, MI`}
+  />
+
+  <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="my-6">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
+        {h1}
+      </h1>
+      <p class="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
+        {metaDescription}
+      </p>
+
+      <div class="mt-6">
+        <CallButton service="water-damage" serviceName="damage restoration" />
+      </div>
+    </header>
+
+    <div class="prose prose-slate max-w-none my-8 leading-relaxed">
+      <slot />
+    </div>
+
+    <!-- Sibling Neighborhoods -->
+    <NeighborhoodGrid citySlug={citySlug} cityName={cityName} currentNeighborhood={neighborhoodSlug} />
+
+    <!-- Services in Parent City -->
+    {showServiceGrid && (
+      <section class="my-10" aria-label={`Services Serving ${neighborhoodName}`}>
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900 mb-2">
+          Available Emergency Referral Lines for {neighborhoodName}
+        </h2>
+        <ServiceGrid citySlug={citySlug} cityName={cityName} />
+      </section>
+    )}
+
+    <LastReviewed />
+  </div>
+</Base>

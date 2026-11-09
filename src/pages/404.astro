@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import CallButton from '../components/CallButton.astro';
+import servicesData from '../data/services.json';
+import citiesData from '../data/cities.json';
+---
+
+<Base
+  title="Page Not Found | Michigan Water Damage Referral Network"
+  description="The requested page could not be found. Contact our 24/7 Michigan property damage referral line for immediate assistance."
+  pageType="utility"
+>
+  <div class="mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 lg:px-8">
+    <p class="text-sm font-bold uppercase tracking-wider text-amber-600">404 Error</p>
+    <h1 class="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+      Page Not Found
+    </h1>
+    <p class="mx-auto mt-4 max-w-xl text-base text-slate-600">
+      The emergency damage or plumbing page you are looking for does not exist or has been relocated.
+    </p>
+
+    <!-- Emergency Call Button (Restoration Line) -->
+    <div class="mt-8 flex justify-center">
+      <CallButton service="water-damage" serviceName="property damage specialist" />
+    </div>
+
+    <!-- Navigation Hubs -->
+    <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 text-left border-t border-slate-200 pt-10">
+      <div class="rounded-xl border border-slate-200 bg-slate-50 p-6">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">Emergency Service Categories</h2>
+        <ul class="space-y-2 text-sm">
+          {servicesData.map(s => (
+            <li>
+              <a href={`/${s.slug}/`} class="text-amber-700 hover:text-amber-800 font-medium underline">
+                {s.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="rounded-xl border border-slate-200 bg-slate-50 p-6">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">Michigan City Coverage</h2>
+        <ul class="space-y-2 text-sm">
+          {citiesData.map(c => (
+            <li>
+              <a href={`/${c.slug}-mi/`} class="text-amber-700 hover:text-amber-800 font-medium underline">
+                {c.name}, MI Emergency Referral
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10">
+      <a href="/" class="text-sm font-semibold text-slate-700 hover:text-slate-900 underline">
+        Return to Homepage
+      </a>
+    </div>
+  </div>
+</Base>

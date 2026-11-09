@@ -1,0 +1,80 @@
+---
+import GuidePage from '../layouts/GuidePage.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Editorial Policy', url: '/editorial-policy/' },
+];
+---
+
+<GuidePage
+  title="Editorial Policy | Michigan Water Damage Referral Network"
+  metaDescription="Our rigorous standards for researching, citing, and verifying municipal water infrastructure data, flood records, and cost benchmarks across Michigan."
+  h1="Editorial & Data Verification Standards"
+  breadcrumbs={breadcrumbs}
+  pageType="trust-page"
+>
+  <h2>1. Commitment to Empirical Accuracy and Verified Michigan Facts</h2>
+  <p>
+    Michigan Water Damage Referral Network is founded on an uncompromising commitment to factual accuracy, municipal data transparency, and objective disaster preparedness guidance. When property owners face emergency water damage, sewer backups, or structural mold contamination, they require practical, empirically validated information—not marketing exaggerations, synthetic numbers, or generic boilerplate text.
+  </p>
+  <p>
+    Every municipal fact, sewer infrastructure classification, housing age demographic, historical flood date, and cost benchmark published across our service and city pages is tied directly to a verifiable public record or authoritative government database. If a specific local statistic cannot be confirmed through documented public sources, our editorial policy requires that the field remain unpopulated.
+  </p>
+
+  <h2>2. Authoritative Source Hierarchy</h2>
+  <p>
+    Our research staff adheres to a strict hierarchy of primary and secondary sources when compiling regional Michigan content:
+  </p>
+  <ul>
+    <li>
+      <strong>Federal Government & Weather Agencies:</strong> We reference official historical records from the National Oceanic and Atmospheric Administration (NOAA), the National Weather Service (NWS) Weather Forecast Offices in Detroit/Pontiac and Grand Rapids, and the Federal Emergency Management Agency (FEMA) declared disaster database (including historical presidential disaster declarations such as DR-4195 and DR-4607).
+    </li>
+    <li>
+      <strong>Municipal Utilities & Water Authorities:</strong> Local water utility profiles, sewer network topologies, and combined sewer overflow (CSO) data are drawn directly from official municipal operating documents, including publications from the Great Lakes Water Authority (GLWA), Detroit Water and Sewerage Department (DWSD), Grand Rapids Water System, Lansing Board of Water & Light (BWL), City of Ann Arbor Public Works, and Macomb County Public Works Commissioner.
+    </li>
+    <li>
+      <strong>State Regulatory Agencies:</strong> Environmental protection guidelines, water quality advisories, and watershed classifications are cited from the Michigan Department of Environment, Great Lakes, and Energy (EGLE) and the Michigan Department of Health and Human Services (MDHHS).
+    </li>
+    <li>
+      <strong>Demographic & Housing Archives:</strong> Population statistics, median housing age, and architectural eras are sourced from the United States Census Bureau QuickFacts, the American Community Survey (ACS) 5-Year Estimates, and local municipal master plans.
+    </li>
+    <li>
+      <strong>Verified Cost Benchmarks:</strong> Restoration and plumbing pricing ranges are derived from published national home repair cost studies—including Forbes Home, HomeAdvisor, and Fixr—annotated with the specific study year and source methodology.
+    </li>
+  </ul>
+
+  <h2>3. Ban on Fabricated Claims, Endorsements, and Personas</h2>
+  <p>
+    To protect consumer trust and maintain journalistic integrity, our publication operates under strict content boundaries:
+  </p>
+  <ul>
+    <li><strong>No Fabricated Consumer Feedback or Ratings:</strong> We never publish fictitious star ratings, manufactured praise, or synthetic consumer endorsements. All referral copy accurately describes how independent contractors operate without promising unverified outcomes.</li>
+    <li><strong>No Fictitious Team Personas:</strong> We do not publish generic stock photos labeled as staff members, invent technician bios, or falsely present our referral network as a direct service contractor.</li>
+    <li><strong>No Misleading Response Time Guarantees:</strong> Because our platform connects callers with independent third-party contractors whose dispatch availability varies by weather events and local traffic, we never promise specific arrival windows (such as fast arrival promises) or guarantee instant dispatch.</li>
+    <li><strong>No Claims of Direct Employment or Equipment Ownership:</strong> We explicitly disclose that our site does not own service trucks, operate physical field crews, or hold master trade licenses. All physical services are provided by independent local contractors.</li>
+  </ul>
+
+  <h2>4. AI Transparency and Editorial Governance</h2>
+  <p>
+    While computational tools and programmatic publishing frameworks assist our research team in formatting, structuring, and auditing vast arrays of municipal datasets, all published text is subject to strict automated quality assurance scripts and human editorial oversight. 
+  </p>
+  <p>
+    Our automated testing suite checks every page against forbidden marketing terms, scans all telephone hyperlinks for vertical isolation compliance, audits internal links, and verifies that word count minimums are achieved through informative technical guidance rather than redundant filler.
+  </p>
+
+  <h2>5. Regular Review and Content Maintenance Schedule</h2>
+  <p>
+    Municipal water infrastructure projects, utility billing rules, and regional pricing dynamics evolve over time. To ensure ongoing accuracy:
+  </p>
+  <ul>
+    <li>Every page displays a "Last reviewed" date stamp indicating when the page data and external citations were most recently audited.</li>
+    <li>Municipal utility links, local permit office contact details, and emergency resources are reviewed semi-annually.</li>
+    <li>Cost guides are audited annually against newly released home improvement economic studies and regional labor indices.</li>
+  </ul>
+
+  <h2>6. Editorial Corrections and Feedback</h2>
+  <p>
+    We welcome feedback, factual corrections, and municipal data updates from Michigan property owners, utility officials, and local trade contractors. If you identify a figure, link, or reference that requires revision or updating, please notify our editorial team via our [Contact Page](/contact/). Verified factual corrections are reviewed and applied promptly across our published content.
+  </p>
+</GuidePage>

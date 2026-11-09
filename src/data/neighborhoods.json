@@ -1,0 +1,762 @@
+[
+  {
+    "slug": "downtown",
+    "city": "detroit",
+    "name": "Downtown Detroit",
+    "facts": [
+      {
+        "value": "Historic high-rise commercial and residential loft conversions dating from 1890 to 1930 connected to centralized municipal steam and water networks.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      },
+      {
+        "value": "High water pressure zones and vertical plumbing risers in tall structures subject older joints to heavy mechanical stress.",
+        "source_url": "https://detroitmi.gov/departments/buildings-safety-engineering-and-environmental-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "High-density residential loft conversions, historic mid-century apartment buildings, and modern high-rise condominiums with sub-grade parking structures.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["midtown", "corktown"]
+  },
+  {
+    "slug": "midtown",
+    "city": "detroit",
+    "name": "Midtown",
+    "facts": [
+      {
+        "value": "Dense district of historic multi-family apartment buildings and brownstones largely built between 1900 and 1935 near Wayne State University.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      },
+      {
+        "value": "Frequent sewer line stress caused by high residential density coupled with mature elm and maple tree root infiltration into vintage clay laterals.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Historic brick apartment complexes, multi-family Victorian conversions, and renovated brownstones with deep brick foundations.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["downtown", "corktown", "boston-edison"]
+  },
+  {
+    "slug": "corktown",
+    "city": "detroit",
+    "name": "Corktown",
+    "facts": [
+      {
+        "value": "Detroit's oldest surviving residential neighborhood, established in the 1830s with timber-frame Victorian workers' cottages and brick commercial properties.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Shallow fieldstone and rubble foundations vulnerable to moisture penetration during heavy downpours and freeze-thaw cycles.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Wood-frame Queen Anne cottages, historic brick rowhouses, and retrofitted industrial brick buildings with vintage stone or brick crawlspaces.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["downtown", "midtown", "southwest-detroit"]
+  },
+  {
+    "slug": "southwest-detroit",
+    "city": "detroit",
+    "name": "Southwest Detroit",
+    "facts": [
+      {
+        "value": "Vibrant commercial and residential community including Mexicantown and Springwells with homes constructed predominantly between 1910 and 1940.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Severe vulnerability to combined sewer backups along low-lying corridors during heavy regional summer rainstorms.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Two-story wood frame flats, brick bungalows, and multi-unit residential structures with full block or poured concrete basements.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["corktown", "downtown"]
+  },
+  {
+    "slug": "boston-edison",
+    "city": "detroit",
+    "name": "Boston-Edison",
+    "facts": [
+      {
+        "value": "Historic district platted between 1905 and 1925 featuring large multi-story mansions with complex leaded roof drainage and multi-tier plumbing systems.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Extensive finished basements with vintage plaster and original woodwork susceptible to severe damage during municipal drain surcharges.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Expansive historic revival homes, English Tudor, and Prairie-style estates with full stone-and-brick foundations and original brass/lead plumbing lines.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["midtown", "palmer-woods", "university-district"]
+  },
+  {
+    "slug": "indian-village",
+    "city": "detroit",
+    "name": "Indian Village",
+    "facts": [
+      {
+        "value": "Prestigious east-side historic residential community developed between 1895 and 1930 located less than one mile from the Detroit River.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Elevated river basin groundwater levels exert continuous hydrostatic pressure against century-old limestone and brick basement walls.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Grand historic architecture including Georgian Revival, Romanesque, and Colonial homes with large basement footprints and radiant boiler heating systems.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["midtown", "jefferson-chalmers", "east-english-village"]
+  },
+  {
+    "slug": "palmer-woods",
+    "city": "detroit",
+    "name": "Palmer Woods",
+    "facts": [
+      {
+        "value": "Architectural showcase neighborhood developed in the 1920s and 1930s with rolling streets, large wooded lots, and substantial Tudor Revival estates.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Heavy tree cover and mature root canopies cause frequent physical disruption to underground storm drainage and clay sanitary lines.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Custom-built historic estates with multi-level basements, slate roofs, ornate plaster ceilings, and copper plumbing networks.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["university-district", "boston-edison", "rosedale-park"]
+  },
+  {
+    "slug": "rosedale-park",
+    "city": "detroit",
+    "name": "Rosedale Park",
+    "facts": [
+      {
+        "value": "Historic northwest Detroit neighborhood featuring over 1,600 homes constructed primarily between 1920 and 1940.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Aging municipal lateral connections and dense clay soils slow subsoil water drainage during torrential summer cloudbursts.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "English Tudor, Colonial Revival, and Arts and Crafts brick residences with concrete block foundations and full basements.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["grandmont", "palmer-woods"]
+  },
+  {
+    "slug": "grandmont",
+    "city": "detroit",
+    "name": "Grandmont",
+    "facts": [
+      {
+        "value": "Known as the Home of Good Neighbors, built primarily between 1920 and 1950 alongside Rosedale Park in northwest Detroit.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Combined sewer surcharges during regional flood events frequently force municipal wastewater into floor drains and utility sinks.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Substantial brick two-story residences and English cottage-style single-family houses with full basements and detached brick garages.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["rosedale-park"]
+  },
+  {
+    "slug": "east-english-village",
+    "city": "detroit",
+    "name": "East English Village",
+    "facts": [
+      {
+        "value": "Planned east-side residential community built between 1930 and 1950 with uniform tree-lined streets and well-maintained brick housing.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Heavy rainfall events in Macomb and eastern Wayne County periodically tax trunk sewer interceptors serving this corridor.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Red-brick English Tudors, Cape Cods, and Colonial single-family dwellings with deep poured concrete basements.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["jefferson-chalmers", "indian-village"]
+  },
+  {
+    "slug": "jefferson-chalmers",
+    "city": "detroit",
+    "name": "Jefferson-Chalmers",
+    "facts": [
+      {
+        "value": "Waterfront canal district along the Detroit River and Lake St. Clair featuring human-made canals and historic early 20th-century residential stock.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Directly exposed to river surge, seiche events, and high water tables that frequently trigger surface flooding and basement water ingress.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Waterfront canal homes, historic brick two-family flats, and craftsman bungalows with continuous sump pump reliance.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["east-english-village", "indian-village"]
+  },
+  {
+    "slug": "university-district",
+    "city": "detroit",
+    "name": "University District",
+    "facts": [
+      {
+        "value": "Established adjacent to the University of Detroit Mercy during the 1920s and 1930s with distinctive high-quality residential architecture.",
+        "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+      },
+      {
+        "value": "Aging underground water supply infrastructure and mature street trees create frequent lateral line clogs and freeze breaks.",
+        "source_url": "https://detroitmi.gov/departments/water-and-sewerage-department"
+      }
+    ],
+    "housing_profile": {
+      "value": "Brick Tudor Revivals, English Cottages, and Dutch Colonials with intricate masonry and deep poured concrete basements.",
+      "source_url": "https://detroitmi.gov/departments/planning-and-development-department"
+    },
+    "adjacent": ["palmer-woods", "boston-edison"]
+  },
+  {
+    "slug": "heritage-hill",
+    "city": "grand-rapids",
+    "name": "Heritage Hill",
+    "facts": [
+      {
+        "value": "One of the largest urban historic districts in the United States, containing over 1,300 historic structures representing nearly every 19th-century American style.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Sandstone, Michigan fieldstone, and soft mortar foundations require specialized care when resolving chronic water intrusion.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Large Queen Anne, Italianate, and Victorian mansions converted into multi-unit apartments or single-family estates with vintage plumbing.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["eastown", "east-hills", "midtown"]
+  },
+  {
+    "slug": "eastown",
+    "city": "grand-rapids",
+    "name": "Eastown",
+    "facts": [
+      {
+        "value": "Walkable historic neighborhood developed in the early 1900s with dense two-story wood-frame housing and commercial business strips.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "High proportion of student and rental occupancy with heavy utilization of residential plumbing systems and sump pits.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Two-story American Foursquares and craftsman bungalows featuring original stone or cinder block foundations.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["heritage-hill", "east-hills", "ottawa-hills"]
+  },
+  {
+    "slug": "east-hills",
+    "city": "grand-rapids",
+    "name": "East Hills",
+    "facts": [
+      {
+        "value": "Historic residential and retail district platted in the late 19th century characterized by restored brick rowhouses and Victorian homes.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Steep hillside topography directs surface runoff directly toward older foundation walls during intense spring rainstorms.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Victorian frame cottages, renovated duplexes, and century-old brick buildings with fieldstone cellars.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["heritage-hill", "eastown", "midtown"]
+  },
+  {
+    "slug": "midtown",
+    "city": "grand-rapids",
+    "name": "Midtown",
+    "facts": [
+      {
+        "value": "Central neighborhood between Downtown and the Medical Mile, developed between 1880 and 1920 with mixed residential architecture.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Urban density and aging lateral lines create elevated vulnerability to drain clogs and main service line leaks.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Traditional two-story single-family homes, modern apartment infill, and multi-family conversions with basement laundry rooms.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["heritage-hill", "east-hills", "creston"]
+  },
+  {
+    "slug": "creston",
+    "city": "grand-rapids",
+    "name": "Creston",
+    "facts": [
+      {
+        "value": "Grand Rapids' largest neighborhood, situated in the northeast quadrant along the Grand River corridor with early 20th-century housing.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Properties along lower elevations near the river basin experience high water tables and seasonal basement seepage.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Craftsman bungalows, two-family flats, and working-class cottages built on block and concrete foundations.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["belknap-lookout", "midtown"]
+  },
+  {
+    "slug": "belknap-lookout",
+    "city": "grand-rapids",
+    "name": "Belknap Lookout",
+    "facts": [
+      {
+        "value": "Perched on a prominent bluff overlooking Downtown Grand Rapids and the Grand River, established during the mid-19th century.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "High elevation changes create rapid storm runoff that tests perimeter grading and gutter systems of hillside properties.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Historic workers' cottages and modern multi-level condominium developments with stepped foundations.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["creston", "midtown"]
+  },
+  {
+    "slug": "garfield-park",
+    "city": "grand-rapids",
+    "name": "Garfield Park",
+    "facts": [
+      {
+        "value": "South-side residential district centered on the historic 30-acre Garfield Park, developed between 1910 and 1940.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Plentiful mature trees along residential parkways lead to frequent root penetration in vitrified clay sewer laterals.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Well-constructed brick and frame bungalows, Dutch Colonials, and English Cottages with full basements.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["alger-heights", "roosevelt-park"]
+  },
+  {
+    "slug": "alger-heights",
+    "city": "grand-rapids",
+    "name": "Alger Heights",
+    "facts": [
+      {
+        "value": "Self-contained south-side neighborhood developed primarily during the 1930s and 1940s around a vibrant neighborhood business district.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Clay-rich subsoils hold water during spring thaw, requiring reliable basement sump pumps and backflow preventers.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Classic brick and siding Cape Cods and English cottages with drywalled or wood-paneled finished basements.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["garfield-park", "ottawa-hills"]
+  },
+  {
+    "slug": "ottawa-hills",
+    "city": "grand-rapids",
+    "name": "Ottawa Hills",
+    "facts": [
+      {
+        "value": "Prestigious planned residential community established in the 1920s with winding streets, deep front lawns, and historic landscaping.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Expansive finished basements and complex sub-grade living quarters make unexpected water pipe failures particularly costly.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Large Tudor Revival, Georgian, and French Provincial custom homes featuring high-end interior finishes and copper plumbing.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["eastown", "alger-heights"]
+  },
+  {
+    "slug": "roosevelt-park",
+    "city": "grand-rapids",
+    "name": "Roosevelt Park",
+    "facts": [
+      {
+        "value": "Historic southwest Grand Rapids community developed between 1890 and 1930 around Grandville Avenue commercial artery.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+      },
+      {
+        "value": "Proximity to the Grand River and low-lying railway corridors creates potential for storm sewer surcharges during heavy rain events.",
+        "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Environmental-Services"
+      }
+    ],
+    "housing_profile": {
+      "value": "Traditional two-story wood-frame single and two-family residences with brick or stone foundation walls.",
+      "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Design-and-Development/Historic-Preservation"
+    },
+    "adjacent": ["garfield-park"]
+  },
+  {
+    "slug": "kerrytown",
+    "city": "ann-arbor",
+    "name": "Kerrytown",
+    "facts": [
+      {
+        "value": "Historic district platted in the 1830s adjacent to Downtown Ann Arbor featuring original brick and wood-frame structures.",
+        "source_url": "https://www.a2gov.org/departments/planning-and-development-department"
+      },
+      {
+        "value": "Proximity to the Huron River basin and legacy Allen Creek storm drainage channels increases vulnerability during high-volume rain events.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/flood-management/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Historic Victorian homes, multi-tenant residential lofts, and historic brick commercial conversions with fieldstone basements.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["old-west-side", "water-hill", "lower-town"]
+  },
+  {
+    "slug": "old-west-side",
+    "city": "ann-arbor",
+    "name": "Old West Side",
+    "facts": [
+      {
+        "value": "Designated National Historic District with over 900 late 19th and early 20th-century German immigrant homes.",
+        "source_url": "https://www.a2gov.org/departments/planning-and-development-department"
+      },
+      {
+        "value": "Footing drain disconnections and older perimeter tiles require diligent sump pump maintenance to avoid basement seepage.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Victorian, Italianate, and Queen Anne cottages featuring stone or early concrete foundation footings.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["kerrytown", "water-hill"]
+  },
+  {
+    "slug": "burns-park",
+    "city": "ann-arbor",
+    "name": "Burns Park",
+    "facts": [
+      {
+        "value": "Classic university-adjacent residential neighborhood developed between 1905 and 1940 with prominent tree-lined streets.",
+        "source_url": "https://www.a2gov.org/departments/planning-and-development-department"
+      },
+      {
+        "value": "High tree density causes frequent root intrusion into underground sanitary sewer pipes and yard drainage lines.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Two-story Colonial Revivals, Craftsman homes, and substantial Foursquares with full finished basements.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["ann-arbor-hills", "georgetown"]
+  },
+  {
+    "slug": "water-hill",
+    "city": "ann-arbor",
+    "name": "Water Hill",
+    "facts": [
+      {
+        "value": "Northwest residential area built on rolling hills above Miller Avenue with natural springs and high seasonal groundwater.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/flood-management/"
+      },
+      {
+        "value": "Subsurface groundwater seepage into basements is common during winter thaws and spring downpours.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/flood-management/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Compact mid-century ranches, historic bungalows, and contemporary green home renovations on sloping lots.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["kerrytown", "old-west-side"]
+  },
+  {
+    "slug": "lower-town",
+    "city": "ann-arbor",
+    "name": "Lower Town",
+    "facts": [
+      {
+        "value": "Situated on the north bank of the Huron River, serving as one of Ann Arbor's earliest commercial and industrial settlements.",
+        "source_url": "https://www.a2gov.org/departments/planning-and-development-department"
+      },
+      {
+        "value": "Directly bounded by the Huron River floodplain, resulting in elevated water tables and sump pump operational demands.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/flood-management/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Historic wood cottages, modern medical campus housing complexes, and riverside condominiums.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["kerrytown", "ann-arbor-hills"]
+  },
+  {
+    "slug": "ann-arbor-hills",
+    "city": "ann-arbor",
+    "name": "Ann Arbor Hills",
+    "facts": [
+      {
+        "value": "Upscale residential neighborhood developed between 1920 and 1960 featuring large landscaped lots and custom architectural residences.",
+        "source_url": "https://www.a2gov.org/departments/planning-and-development-department"
+      },
+      {
+        "value": "Extensive square footage with finished basements, multiple luxury bathrooms, and complex underground plumbing systems.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Custom mid-century ranches, split-levels, and grand traditional estates with finished walk-out basements.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["burns-park", "georgetown"]
+  },
+  {
+    "slug": "bryant",
+    "city": "ann-arbor",
+    "name": "Bryant",
+    "facts": [
+      {
+        "value": "South-side residential neighborhood developed in the 1960s and 1970s with affordable single-family housing.",
+        "source_url": "https://www.a2gov.org/departments/planning-and-development-department"
+      },
+      {
+        "value": "Heavy clay soils and flat terrain contribute to surface water accumulation around foundation perimeters during spring thaw.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Single-story ranches, split-level homes, and modest townhomes with poured concrete basement walls.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["georgetown"]
+  },
+  {
+    "slug": "georgetown",
+    "city": "ann-arbor",
+    "name": "Georgetown",
+    "facts": [
+      {
+        "value": "Established southeast neighborhood developed in the 1960s centered around the Georgetown Country Club and Packard corridor.",
+        "source_url": "https://www.a2gov.org/departments/planning-and-development-department"
+      },
+      {
+        "value": "Footing drain systems and aging copper water lines lead to occasional hidden slab leaks and basement seepage.",
+        "source_url": "https://www.a2gov.org/departments/systems-planning/planning-areas/water-resources/"
+      }
+    ],
+    "housing_profile": {
+      "value": "Brick and frame ranches, colonials, and bi-levels with full basements and attached garages.",
+      "source_url": "https://www.a2gov.org/departments/build-planning/"
+    },
+    "adjacent": ["burns-park", "bryant", "ann-arbor-hills"]
+  },
+  {
+    "slug": "old-town",
+    "city": "lansing",
+    "name": "Old Town Lansing",
+    "facts": [
+      {
+        "value": "Lansing's original commercial district situated directly along the Grand River, with 19th-century brick storefronts and frame housing.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Proximity to the Grand River floodway creates continuous moisture and groundwater pressure against older rubble foundations.",
+        "source_url": "https://www.weather.gov/grr/20180220_Flooding"
+      }
+    ],
+    "housing_profile": {
+      "value": "Historic brick mixed-use buildings with basement storage, late Victorian cottages, and renovated industrial lofts.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["downtown", "northside", "eastside"]
+  },
+  {
+    "slug": "reo-town",
+    "city": "lansing",
+    "name": "REO Town",
+    "facts": [
+      {
+        "value": "Historic industrial and residential district south of downtown, home to the original REO Motor Car Company operations along the Grand River.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Historic combined sewer lines and river proximity create acute basement backup risks during severe regional rainstorms.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      }
+    ],
+    "housing_profile": {
+      "value": "Early 20th-century wood-frame workers' cottages, brick flats, and commercial lofts with stone and block cellars.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["downtown", "moores-park"]
+  },
+  {
+    "slug": "downtown",
+    "city": "lansing",
+    "name": "Downtown Lansing",
+    "facts": [
+      {
+        "value": "State capital core containing government facilities, high-rise commercial structures, and residential loft conversions along the Grand River.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Sub-grade infrastructure and utility tunnels require active dewatering systems during river cresting events.",
+        "source_url": "https://www.weather.gov/grr/20180220_Flooding"
+      }
+    ],
+    "housing_profile": {
+      "value": "Multi-story brick apartment buildings, modern residential mid-rises, and restored historic lofts with shared plumbing risers.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["old-town", "reo-town", "eastside", "westside"]
+  },
+  {
+    "slug": "eastside",
+    "city": "lansing",
+    "name": "Eastside",
+    "facts": [
+      {
+        "value": "Vibrant and dense residential community situated between downtown Lansing and the Michigan State University campus border.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Aging vitrified clay sewer laterals and rental turnover create frequent drain clearing and frozen line incidents during winter months.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      }
+    ],
+    "housing_profile": {
+      "value": "Pre-WWII American Foursquares, craftsman bungalows, and two-story wood-frame duplexes with full basements.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["downtown", "old-town", "groesbeck"]
+  },
+  {
+    "slug": "westside",
+    "city": "lansing",
+    "name": "Westside",
+    "facts": [
+      {
+        "value": "Historic residential neighborhood directly west of the State Capitol building developed from 1890 to 1940.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Substantial tree canopies create root intrusion problems in lateral sewer pipes serving pre-1940 residences.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      }
+    ],
+    "housing_profile": {
+      "value": "Well-preserved Victorian, Craftsman, and Colonial Revival homes with block and stone basements.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["downtown", "colonial-village"]
+  },
+  {
+    "slug": "moores-park",
+    "city": "lansing",
+    "name": "Moores Park",
+    "facts": [
+      {
+        "value": "Historic south-side riverfront neighborhood centered around the historic 1915 Moores Park Pool and Grand River parkway.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Low-elevation properties along the river curve experience elevated groundwater tables and sump pump demands during spring melt.",
+        "source_url": "https://www.weather.gov/grr/20180220_Flooding"
+      }
+    ],
+    "housing_profile": {
+      "value": "Early 20th-century bungalows and American Foursquares on deep riverside lots with full basements.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["reo-town", "colonial-village"]
+  },
+  {
+    "slug": "groesbeck",
+    "city": "lansing",
+    "name": "Groesbeck",
+    "facts": [
+      {
+        "value": "Post-war northeast neighborhood developed in the 1950s and 1960s surrounding the municipal Groesbeck Golf Course.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Clay soils and flat topography require reliable perimeter drain tiles and sump pumps to prevent basement wall seepage.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      }
+    ],
+    "housing_profile": {
+      "value": "Mid-century brick and frame ranches, split-levels, and Cape Cods with finished recreation basements.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["eastside"]
+  },
+  {
+    "slug": "colonial-village",
+    "city": "lansing",
+    "name": "Colonial Village",
+    "facts": [
+      {
+        "value": "Established southwest Lansing neighborhood built between 1940 and 1965 known for distinctive traditional colonial architecture.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      },
+      {
+        "value": "Sub-slab copper plumbing lines and aging cast-iron sewer lines require periodic leak detection and pipe rehabilitation.",
+        "source_url": "https://www.lansingmi.gov/383/Public-Service"
+      }
+    ],
+    "housing_profile": {
+      "value": "Colonial Revival, Cape Cod, and brick ranch single-family residences with poured concrete basements.",
+      "source_url": "https://www.lansingmi.gov/306/Building-Safety"
+    },
+    "adjacent": ["westside", "moores-park"]
+  }
+]

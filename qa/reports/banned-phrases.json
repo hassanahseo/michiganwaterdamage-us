@@ -1,0 +1,2871 @@
+{
+  "totalScanned": 172,
+  "violationsCount": 573,
+  "violations": [
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "crew / crews",
+      "context": "...ction of Raw Sewage & Liquid Waste Crews utilize heavy duty commercial wet..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...tractor who can dispatch certified technicians with industrial extraction and hos..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...onmental Containment Upon arrival, technicians don full personal protective equip..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...dergo intensive physical cleaning. Technicians utilize rotary scrubbers, pressure..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...e To verify complete sanitization, technicians may perform Adenosine Triphosphate..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...evere illness, requiring certified technicians to wear full personal protective e..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ials. Following physical cleaning, technicians deploy commercial hydroxyl generat..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified biohazard and sewage cleanup contr..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...leanup contractor who can dispatch certified technicians with industrial extrac..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ard Decontamination Process Works Certified biohazard remediation specialists..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...s property owners with independent certified biohazard and sewage cleanup speci..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...and riverfront neighborhoods with certified sewage sanitation specialists...."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...Trauma & Crime Scene Cleanup: Certified biological remediation, bloodborne..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...spection, Cleaning and Restoration Certification (IICRC) classifies water damage in..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...risks of severe illness, requiring certified technicians to wear full personal..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...now to connect with an independent certified biohazard and sewage cleanup contr..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ended deaths, or accidents require licensed biohazard handling and legally com..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ags or compliant disposal bins for licensed medical waste transport. Step..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...and incineration transport through licensed hazardous waste transfer stations...."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ss Michigan. Calling our emergency dispatch line connects you directly with a..."
+    },
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...sewage cleanup contractor who can dispatch certified technicians with industr..."
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "phrase": "crew / crews",
+      "context": "...Even after local fire suppression crews extinguish visible flames, lingeri..."
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "phrase": "crew / crews",
+      "context": "...plied during firefighting efforts, crews deploy industrial submersible pump..."
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...olition of Non Salvageable Framing Technicians inspect load bearing timbers and d..."
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...f shoring require heavy lumber and certified emergency dispatch labor. HVAC..."
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...erty owners 24/7 with independent, licensed fire and smoke damage restoration..."
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "phrase": "direct insurance billing / claims",
+      "context": "...s of discarded pantry contents for insurance claim reimbursement. How does firef..."
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...avy lumber and certified emergency dispatch labor. HVAC Ductwork Contamina..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "technician / technicians",
+      "context": "...infrared thermal imaging cameras, technicians locate the hidden plumbing leaks,..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ontaminated material is disturbed, technicians erect heavy six mil polyethylene p..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "technician / technicians",
+      "context": "...units, undergo physical cleaning. Technicians utilize wire brushing, orbital san..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "technician / technicians",
+      "context": "...are completely cleaned and dried, technicians may apply an EPA registered fungic..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ty managers 24/7 with independent, certified environmental remediation contract..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...al Mold Remediation Process Works Certified environmental remediation contract..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ndition loan approval on receiving certified remediation documentation and a pa..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...s property owners with independent certified mold remediation professionals acr..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...now to connect with an independent certified mold remediation contractor ready..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "direct insurance billing / claims",
+      "context": "...ural moisture logs to support your insurance claim filing. Michigan Regional Risk..."
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...Ann Arbor, MI Hub: Providing prompt mold assessment and clearance reme..."
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "phrase": "technician / technicians",
+      "context": "...o ensure no secondary leaks exist. Technicians verify static water pressure acros..."
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...h after hours, weekend, or holiday dispatch fees applied for middle of the nig..."
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ter modular repairs. Emergency Dispatch Timing: Immediate nighttime or h..."
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ay service calls involve emergency dispatch rates compared to standard busines..."
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...e clearing, and emergency plumbing dispatch. Emergency Plumbing Sub Servic..."
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...aks. Emergency Plumber: 24/7 dispatch for urgent pipe ruptures, active f..."
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...referral line at (866) 487 0556 to dispatch an emergency plumber. How do..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "crew / crews",
+      "context": "...tural Dehumidification Restoration crews set up commercial low grain refrig..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "crew / crews",
+      "context": "...y to dispatch emergency extraction crews as quickly as road conditions and..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ot simply look at visible puddles. Technicians utilize non invasive digital moist..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Verification and Rebuild Clearance Technicians take final moisture readings acros..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...erty owners 24/7 with independent, licensed Michigan damage restoration specia..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...specialists. Calling our emergency dispatch line links you directly to a local..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...cal restoration specialist who can dispatch commercial extraction equipment to..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ractor arrive at my Michigan home? Dispatch times vary based on severe weather..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...work maintain 24/7 availability to dispatch emergency extraction crews as quic..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ete surfaces. Once the property is verified completely dry, moisture documenta..."
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ay require additional drying days, verified through daily moisture meter readi..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...& Negative Air Pressure Isolation Technicians isolate the work zone (such as the..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...uching or vacuuming any droppings, technicians thoroughly mist all fecal matter,..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...raction of Contaminated Insulation Technicians deploy high powered commercial vac..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified biohazard cleanup contractors acro..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ambient breathing air. Lack of Certified Personal Protective Equipment (PPE..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...Rodent Waste Remediation Protocol Certified biohazard decontamination contract..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ier Installation Once the space is certified clean, dry, and sanitized, contrac..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified rodent waste and biohazard cleanup..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...e regions: Detroit, MI Hub: Certified rodent waste decontamination and c..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "crew / crews",
+      "context": "...ecialized submersible trash pumps, crews extract all liquid blackwater, raw..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...riers under negative air pressure. Technicians don full personal protective equip..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...aterials Under strict containment, technicians perform flood cuts on drywall at l..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...washing with contained extraction. Technicians apply hospital grade, EPA register..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified biohazard and sewage cleanup contr..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...connects you directly with a local certified biohazard contractor equipped with..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...penetrate deep into masonry pores. Certified contractors use specialized quater..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...leanup & Decontamination Protocol Certified biohazard restoration contractors..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...e slabs until moisture levels meet certified dry baselines, ensuring no mold or..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified sewage and biohazard cleanup contr..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...wer lines are billed separately by licensed plumbers. Key pricing determinant..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ials and sewage saturated items to licensed waste handling facilities incurs s..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...referral line at (877) 422 0329 to dispatch a biohazard cleanup contractor...."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "crew / crews",
+      "context": "...How quickly can a trauma cleanup crew arrive? Independent contractors op..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Assessment & Containment Isolation Technicians arrive in discreet, unmarked vehic..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ndergo rigorous physical cleaning. Technicians utilize specialized enzymatic surf..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...To verify scientific cleanliness, technicians perform Adenosine Triphosphate (AT..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...mergency dispatch across Michigan. Technicians arrive in discreet, unmarked vehic..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ty managers 24/7 with independent, certified biohazard and trauma cleanup contr..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...h biological residues without OSHA certified personal protective equipment crea..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ivable and unsellable. Lack of Certified Proof for Property Resale: When..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...gical incidents were remediated by certified contractors with third party verif..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ma & Crime Scene Cleanup Protocol Certified biohazard remediation specialists..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...and property owners with discreet, certified trauma cleanup specialists across..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...Detroit, MI Hub: Discreet, certified trauma and unattended death cleanu..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...oes—cannot be legally or medically certified safe and must be safely disposed o..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ith a discreet, compassionate, and certified local biohazard contractor ready t..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...broad spectrum disinfectants, and licensed medical waste disposal protocols...."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...dy protocols, and transported to a licensed medical waste incineration facilit..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...dy manifests, and transported by a licensed medical waste transporter for high..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...State medical waste processing and licensed incineration fees are calculated b..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...sed biological decontamination and licensed medical waste disposal. Ann Ar..."
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ral network provide 24/7 emergency dispatch across Michigan. Technicians arriv..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "phrase": "technician / technicians",
+      "context": "...d Detailed Surface Decontamination Technicians thoroughly clean all physical soot..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "phrase": "technician / technicians",
+      "context": "...technology: Thermal Fogging: Technicians heat a petroleum based or water ba..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ecules. Hydroxyl Generation: Technicians run commercial hydroxyl generators..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified smoke odor removal specialists acr..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...l Smoke Odor Elimination Protocol Certified fire and smoke restoration special..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified smoke odor removal contractors acr..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...e regions: Detroit, MI Hub: Certified smoke odor elimination and plaster..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Dry Soot Chemical Sponge Cleaning Technicians clean all dry smoke residue from c..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "phrase": "technician / technicians",
+      "context": "...hen fires and furnace puff backs), technicians apply specialized neutral and alka..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified fire and smoke restoration contrac..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...l Smoke and Soot Removal Protocol Certified fire damage restoration contractor..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified fire and soot cleanup contractors..."
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...e regions: Detroit, MI Hub: Certified smoke and soot cleanup for histori..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ainment and Negative Air Isolation Technicians establish a sealed containment bar..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...lling mold spores or water damage, technicians utilize high powered vacuum hoses..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...asting or Mechanical HEPA Abrasion Technicians utilize industrial dry ice blastin..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Registered Antimicrobial Sealants Technicians apply a professional grade, EPA re..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified attic mold remediation contractors..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erwriting approval on hold until a certified environmental clearance report cou..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...econd floor bedrooms and hallways. Certified contractors seal the access point..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...al Attic Mold Remediation Process Certified environmental restoration contract..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...l Network connects homeowners with certified attic mold remediation contractors..."
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...e regions: Detroit, MI Hub: Certified attic mold remediation and roof de..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...nt and Negative Air Pressure Setup Technicians seal the work zone using 6 mil pol..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...rgo multi stage physical cleaning. Technicians use HEPA filtered vacuuming follow..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...egistered Antimicrobial Treatments Technicians apply professional grade EPA regis..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...nment below 50% relative humidity. Technicians conduct a final visual and moistur..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified mold remediation contractors acros..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...asement Mold Remediation Protocol Certified environmental remediation contract..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...e regions: Detroit, MI Hub: Certified basement mold remediation and anti..."
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ld species and toxicity is through certified laboratory spore testing. Wil..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ontainment & Negative Air Pressure Technicians isolate the bathroom from the rest..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...2. Selective Controlled Demolition Technicians carefully remove only the affected..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...against future moisture exposure, technicians apply a heavy duty, mold resistant..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified mold remediation contractors acros..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...athroom Mold Remediation Protocol Certified environmental restoration contract..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified bathroom mold remediation contract..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...e regions: Detroit, MI Hub: Certified bathroom mold remediation and plas..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...hind the wall, coordinating with a licensed plumber to repair pipes before str..."
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...l containment staging, while large master bathrooms require more extensive p..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ment & Negative Air Pressure Setup Technicians isolate the affected room using 6..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...2. Selective Controlled Demolition Technicians neatly cut out and remove mold col..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Abrasion & Antimicrobial Treatment Technicians use wire brushes or mechanical san..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...vent future fungal re infestation, technicians apply an antimicrobial encapsulant..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified mold remediation specialists acros..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...st Leak Mold Remediation Protocol Certified environmental restoration contract..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified post leak mold remediation special..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...vice hubs: Detroit, MI Hub: Certified post leak mold remediation and pla..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ical pipe are billed separately by licensed plumbers. Key pricing determinant..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...e rupture, and the claim was filed promptly. However, insurance carriers routi..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "technician / technicians",
+      "context": "...es, basements, and utility chases. Technicians scan walls and ceilings with sensi..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Spore Trap Air & Surface Sampling Technicians collect baseline outdoor ambient a..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified mold inspection and assessment pro..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...moisture is entering the building. Certified inspectors utilize infrared therma..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...essional Mold Assessment Protocol Certified mold assessment specialists execut..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erving Kent County homeowners with certified mold assessments and thermal moist..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...rd for mold spore levels. Instead, certified indoor air quality standards requi..."
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ibrated air sampling equipment and certified third party laboratory analysis...."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "technician / technicians",
+      "context": "...pection Report & Containment Setup Technicians review the specific citations in t..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "technician / technicians",
+      "context": "...uming & Antimicrobial Sanitization Technicians perform multi stage HEPA vacuuming..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...lid mold clearance letter requires certified containment based remediation foll..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ofessionals 24/7 with independent, certified mold remediation contractors acros..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...and demand an expensive full scale certified reinspection. Third Party Labo..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...eal Estate Mold Clearance Process Certified environmental restoration contract..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...and real estate professionals with certified mold clearance specialists across..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ice areas: Detroit, MI Hub: Certified real estate mold remediation and c..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...) is a formal document issued by a certified environmental remediation contract..."
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...onal remediation and clearance are verified. Attic Condensation & Blocked..."
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ection After the drain is cleared, technicians perform a secondary video camera r..."
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "phrase": "technician / technicians",
+      "context": "...lt in radio transmitters allow the technician to pinpoint the exact surface loca..."
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified emergency drain cleaning and roote..."
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...Cleaning & Hydro Jetting Protocol Certified plumbing and drain specialists exe..."
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified drain cleaning and rooter speciali..."
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ssure hydro jetting. Emergency Dispatch Timing: Emergency service calls..."
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ights, weekends, or holidays carry dispatch rates compared to standard busines..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "technician / technicians",
+      "context": "...n splash into the eyes and skin of technicians when snaking lines later. Perm..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "technician / technicians",
+      "context": "...e's interior main valve is seized. Technicians depressurize the plumbing system t..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "technician / technicians",
+      "context": "...e tools. For sewer line stoppages, technicians deploy fiber optic video cameras t..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "technician / technicians",
+      "context": ".... Immediate Mechanical Pipe Repair Technicians perform permanent mechanical repai..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified emergency plumbing contractors acr..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ire municipal plumbing permits and certified installations. Unpermitted plumbin..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ials, the plumber coordinates with certified water damage restoration specialis..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified emergency plumbing contractors acr..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ng the street curb shutoff box and dispatched an independent local emergency plu..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...urs, weekend, or holiday emergency dispatch fees generally range from $100 t..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...determinants include: Time of Dispatch: Middle of the night, weekend, a..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...rgency service calls carry premium dispatch rates compared to scheduled busine..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ing Hub: 24/7 emergency plumbing dispatch, pipe repair, and sewer clearing f..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ing Hub: Fast emergency plumbing dispatch and pipe restoration across Ingham..."
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...n Macomb County emergency plumbing dispatch and water line repair services...."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ion if the pipe has already split. Technicians scan exterior walls and joist bays..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...trolled Commercial Thermal Thawing Technicians deploy specialized commercial thaw..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...which do not conduct electricity), technicians utilize commercial high volume hea..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified emergency plumbing contractors acr..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...en Pipe Thawing & Repair Protocol Certified emergency plumbing contractors exe..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified emergency frozen pipe specialists..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...le rooms or stories. Emergency Dispatch Scheduling: Severe winter freeze..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...kends, or holidays carry emergency dispatch rates. Michigan Polar Vortex W..."
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...ng that turning on the kitchen and master bathroom faucets produced zero wat..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...r Dial Spin Test: A professional technician isolates the building's plumbing f..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...esting on All Household Toilets: Technicians place non toxic chemical dye table..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...e to test the exterior yard line), technicians calculate precise pressure loss ra..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Meter Verification & Flow Analysis Technicians inspect the main water meter and r..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ehensive Fixture & Appliance Audit Technicians test all household toilets using c..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...rrigation backflow preventer), the technician identifies exactly which plumbing..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ak in structural supply lines, the technician deploys high frequency acoustic li..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ation valves. Upon completion, the technician provides an itemized repair invoic..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified plumbing diagnostic and leak inves..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...gh Water Bill Diagnostic Protocol Certified plumbing diagnostic specialists ex..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified leak detection and plumbing contra..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...iagnostic appointments carry lower dispatch rates than emergency evening or we..."
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...eading. All household fixtures are verified closed, and the low flow indicator..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ostic confirmation. A professional technician can pinpoint the exact depth and c..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...quencies. Professional diagnostic technicians use non invasive acoustic sensors,..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...col Certified plumbing diagnostic technicians execute a structured five step sci..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...& Pressure Decay Baseline Testing Technicians inspect the main municipal water m..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...2. Acoustic Listening Disc Survey Technicians place ground microphones and acous..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ion FLIR infrared thermal cameras, technicians scan floors, ceilings, and walls...."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...xture (5% hydrogen, 95% nitrogen). Technicians pass a sensitive electronic gas sn..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...romagnetic Pipe Location & Marking Technicians attach an electromagnetic transmit..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ialized diagnostic service where a technician uses non invasive acoustic and the..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified leak detection and plumbing contra..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...eak Detection Diagnostic Protocol Certified plumbing diagnostic technicians ex..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified leak detection and plumbing specia..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ment utility runs. Urgency and Dispatch Scheduling: Standard daytime dia..."
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...y after hours, weekend, or holiday dispatch calls. Michigan Geological Rea..."
+    },
+    {
+      "id": "subservices/plumbing--sewer-line-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Camera Inspection & Sonde Mapping Technicians insert a self leveling color video..."
+    },
+    {
+      "id": "subservices/plumbing--sewer-line-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...d beneath an accessible lawn area, technicians excavate a small trench, remove th..."
+    },
+    {
+      "id": "subservices/plumbing--sewer-line-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified sewer repair and utility plumbing..."
+    },
+    {
+      "id": "subservices/plumbing--sewer-line-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...plings. 4. Post Repair Camera Certification Contractors conduct a final video..."
+    },
+    {
+      "id": "subservices/plumbing--sewer-line-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified sewer line repair and utility plum..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...& Pressure Decay Isolation Testing Technicians inspect the municipal water meter..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...esolution Infrared Thermal Mapping Technicians scan concrete floors and floor cov..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...underlying aggregate, allowing the technician to mark the exact epicenter of the..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...n unfinished area or utility room, technicians use precision diamond core drillin..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...nto baseboards or subflooring, the technician coordinates with certified water d..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified slab leak detection and plumbing c..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ak Diagnostic and Repair Protocol Certified plumbing contractors follow a stru..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...g, the technician coordinates with certified water damage restoration specialis..."
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified slab leak detection and plumbing s..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...n Cleaning & Foundation Inspection Technicians disconnect and remove the failing..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...lumbing & Check Valve Installation Technicians assemble rigid Schedule 40 PVC dis..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified plumbing contractors across Michig..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...p Installation & Testing Protocol Certified plumbing contractors execute a str..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified sump pump repair and installation..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "free (standalone)",
+      "context": "...stems that deliver reliable, worry free foundation protection. The Pro..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...l labor is required. Emergency Dispatch Timing: Emergency night or weeke..."
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ing an active basement flood carry dispatch rates compared to scheduled daytim..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ety Isolation & Emergency Shutdown Technicians verify that the energy supply (shu..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...rical components: For gas units, technicians inspect the thermocouple, gas cont..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ide venting. For electric units, technicians test continuity across the upper a..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...calibrated digital multimeters. Technicians inspect all external brass nipples..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ompliant Water Heater Installation Technicians install the new energy efficient t..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "technician / technicians",
+      "context": "...d slowly re pressurize the system. Technicians test all gas fittings with non cor..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified emergency plumbing and water heate..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...er replaces the component with OEM certified parts. If the tank is ruptured, th..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified water heater repair and replacemen..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...e testing equipment, and technical licensing to diagnose whether a water heater..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...g draft flue piping. Emergency Dispatch Timing: Emergency evening, weeke..."
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ing winter weather carry emergency dispatch rates. Michigan Winter Groundw..."
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "phrase": "crew / crews",
+      "context": "...er than trenching the entire lawn, crews excavate two compact access pits:..."
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...lecommunications, and sewer lines. Technicians use electronic pipe transmitters t..."
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ure Testing & Municipal Inspection Technicians connect the new service line to th..."
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified excavation and plumbing contractor..."
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...seamless Type K copper pipe or NSF certified 200 PSI HDPE water line directly t..."
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...work connects property owners with certified underground water line contractors..."
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...municipal water department (DWSD) dispatched an inspector who tested the bubbli..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...rmal Inspection & Moisture Mapping Technicians use calibrated thermal imaging cam..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...sive kitchen and laundry cabinets, technicians remove base trim or drill small, d..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified water damage restoration contracto..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ppliance Leak Restoration Process Certified restoration contractors follow a s..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...usly until moisture readings reach certified dry standards. Michigan Cost R..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ply lines are billed separately by licensed plumbers. Key pricing determinant..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...lectrocution risks if power is not verified isolated before touching wet appli..."
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...hem out? Yes, if mitigation begins promptly within 24 to 48 hours. Professiona..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "crew / crews",
+      "context": "...s cannot be effectively sanitized. Crews perform flood cuts on drywall at l..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "technician / technicians",
+      "context": "...te Assessment & Hazard Containment Technicians inspect the basement to determine..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "technician / technicians",
+      "context": "...n refrigerant (LGR) dehumidifiers. Technicians track ambient relative humidity, t..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "technician / technicians",
+      "context": "...t be inspected by a qualified HVAC technician or plumber before being restarted...."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...homeowners 24/7 with independent, certified basement water remediation contrac..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...into energized water can be fatal. Certified contractors verify power isolation..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...onal Basement Restoration Process Certified restoration contractors execute a..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ntil all framing and masonry reach certified dry standards. Michigan Cost R..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...or muddy overland runoff) requires certified biohazard protocols, personal prot..."
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...walls to crack or buckle inward. A certified contractor pumps out water in meas..."
+    },
+    {
+      "id": "subservices/water-damage--burst-pipe-water-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Thermal Imaging & Moisture Mapping Technicians scan all walls, ceilings, and floo..."
+    },
+    {
+      "id": "subservices/water-damage--burst-pipe-water-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...y saturated wall cavities quickly, technicians remove baseboards and drill small,..."
+    },
+    {
+      "id": "subservices/water-damage--burst-pipe-water-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...y to pull moisture out of the air. Technicians take daily moisture readings of wo..."
+    },
+    {
+      "id": "subservices/water-damage--burst-pipe-water-damage.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified emergency water damage contractors..."
+    },
+    {
+      "id": "subservices/water-damage--burst-pipe-water-damage.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ipe break are billed separately by licensed plumbers. Key cost factors includ..."
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...urce Identification & Water Relief Technicians locate the originating leak source..."
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...isibly bulging with trapped water, technicians carefully install controlled drain..."
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ated FLIR thermal imaging cameras, technicians map the full boundary of moisture..."
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...n refrigerant (LGR) dehumidifiers. Technicians track moisture readings daily unti..."
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified water damage restoration contracto..."
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ring that require replacement by a licensed electrician impact overall project..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "crew / crews",
+      "context": "...vacuum units for interior floors, crews remove standing water. Specialized..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "technician / technicians",
+      "context": "...rd Mitigation and Safety Isolation Technicians assess the loss environment for st..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ntimicrobial Treatment Application Technicians mist exposed structural framing, c..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified emergency water extraction contrac..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ofessional Water Removal Protocol Certified restoration contractors execute a..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...higan. Calling our 24/7 emergency dispatch line at (877) 422 0329 connects yo..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ting off the main supply valve and dispatching high capacity truck mounted vacuum..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ver watershed with fast extraction dispatch. Frequently Asked Questions..."
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...biological contaminants. Power is verified off in affected zones, and initial..."
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...bed floodwater cannot be salvaged. Technicians perform neat flood cuts on drywall..."
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "phrase": "technician / technicians",
+      "context": "...h velocity centrifugal air movers. Technicians track moisture readings daily usin..."
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...erty owners 24/7 with independent, certified disaster restoration contractors a..."
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...Storm Damage Restoration Protocol Certified disaster restoration contractors e..."
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...urniture, and soaked insulation to licensed disposal facilities incurs dumpste..."
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...24/7 referral line immediately to dispatch an extraction contractor. Can..."
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...structural wood and concrete reach verified dry standards. Michigan Cost R..."
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "phrase": "technician / technicians",
+      "context": "...s Materials In finished basements, technicians inspect drywall, carpeting, and ba..."
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "phrase": "technician / technicians",
+      "context": "...isture Tracking & Dry Verification Technicians return daily to record psychrometr..."
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...homeowners 24/7 with independent, certified water mitigation contractors acros..."
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...can cause fatal electrical shock. Certified restoration contractors verify ele..."
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ump Pump Failure Cleanup Protocol Certified water restoration specialists exec..."
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...,850 and is billed separately by licensed plumbers. Key cost determinants i..."
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "phrase": "psychrometric (new banned)",
+      "context": "...Technicians return daily to record psychrometric readings (relative humidity, ambie..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...tility billing spikes. Independent licensed plumbers utilize acoustic leak det..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...lons of water per day. Independent licensed plumbers use electronic acoustic l..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...directory to reach an independent licensed plumbing contractor...."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...nvironmental quality. Our regional dispatch line routes your call straight to..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...owners can access rapid contractor dispatch 24 hours a day, 365 days a year...."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Ann Arbor, 24/7 emergency plumber dispatch in Ann Arbor, drain cleaning in An..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ross Ann Arbor Our 24/7 emergency dispatch routes assistance to homeowners, l..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...rgency Water Main Breaks & Utility Dispatch: (734) 794 6320 Department Por..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...nage failures to municipal utility dispatch. Building Safety and Code Enfo..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...home or rental property. Call our dispatch desk to connect immediately with a..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...your neighborhood. Emergency Dispatch Line: Call (877) 422 0329 fo..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...i unit student apartment building, prompt professional extraction preserves..."
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...ss water intrusions and biohazards promptly to protect occupant health. Review..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "crew / crews",
+      "context": "...wer surcharges immediately so DWSD crews can inspect the city side infrastr..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "crew / crews",
+      "context": "...ear municipal borders, independent crews provide rapid regional dispatch:..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "technician / technicians",
+      "context": "...r pathogens. Independent biohazard technicians extract gross solids, sanitize con..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...on or frost fractures. Independent licensed plumbers utilize acoustic leak det..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...e owner must engage an independent licensed plumbing contractor to conduct rep..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...al service to reach an independent licensed plumbing contractor...."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...hic structural decay. Our regional dispatch line routes your call straight to..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...tepping into flooded rooms. Every dispatch partner operates as an independent..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...in Detroit, 24/7 emergency plumber dispatch in Detroit, drain cleaning in Detr..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Across Detroit Our 24/7 emergency dispatch routes assistance to homeowners, l..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ndent crews provide rapid regional dispatch: Warren, MI – Post war brick ra..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...oy your Detroit property. Call our dispatch desk to connect immediately with a..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...your neighborhood. Emergency Dispatch Line: Call (877) 422 0329 fo..."
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...er intrusions and sewage overflows promptly to protect tenant health. Review o..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "technician / technicians",
+      "context": "...containment. Independent biohazard technicians extract blackwater, disinfect cont..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...acility managers with independent, certified disaster restoration and emergency..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...roughout Grand Rapids. Independent licensed plumbing contractors utilize elect..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...burst water pipe be repaired by a licensed plumber? A burst supply pipe requi..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...within wall cavities, independent licensed plumbers verify that surrounding p..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...directory to reach an independent licensed plumbing contractor...."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...and Rapids, 24/7 emergency plumber dispatch in Grand Rapids, drain cleaning in..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...affecting private sewer laterals. Dispatch coverage encompasses primary Grand..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...mergency Water Main Leaks & Repair Dispatch: (616) 456 3000 Department Por..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...stormwater drain overflows to city dispatch staff. Building Safety and Cod..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ids property. Contact our referral dispatch desk to connect immediately with a..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ialist. Emergency Restoration Dispatch: Call (877) 422 0329 for 24/..."
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...complete required water mitigation promptly. Refer to our Michigan landlord gu..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "crew / crews",
+      "context": "...surcharges immediately so utility crews can inspect city side mains. B..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ilding operators with independent, licensed disaster restoration and emergency..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ive billing increases. Independent licensed plumbers utilize electronic acoust..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...meowner must engage an independent licensed plumbing contractor to perform rep..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...directory to reach an independent licensed plumbing contractor...."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...in Lansing, 24/7 emergency plumber dispatch in Lansing, drain cleaning in Lans..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Across Lansing Our 24/7 emergency dispatch routes assistance to homeowners, l..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...e or commercial facility. Call our dispatch desk to connect immediately with a..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...orhood. Emergency Restoration Dispatch: Call (877) 422 0329 for imm..."
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...usions and biohazard contamination promptly to maintain safe living conditions..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ater before discovery. Independent licensed plumbers utilize electronic acoust..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...water extraction specialist and a licensed plumbing contractor. Can mold..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...directory to reach an independent licensed plumbing contractor...."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ve mold colonization. Our regional dispatch desk routes your call directly to..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...owners can secure fast contractor dispatch 24 hours a day, 365 days a year...."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ng Heights, 24/7 emergency plumber dispatch in Sterling Heights, drain cleanin..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...erling Heights Our 24/7 emergency dispatch routes assistance to homeowners, l..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...446 2440 After Hours Emergency Dispatch: (586) 446 2800 Department Por..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...nitary line issues to city utility dispatch staff. Building Department and..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...terling Heights property. Call our dispatch desk to connect immediately with a..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...your neighborhood. Emergency Dispatch Line: Call (877) 422 0329 fo..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...nding as one of Michigan's premier master planned suburban municipalities. R..."
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...usions and biohazard contamination promptly to maintain safe living conditions..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...roperty managers with independent, certified disaster restoration and emergency..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...water utility charges. Independent licensed plumbers utilize electronic acoust..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ater before surfacing. Independent licensed plumbers utilize acoustic listenin..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...directory to reach an independent licensed plumbing contractor...."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...azardous mold growth. Our regional dispatch line routes your call straight to..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...idents can secure rapid contractor dispatch 24 hours a day, 365 days a year...."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...in Warren, 24/7 emergency plumber dispatch in Warren, drain cleaning in Warre..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Across Warren Our 24/7 emergency dispatch routes assistance to homeowners, l..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...urcharges immediately to municipal dispatch staff. Building Safety and Cod..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...roy your Warren property. Call our dispatch desk to connect immediately with a..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...your neighborhood. Emergency Dispatch Line: Call (877) 422 0329 fo..."
+    },
+    {
+      "id": "cities/warren.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...usions and biohazard contamination promptly to maintain safe living conditions..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--ann-arbor-hills.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...tabilize soaked substructures. Certified Fungal Remediation: Environmenta..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--ann-arbor-hills.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ge restoration providers 24/7. For licensed plumbers, visit our Ann Arbor Plum..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--ann-arbor-hills.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...nd the clock telephone referral to licensed independent restoration contractor..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--ann-arbor-hills.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Local Property Restoration Dispatch Options for Ann Arbor Hills Timel..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--ann-arbor-hills.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...stairs. 4. Reach Out to Referral Dispatch: Call (877) 422 0329 to reac..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "phrase": "technician / technicians",
+      "context": "...drywall and insulation in Bryant? Technicians use moisture meters to map saturat..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...aintains round the clock telephone dispatch to independent professionals:..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...the affected space. 4. Call 24/7 Dispatch Desk: Contact (877) 422 0329..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...k: Contact (877) 422 0329 to dispatch an independent local restoration t..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "phrase": "hydrodynamic (new banned)",
+      "context": "...Seasonal Water Threats in Bryant Hydrodynamic pressure cycles coupled with local..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...ff power from outside. 2. Rotate Master Valve Closed: Shut the primary w..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--burns-park.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...mergency calls 24/7 to independent certified contractors across Ann Arbor:..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--burns-park.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...sidents directly with independent, licensed local plumbers available 24/7 for..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--burns-park.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...living quarters. 4. Connect with Dispatch: Call (877) 422 0329 to conn..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--georgetown.mdx",
+      "phrase": "technician / technicians",
+      "context": "...water under the slab. How do technicians pinpoint a hidden slab leak in Geo..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--georgetown.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ects local owners with independent licensed restoration firms 24/7: Targe..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--kerrytown.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...on stabilize flooded premises. Certified Microbial Remediation: Safe phys..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--kerrytown.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...eath driveways or concrete require licensed Ann Arbor Emergency Plumbing Servi..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--kerrytown.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Dedicated 24/7 Emergency Dispatch Services for Kerrytown When sever..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--kerrytown.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ooms. 4. Call Emergency Referral Dispatch: Call (877) 422 0329 for 24/..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--lower-town.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ns for Lower Town Rapid emergency dispatch halts escalating property degradat..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--lower-town.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ing levels. 4. Activate Referral Dispatch: Dial (877) 422 0329 for imm..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--lower-town.mdx",
+      "phrase": "vetted (new banned)",
+      "context": "...ides uninterrupted 24/7 routing to vetted independent restoration experts:..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--lower-town.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...ze relevant branch circuits at the master panel before inspection. 2. Secu..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--lower-town.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...cure the Service Stop: Close the master interior water valve near the foun..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--old-west-side.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...pid Disaster Referral & Contractor Dispatch in Old West Side Immediate contai..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--old-west-side.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...bedrooms. 4. Initiate Contractor Dispatch: Call (877) 422 0329 to rout..."
+    },
+    {
+      "id": "neighborhoods/ann-arbor--water-hill.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...rs Water Hill property owners with licensed independent restoration providers..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--alger-heights.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ects local owners with independent licensed restoration firms 24/7: Targe..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--alger-heights.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...traction? Call our 24/7 emergency dispatch line to connect directly with an i..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--garfield-park.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...aintains round the clock telephone dispatch to independent professionals:..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--garfield-park.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...the affected space. 4. Call 24/7 Dispatch Desk: Contact (877) 422 0329..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--garfield-park.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...k: Contact (877) 422 0329 to dispatch an independent local restoration t..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--garfield-park.mdx",
+      "phrase": "hydrodynamic (new banned)",
+      "context": "...al Water Threats in Garfield Park Hydrodynamic pressure cycles coupled with local..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--garfield-park.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...ff power from outside. 2. Rotate Master Valve Closed: Shut the primary w..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--ottawa-hills.mdx",
+      "phrase": "crew / crews",
+      "context": "...luxury basements in Ottawa Hills? Crews utilize low grain refrigerant (LGR..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--roosevelt-park.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ture that fosters fungal regrowth. Certified contractors use EPA registered fun..."
+    },
+    {
+      "id": "neighborhoods/grand-rapids--roosevelt-park.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...of living quarters. 4. Call 24/7 Dispatch Service: Call (877) 422 0329..."
+    },
+    {
+      "id": "neighborhoods/lansing--colonial-village.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ects local owners with independent licensed restoration firms 24/7: Targe..."
+    },
+    {
+      "id": "neighborhoods/lansing--colonial-village.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Village? Call our 24/7 telephone dispatch line at (877) 422 0329 to connect..."
+    },
+    {
+      "id": "neighborhoods/lansing--downtown.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...mergency calls 24/7 to independent certified contractors across Lansing: R..."
+    },
+    {
+      "id": "neighborhoods/lansing--downtown.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...living quarters. 4. Connect with Dispatch: Call (877) 422 0329 to conn..."
+    },
+    {
+      "id": "neighborhoods/lansing--eastside.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...airs Eastside property owners with licensed independent restoration providers..."
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...emergency restoration contractors licensed in Ingham County? Our network con..."
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...aintains round the clock telephone dispatch to independent professionals:..."
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...the affected space. 4. Call 24/7 Dispatch Desk: Contact (877) 422 0329..."
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...k: Contact (877) 422 0329 to dispatch an independent local restoration t..."
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ty? Our network connects you with verified independent local contractors who..."
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "phrase": "hydrodynamic (new banned)",
+      "context": "...asonal Water Threats in Groesbeck Hydrodynamic pressure cycles coupled with local..."
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...ff power from outside. 2. Rotate Master Valve Closed: Shut the primary w..."
+    },
+    {
+      "id": "neighborhoods/lansing--moores-park.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...tabilize soaked substructures. Certified Fungal Remediation: Environmenta..."
+    },
+    {
+      "id": "neighborhoods/lansing--moores-park.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ge restoration providers 24/7. For licensed plumbers, visit our Lansing Plumbi..."
+    },
+    {
+      "id": "neighborhoods/lansing--moores-park.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Local Property Restoration Dispatch Options for Moores Park Timely em..."
+    },
+    {
+      "id": "neighborhoods/lansing--moores-park.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...stairs. 4. Reach Out to Referral Dispatch: Call (877) 422 0329 to reac..."
+    },
+    {
+      "id": "neighborhoods/lansing--old-town.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...on stabilize flooded premises. Certified Microbial Remediation: Safe phys..."
+    },
+    {
+      "id": "neighborhoods/lansing--old-town.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...referral service connects you with certified independent contractors specializi..."
+    },
+    {
+      "id": "neighborhoods/lansing--old-town.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...eath driveways or concrete require licensed Lansing Emergency Plumbing Service..."
+    },
+    {
+      "id": "neighborhoods/lansing--old-town.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Dedicated 24/7 Emergency Dispatch Services for Old Town Lansing Whe..."
+    },
+    {
+      "id": "neighborhoods/lansing--old-town.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ooms. 4. Call Emergency Referral Dispatch: Call (877) 422 0329 for 24/..."
+    },
+    {
+      "id": "neighborhoods/lansing--reo-town.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...parasites, and hepatitis. Contact certified biohazard specialists and avoid to..."
+    },
+    {
+      "id": "neighborhoods/lansing--reo-town.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...pid Disaster Referral & Contractor Dispatch in REO Town Immediate containment..."
+    },
+    {
+      "id": "neighborhoods/lansing--reo-town.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...bedrooms. 4. Initiate Contractor Dispatch: Call (877) 422 0329 to rout..."
+    },
+    {
+      "id": "neighborhoods/lansing--reo-town.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...intain mobile units ready for 24/7 dispatch throughout Lansing and Ingham Coun..."
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ions for Westside Rapid emergency dispatch halts escalating property degradat..."
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ing levels. 4. Activate Referral Dispatch: Dial (877) 422 0329 for imm..."
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...iately and call our 24/7 emergency dispatch line for immediate water extractio..."
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "phrase": "vetted (new banned)",
+      "context": "...ides uninterrupted 24/7 routing to vetted independent restoration experts:..."
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...ze relevant branch circuits at the master panel before inspection. 2. Secu..."
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "phrase": "master (unprovable claim)",
+      "context": "...cure the Service Stop: Close the master interior water valve near the foun..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ing Primers: Following blasting, technicians apply shellac based or specialized..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ail to neutralize these compounds. Certified contractors deploy commercial deod..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...tors submit proprietary estimates, certified fire restoration contractors utili..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...shed. Demand Proof of Michigan Licensing: Verify that contractors hold ac..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...through the Michigan Department of Licensing and Regulatory Affairs (LARA)...."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...r call immediately to independent, licensed local disaster restoration special..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "direct insurance billing / claims",
+      "context": "...ation are processed under a single insurance claim subject to one deductible. Wh..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...actors Immediately following a 911 dispatch call, unauthorized contractors (of..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ge Referral Network 24/7 emergency dispatch desk at (877) 422 0329 . We rou..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ration Cost Overview According to verified industry cost benchmarks published..."
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...Remediation Procedures Included | Verified Citation Source | | : | : |..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...stic Ultrasonic Listening Discs: Technicians place high gain ground microphones..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...generally requires 1 to 2 hours of technician labor. Concrete Sub Slab Plumb..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...heduling a professional diagnostic technician: 1. Conduct the Municipal Water..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...es specialized instrumentation and technician expertise. Local Michigan..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...echnologies and Equipment Required Licensed plumbing specialists utilize advan..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...onnects you with independent local licensed plumbing contractors equipped with..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...cy Plumbing Services in Michigan Licensed Plumbing Services Across Michigan..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ection Cost Overview According to verified national plumbing industry benchma..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ge | Primary Technology Employed | Verified Data Source | | : | : | :..."
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...us or repeated seepage\" exclusion. Prompt diagnostic verification is therefo..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...in older Michigan housing require technicians to work while crawling on protecti..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...rooms during physical demolition, technicians construct physical containment bar..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...Remediation Expenses in Michigan Certified mold remediation contractors adher..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...rd Party Testing: An independent certified indoor air quality (IAQ) consultan..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": ".... Remediation Execution: A certified remediation contractor uses the th..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...self is unregulated by state trade licensing in Michigan, related structural re..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Water Damage Referral Network 24/7 dispatch desk at (877) 422 0329 . We rou..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...iation Cost Overview According to verified industry benchmarks compiled by Fo..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ge | Primary Procedures Included | Verified Citation Source | | : | : |..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...s exceeding 60% relative humidity, prompt remediation halts the degradation..."
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...Tactics: Fungal growth requires prompt attention, but homeowners have tim..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...spection, Cleaning and Restoration Certification (IICRC) S500 standard, all municip..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...strial air scrubbers equipped with certified HEPA filtration and carbon media f..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ous bacteria. Restoration requires certified personal protective equipment, neg..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...double bagged, and disposed of at licensed waste facilities. Demolition labor..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "free (standalone)",
+      "context": "...3 days | Sludge extraction, bleach free biocidal scrub, concrete surface d..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...tion specialist, call our Michigan dispatch line at (877) 422 0329 for 24/..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...leanup Cost Overview According to verified national industry pricing benchmar..."
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...Remediation Procedures Included | Verified Data Source | | : | : | :..."
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...al sump pump services performed by licensed Michigan plumbing contractors: |..."
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...s you immediately with independent licensed local plumbing contractors across..."
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...lumbing Services Across Michigan Licensed Plumbing Services in Michigan De..."
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "phrase": "free (standalone)",
+      "context": "...oundation, slopes downward, and is free of leaves, mud, animal nesting, or..."
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...cement Cost Overview According to verified national plumbing data compiled by..."
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...l damage. Below is an overview of verified sump pump repair and replacement c..."
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...Equipment & Labor Scope Included | Verified Data Source | | : | : | :..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...e incoming water directly dictates technician safety requirements, disposal mand..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Non Penetrating Moisture Meters: Technicians measure moisture content percentag..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...perating Duration and Rental Costs Certified restoration contractors deploy com..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...r call immediately to independent, licensed local restoration specialists equi..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...ration Cost Overview According to verified industry cost analyses from Forbes..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...Remediation Procedures Included | Verified Data Source | | : | : | :..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "psychrometric (new banned)",
+      "context": "...ng, prompt physical extraction and psychrometric dehumidification are essential to..."
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...oards and under finished flooring, prompt physical extraction and psychromet..."
+    },
+    {
+      "id": "problem-guides/basement-flooded-what-to-do.mdx",
+      "phrase": "technician / technicians",
+      "context": "...sulation through capillary action. Technicians use laser levels to mark a clean l..."
+    },
+    {
+      "id": "problem-guides/basement-flooded-what-to-do.mdx",
+      "phrase": "technician / technicians",
+      "context": "...iers and high velocity air movers. Technicians monitor daily drying progress usin..."
+    },
+    {
+      "id": "problem-guides/basement-flooded-what-to-do.mdx",
+      "phrase": "direct insurance billing / claims",
+      "context": "...ubmerged locations to support your insurance claim. Critical Warning: The Hy..."
+    },
+    {
+      "id": "problem-guides/basement-flooded-what-to-do.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ine at (877) 422 0329 for 24/7 dispatch...."
+    },
+    {
+      "id": "problem-guides/basement-flooded-what-to-do.mdx",
+      "phrase": "psychrometric (new banned)",
+      "context": "...ndustrial LGR Dehumidification and Psychrometric Drying Standard household fans can..."
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ntrolled Demolition and Flood Cuts Technicians use specialized drywall saws to ma..."
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "phrase": "technician / technicians",
+      "context": "...asive Moisture Mapping Restoration technicians scan surrounding ceiling and wall..."
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "phrase": "technician / technicians",
+      "context": "...nd Negative Pressure Cavity Drying Technicians insert specialized injector drying..."
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...professionals working together: a licensed emergency plumber to locate and re..."
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...fixture until electrical power is verified disconnected at the breaker box...."
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...ce paper. If not drained and dried promptly, entire sheets of ceiling drywall..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "technician / technicians",
+      "context": "...third party environmental testing technician to collect clearance air samples:..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...code compliance notices requiring certified remediation within specified emerg..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...Halt the Water Source and Dispatch Certified Remediation Do not attempt cosmeti..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...nd the landlord failed to initiate certified professional remediation within a..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...resolved immediately: Dispatch a licensed emergency plumber or roofing contr..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...Step 3: Halt the Water Source and Dispatch Certified Remediation Do not attem..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ce must be resolved immediately: Dispatch a licensed emergency plumber or ro..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "dispatch (new banned)",
+      "context": "...ine at (877) 422 0329 for 24/7 dispatch...."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "verified (new banned)",
+      "context": "...to the landlord until repairs are verified complete. The Landlord Em..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...growth, the landlord must respond promptly to inspect the hazard, stop the wa..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...ants carry a legal duty to provide prompt written notice of leaks, and unrea..."
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...e in Michigan: Tenant Duty of Prompt Notification Lease agreements stan..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...Negative Air Pressure Isolation: Technicians seal doorways and HVAC vents with..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "technician / technicians",
+      "context": "...third party environmental testing technician collects air samples inside the co..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "..., moisture source elimination, and certified post remediation clearance testing..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...quently condition loan approval on certified proof that active microbial growth..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...ical Remediation Under Containment Certified remediation contractors follow ANS..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "IICRC-certified / certified",
+      "context": "...request that sellers either hire a certified contractor to complete remediation..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "free (standalone)",
+      "context": "...mandate that the property must be free of hazards that affect the health..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "free (standalone)",
+      "context": "...cturally sound, weather tight, and free of persistent dampness or microbia..."
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...r transaction, but it does require prompt professional remediation, moisture..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...t ultrasonic vibrations that allow technicians to isolate the pipe breach within..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "technician / technicians",
+      "context": "...e Decay and Tracer Gas Sniffers: Technicians purge the water line, pressurize i..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...repair invoice from an independent licensed plumbing contractor detailing the..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ntified through visual inspection, licensed plumbing specialists deploy non in..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...oundation wall. You must contact a licensed plumber immediately to perform lin..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...e a detailed repair invoice from a licensed plumbing specialist certifying tha..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...work connects you with independent licensed local plumbing contractors equippe..."
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "phrase": "prompt (unprovable speed)",
+      "context": "...concealed plumbing leaks, provided prompt repairs are documented. Detro..."
+    },
+    {
+      "id": "problem-guides/water-meter-running-everything-off.mdx",
+      "phrase": "technician / technicians",
+      "context": "...ic Ultrasonic Listening Devices: Technicians amplify sound frequencies of press..."
+    },
+    {
+      "id": "problem-guides/water-meter-running-everything-off.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...spections cannot isolate the flow, licensed plumbers deploy non invasive diagn..."
+    },
+    {
+      "id": "problem-guides/water-meter-running-everything-off.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...ervice lateral. You must contact a licensed plumbing contractor immediately to..."
+    },
+    {
+      "id": "problem-guides/water-meter-running-everything-off.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...work connects you with independent licensed local plumbing contractors equippe..."
+    },
+    {
+      "id": "problem-guides/water-meter-running-everything-off.mdx",
+      "phrase": "licensed / licensing",
+      "context": "...cy Plumbing Services in Michigan Licensed Plumbing Services Directory Detr..."
+    },
+    {
+      "id": "trust/how-it-works.astro",
+      "phrase": "licensed / licensing",
+      "context": "...connects callers with independent licensed plumbing specialists equipped with..."
+    },
+    {
+      "id": "trust/how-it-works.astro",
+      "phrase": "dispatch (new banned)",
+      "context": "...d arrival windows based on current dispatch volume, and standard diagnostic or..."
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "phrase": "crew / crews",
+      "context": "...ice trucks, operate physical field crews, or hold master trade licenses. Al..."
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "phrase": "technician / technicians",
+      "context": "...s labeled as staff members, invent technician bios, or falsely present our refer..."
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "phrase": "dispatch (new banned)",
+      "context": "...dent third party contractors whose dispatch availability varies by weather eve..."
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "phrase": "dispatch (new banned)",
+      "context": "...val promises) or guarantee instant dispatch.</li We explicitly disclose..."
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "phrase": "master (unprovable claim)",
+      "context": "...ear Estimates, and local municipal master plans. </li Restoration..."
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "phrase": "master (unprovable claim)",
+      "context": "...rate physical field crews, or hold master trade licenses. All physical servi..."
+    },
+    {
+      "id": "trust/terms.astro",
+      "phrase": "technician / technicians",
+      "context": "...ible for requesting the responding technician's license number and validating it..."
+    },
+    {
+      "id": "trust/terms.astro",
+      "phrase": "licensed / licensing",
+      "context": "...cal, and electrical trades require licensing issued by the Michigan Department..."
+    },
+    {
+      "id": "trust/terms.astro",
+      "phrase": "licensed / licensing",
+      "context": "...sued by the Michigan Department of Licensing and Regulatory Affairs (LARA). You..."
+    }
+  ]
+}

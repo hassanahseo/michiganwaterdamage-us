@@ -1,0 +1,32 @@
+[
+  {
+    "category": "general",
+    "question": "How does this referral service work?",
+    "answer": "Michigan Water Damage Referral Network is a referral service available 24/7. When you call our line, you are connected directly to an independent, third-party restoration or plumbing contractor serving your local Michigan community. Independent contractors determine their own service charges, scheduling, licensing, and insurance."
+  },
+  {
+    "category": "general",
+    "question": "Can I get an estimate on the phone before work starts?",
+    "answer": "Independent service providers discuss project details, diagnostic procedures, and pricing directly when you call. For water extraction and major structural drying, an in-person diagnostic evaluation of the damage is typically required to provide an exact quote."
+  },
+  {
+    "category": "water-damage",
+    "question": "What should I do immediately after finding standing water in my basement?",
+    "answer": "Safety comes first: do not step into standing water if electrical outlets or appliances are submerged. Shut off your main water valve if a pipe has failed, avoid using electrical switches in wet areas, and contact a local water damage professional immediately to begin water extraction and prevent mold growth."
+  },
+  {
+    "category": "mold-remediation",
+    "question": "How quickly does mold grow following an indoor water leak?",
+    "answer": "According to the EPA, mold spores can germinate and colonize drywall, carpeting, and wood within 24 to 48 hours of exposure to moisture. Immediate water extraction and rapid structural dehumidification are essential to prevent widespread mold growth."
+  },
+  {
+    "category": "plumbing",
+    "question": "Why is my water meter running when every fixture in the home is turned off?",
+    "answer": "If your water meter continues to turn while all faucets, appliances, and valves are closed, water is escaping through an active leak. This is frequently caused by a cracked supply pipe, a running toilet valve, or a hidden slab leak beneath the foundation."
+  },
+  {
+    "category": "biohazard-cleanup",
+    "question": "Is sewage backup covered by standard Michigan homeowners insurance?",
+    "answer": "Standard homeowner policies frequently exclude sewer and drain backup unless an optional water backup endorsement was added prior to the loss. Check your individual policy declaration page or consult your insurance agent to confirm your specific coverage details."
+  }
+]

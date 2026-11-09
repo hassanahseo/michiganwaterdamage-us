@@ -1,0 +1,2723 @@
+{
+  "totalScanned": 172,
+  "passingCount": 5,
+  "failingCount": 167,
+  "maxGradeAllowed": 9,
+  "maxAslAllowed": 20,
+  "failures": [
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "pageType": "service-pillar",
+      "grade": 17.6,
+      "asl": 21.9,
+      "words": 2341,
+      "pass": false
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "pageType": "service-pillar",
+      "grade": 16.5,
+      "asl": 22.5,
+      "words": 2296,
+      "pass": false
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "pageType": "service-pillar",
+      "grade": 16.4,
+      "asl": 21.4,
+      "words": 2313,
+      "pass": false
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "pageType": "service-pillar",
+      "grade": 14.6,
+      "asl": 20.9,
+      "words": 2296,
+      "pass": false
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "pageType": "service-pillar",
+      "grade": 15.6,
+      "asl": 20.6,
+      "words": 2271,
+      "pass": false
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.6,
+      "asl": 21,
+      "words": 1742,
+      "pass": false
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.2,
+      "asl": 20.7,
+      "words": 1739,
+      "pass": false
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 17.1,
+      "asl": 21,
+      "words": 1747,
+      "pass": false
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.3,
+      "asl": 20.8,
+      "words": 1793,
+      "pass": false
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.6,
+      "asl": 22.3,
+      "words": 1761,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 20.9,
+      "words": 1754,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.2,
+      "asl": 20.5,
+      "words": 1742,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.1,
+      "asl": 21.3,
+      "words": 1725,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.4,
+      "asl": 22,
+      "words": 1737,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.2,
+      "asl": 20.5,
+      "words": 1642,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.3,
+      "asl": 21.9,
+      "words": 1709,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 13.9,
+      "asl": 22.3,
+      "words": 1696,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.3,
+      "asl": 21.3,
+      "words": 1728,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.6,
+      "asl": 23.3,
+      "words": 1677,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.1,
+      "asl": 22.6,
+      "words": 1650,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 21.5,
+      "words": 1739,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--sewer-line-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.8,
+      "asl": 23.1,
+      "words": 1731,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.4,
+      "asl": 22.3,
+      "words": 1739,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.4,
+      "asl": 21.9,
+      "words": 1685,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 22.2,
+      "words": 1646,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.8,
+      "asl": 23,
+      "words": 1677,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 20.2,
+      "words": 1720,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.3,
+      "asl": 19.5,
+      "words": 1679,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 13.8,
+      "asl": 21.4,
+      "words": 1709,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14,
+      "asl": 21,
+      "words": 1700,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.5,
+      "asl": 20.4,
+      "words": 1510,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.1,
+      "asl": 20.1,
+      "words": 1712,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.4,
+      "asl": 20.4,
+      "words": 1712,
+      "pass": false
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "pageType": "city-hub",
+      "grade": 16.7,
+      "asl": 20.8,
+      "words": 1790,
+      "pass": false
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "pageType": "city-hub",
+      "grade": 16.1,
+      "asl": 19.5,
+      "words": 1698,
+      "pass": false
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "pageType": "city-hub",
+      "grade": 16.5,
+      "asl": 19.5,
+      "words": 1679,
+      "pass": false
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "pageType": "city-hub",
+      "grade": 16.5,
+      "asl": 19.9,
+      "words": 1711,
+      "pass": false
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "pageType": "city-hub",
+      "grade": 15.9,
+      "asl": 20.1,
+      "words": 1808,
+      "pass": false
+    },
+    {
+      "id": "cities/warren.mdx",
+      "pageType": "city-hub",
+      "grade": 16.2,
+      "asl": 19.9,
+      "words": 1775,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.6,
+      "asl": 15.8,
+      "words": 948,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.1,
+      "asl": 16.9,
+      "words": 945,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.1,
+      "words": 980,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.5,
+      "asl": 17.7,
+      "words": 992,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.8,
+      "words": 994,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.9,
+      "asl": 16.3,
+      "words": 930,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 13.9,
+      "asl": 17.1,
+      "words": 956,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.1,
+      "words": 983,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.8,
+      "asl": 18,
+      "words": 1006,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.4,
+      "asl": 16.5,
+      "words": 990,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.9,
+      "asl": 15.9,
+      "words": 892,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.5,
+      "words": 907,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14,
+      "asl": 15.7,
+      "words": 955,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.7,
+      "asl": 17.4,
+      "words": 957,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.1,
+      "asl": 16.4,
+      "words": 965,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.8,
+      "asl": 16.6,
+      "words": 895,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14,
+      "asl": 17,
+      "words": 901,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 13.8,
+      "asl": 15.9,
+      "words": 941,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.7,
+      "asl": 18.1,
+      "words": 957,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.3,
+      "asl": 16.7,
+      "words": 951,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 15.3,
+      "asl": 16,
+      "words": 862,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.3,
+      "asl": 16.5,
+      "words": 874,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 15.6,
+      "words": 922,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.9,
+      "asl": 17.7,
+      "words": 936,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.8,
+      "asl": 16.3,
+      "words": 927,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 17.6,
+      "words": 687,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 15.9,
+      "words": 650,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 12.9,
+      "asl": 17,
+      "words": 664,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.6,
+      "asl": 17,
+      "words": 664,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.5,
+      "asl": 17.1,
+      "words": 686,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 17.1,
+      "words": 684,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.4,
+      "asl": 16.6,
+      "words": 666,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 17.3,
+      "words": 708,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.9,
+      "asl": 16.8,
+      "words": 740,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.2,
+      "asl": 16.8,
+      "words": 690,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.3,
+      "asl": 17.5,
+      "words": 700,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 17.5,
+      "words": 700,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 16.6,
+      "words": 699,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.6,
+      "asl": 16.5,
+      "words": 678,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 17.6,
+      "words": 705,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.9,
+      "asl": 17.1,
+      "words": 719,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 16.9,
+      "words": 692,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.8,
+      "asl": 15.9,
+      "words": 650,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13,
+      "asl": 17.3,
+      "words": 676,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.5,
+      "asl": 16.6,
+      "words": 663,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.1,
+      "asl": 16.9,
+      "words": 691,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.8,
+      "asl": 16.9,
+      "words": 691,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 12.9,
+      "asl": 17.1,
+      "words": 685,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 17,
+      "words": 699,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 15.9,
+      "words": 635,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 16,
+      "words": 657,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.7,
+      "asl": 17.3,
+      "words": 674,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.6,
+      "asl": 16.2,
+      "words": 633,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.2,
+      "asl": 16.9,
+      "words": 692,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.1,
+      "asl": 17.2,
+      "words": 689,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13,
+      "asl": 16.2,
+      "words": 647,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.1,
+      "asl": 16.1,
+      "words": 662,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 16.6,
+      "words": 646,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 16.2,
+      "words": 649,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.2,
+      "asl": 17.2,
+      "words": 669,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.3,
+      "asl": 16.2,
+      "words": 633,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 16.6,
+      "words": 663,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.2,
+      "asl": 17.1,
+      "words": 683,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.1,
+      "asl": 16.3,
+      "words": 637,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 16.4,
+      "words": 671,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 15,
+      "asl": 16.9,
+      "words": 658,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.1,
+      "asl": 16,
+      "words": 641,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 17.2,
+      "words": 671,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 15.6,
+      "words": 609,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.8,
+      "asl": 16.8,
+      "words": 670,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.3,
+      "asl": 17.1,
+      "words": 684,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.3,
+      "asl": 15.8,
+      "words": 630,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.3,
+      "asl": 16,
+      "words": 655,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--ann-arbor-hills.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.2,
+      "asl": 16,
+      "words": 766,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.8,
+      "asl": 15.5,
+      "words": 759,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--burns-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 14,
+      "asl": 16.6,
+      "words": 797,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--georgetown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.3,
+      "asl": 16,
+      "words": 754,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--kerrytown.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.5,
+      "asl": 16.3,
+      "words": 813,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--lower-town.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.1,
+      "asl": 16.3,
+      "words": 764,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--old-west-side.mdx",
+      "pageType": "neighborhood",
+      "grade": 14,
+      "asl": 16.1,
+      "words": 803,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--water-hill.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.3,
+      "asl": 15.8,
+      "words": 775,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--boston-edison.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.8,
+      "asl": 16.1,
+      "words": 772,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--corktown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.4,
+      "asl": 15.7,
+      "words": 786,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--downtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.7,
+      "asl": 17.2,
+      "words": 842,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--east-english-village.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.7,
+      "asl": 16.1,
+      "words": 759,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--grandmont.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.9,
+      "asl": 16,
+      "words": 719,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--indian-village.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.7,
+      "asl": 15.7,
+      "words": 768,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--jefferson-chalmers.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.5,
+      "asl": 15.3,
+      "words": 751,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--midtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.6,
+      "asl": 15.8,
+      "words": 807,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--palmer-woods.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.3,
+      "asl": 15.5,
+      "words": 789,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--rosedale-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.6,
+      "asl": 16.2,
+      "words": 744,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--southwest-detroit.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.2,
+      "asl": 16.4,
+      "words": 773,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--university-district.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.3,
+      "asl": 16.1,
+      "words": 741,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--alger-heights.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.1,
+      "asl": 16.5,
+      "words": 757,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--belknap-lookout.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.1,
+      "asl": 15.4,
+      "words": 755,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--creston.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.5,
+      "asl": 16.1,
+      "words": 774,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--east-hills.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.2,
+      "asl": 16.8,
+      "words": 806,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--eastown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.4,
+      "asl": 15.5,
+      "words": 776,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--garfield-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.7,
+      "asl": 16.1,
+      "words": 787,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--heritage-hill.mdx",
+      "pageType": "neighborhood",
+      "grade": 15,
+      "asl": 16.5,
+      "words": 824,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--midtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.9,
+      "asl": 16.3,
+      "words": 784,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--ottawa-hills.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.5,
+      "asl": 16.2,
+      "words": 761,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--roosevelt-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.6,
+      "asl": 15.3,
+      "words": 751,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--colonial-village.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.9,
+      "asl": 15.6,
+      "words": 751,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--downtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.9,
+      "asl": 16.3,
+      "words": 801,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--eastside.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.8,
+      "asl": 16,
+      "words": 769,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.6,
+      "asl": 15,
+      "words": 752,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--moores-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.6,
+      "asl": 15.6,
+      "words": 748,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--old-town.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.2,
+      "asl": 17.2,
+      "words": 810,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--reo-town.mdx",
+      "pageType": "neighborhood",
+      "grade": 14,
+      "asl": 15.3,
+      "words": 778,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.4,
+      "asl": 14.8,
+      "words": 740,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 15.8,
+      "asl": 22.4,
+      "words": 1614,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 15.1,
+      "asl": 23.5,
+      "words": 1995,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 16.5,
+      "asl": 24.2,
+      "words": 1720,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 17.4,
+      "asl": 24.9,
+      "words": 1868,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 14.9,
+      "asl": 24.8,
+      "words": 2110,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 16.3,
+      "asl": 23.6,
+      "words": 1934,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/basement-flooded-what-to-do.mdx",
+      "pageType": "problem-guide",
+      "grade": 14.9,
+      "asl": 21.5,
+      "words": 1590,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "pageType": "problem-guide",
+      "grade": 14.9,
+      "asl": 25,
+      "words": 1699,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "pageType": "problem-guide",
+      "grade": 16.7,
+      "asl": 23.6,
+      "words": 1696,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "pageType": "problem-guide",
+      "grade": 16.7,
+      "asl": 25.4,
+      "words": 1650,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "pageType": "problem-guide",
+      "grade": 13.9,
+      "asl": 21.2,
+      "words": 1652,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/water-meter-running-everything-off.mdx",
+      "pageType": "problem-guide",
+      "grade": 13.8,
+      "asl": 22.8,
+      "words": 1733,
+      "pass": false
+    },
+    {
+      "id": "trust/how-it-works.astro",
+      "pageType": "trust",
+      "grade": 14.7,
+      "asl": 17.3,
+      "words": 259,
+      "pass": false
+    },
+    {
+      "id": "trust/disclosure.astro",
+      "pageType": "trust",
+      "grade": 32.7,
+      "asl": 58,
+      "words": 116,
+      "pass": false
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "pageType": "trust",
+      "grade": 22.5,
+      "asl": 35.3,
+      "words": 318,
+      "pass": false
+    },
+    {
+      "id": "trust/privacy.astro",
+      "pageType": "trust",
+      "grade": 26.4,
+      "asl": 43.3,
+      "words": 260,
+      "pass": false
+    },
+    {
+      "id": "trust/terms.astro",
+      "pageType": "trust",
+      "grade": 22.6,
+      "asl": 33.3,
+      "words": 133,
+      "pass": false
+    }
+  ],
+  "results": [
+    {
+      "id": "services/biohazard-cleanup.mdx",
+      "pageType": "service-pillar",
+      "grade": 17.6,
+      "asl": 21.9,
+      "words": 2341,
+      "pass": false
+    },
+    {
+      "id": "services/fire-damage.mdx",
+      "pageType": "service-pillar",
+      "grade": 16.5,
+      "asl": 22.5,
+      "words": 2296,
+      "pass": false
+    },
+    {
+      "id": "services/mold-remediation.mdx",
+      "pageType": "service-pillar",
+      "grade": 16.4,
+      "asl": 21.4,
+      "words": 2313,
+      "pass": false
+    },
+    {
+      "id": "services/plumbing.mdx",
+      "pageType": "service-pillar",
+      "grade": 14.6,
+      "asl": 20.9,
+      "words": 2296,
+      "pass": false
+    },
+    {
+      "id": "services/water-damage.mdx",
+      "pageType": "service-pillar",
+      "grade": 15.6,
+      "asl": 20.6,
+      "words": 2271,
+      "pass": false
+    },
+    {
+      "id": "subservices/biohazard-cleanup--rodent-droppings-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.6,
+      "asl": 21,
+      "words": 1742,
+      "pass": false
+    },
+    {
+      "id": "subservices/biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.2,
+      "asl": 20.7,
+      "words": 1739,
+      "pass": false
+    },
+    {
+      "id": "subservices/biohazard-cleanup--trauma-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 17.1,
+      "asl": 21,
+      "words": 1747,
+      "pass": false
+    },
+    {
+      "id": "subservices/fire-damage--smoke-odor-removal.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.3,
+      "asl": 20.8,
+      "words": 1793,
+      "pass": false
+    },
+    {
+      "id": "subservices/fire-damage--smoke-soot-cleanup.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.6,
+      "asl": 22.3,
+      "words": 1761,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--attic-mold.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 20.9,
+      "words": 1754,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--basement-mold.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.2,
+      "asl": 20.5,
+      "words": 1742,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--bathroom-mold.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.1,
+      "asl": 21.3,
+      "words": 1725,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--mold-after-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.4,
+      "asl": 22,
+      "words": 1737,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.2,
+      "asl": 20.5,
+      "words": 1642,
+      "pass": false
+    },
+    {
+      "id": "subservices/mold-remediation--real-estate-mold-clearance.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 16.3,
+      "asl": 21.9,
+      "words": 1709,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--drain-cleaning.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 13.9,
+      "asl": 22.3,
+      "words": 1696,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--emergency-plumber.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.3,
+      "asl": 21.3,
+      "words": 1728,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--frozen-pipe-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.6,
+      "asl": 23.3,
+      "words": 1677,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--high-water-bill-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.1,
+      "asl": 22.6,
+      "words": 1650,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--leak-detection.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 21.5,
+      "words": 1739,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--sewer-line-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.8,
+      "asl": 23.1,
+      "words": 1731,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--slab-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.4,
+      "asl": 22.3,
+      "words": 1739,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--sump-pump-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.4,
+      "asl": 21.9,
+      "words": 1685,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--water-heater-repair.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 22.2,
+      "words": 1646,
+      "pass": false
+    },
+    {
+      "id": "subservices/plumbing--water-line-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.8,
+      "asl": 23,
+      "words": 1677,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--appliance-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.7,
+      "asl": 20.2,
+      "words": 1720,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--basement-flooding.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.3,
+      "asl": 19.5,
+      "words": 1679,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 13.8,
+      "asl": 21.4,
+      "words": 1709,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--ceiling-leak.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14,
+      "asl": 21,
+      "words": 1700,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--emergency-water-removal.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.5,
+      "asl": 20.4,
+      "words": 1510,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--storm-flood-damage.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 15.1,
+      "asl": 20.1,
+      "words": 1712,
+      "pass": false
+    },
+    {
+      "id": "subservices/water-damage--sump-pump-failure.mdx",
+      "pageType": "subservice-statewide",
+      "grade": 14.4,
+      "asl": 20.4,
+      "words": 1712,
+      "pass": false
+    },
+    {
+      "id": "cities/ann-arbor.mdx",
+      "pageType": "city-hub",
+      "grade": 16.7,
+      "asl": 20.8,
+      "words": 1790,
+      "pass": false
+    },
+    {
+      "id": "cities/detroit.mdx",
+      "pageType": "city-hub",
+      "grade": 16.1,
+      "asl": 19.5,
+      "words": 1698,
+      "pass": false
+    },
+    {
+      "id": "cities/grand-rapids.mdx",
+      "pageType": "city-hub",
+      "grade": 16.5,
+      "asl": 19.5,
+      "words": 1679,
+      "pass": false
+    },
+    {
+      "id": "cities/lansing.mdx",
+      "pageType": "city-hub",
+      "grade": 16.5,
+      "asl": 19.9,
+      "words": 1711,
+      "pass": false
+    },
+    {
+      "id": "cities/sterling-heights.mdx",
+      "pageType": "city-hub",
+      "grade": 15.9,
+      "asl": 20.1,
+      "words": 1808,
+      "pass": false
+    },
+    {
+      "id": "cities/warren.mdx",
+      "pageType": "city-hub",
+      "grade": 16.2,
+      "asl": 19.9,
+      "words": 1775,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.6,
+      "asl": 15.8,
+      "words": 948,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.1,
+      "asl": 16.9,
+      "words": 945,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.1,
+      "words": 980,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.5,
+      "asl": 17.7,
+      "words": 992,
+      "pass": false
+    },
+    {
+      "id": "city-services/ann-arbor--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.8,
+      "words": 994,
+      "pass": false
+    },
+    {
+      "id": "city-services/detroit--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 8.7,
+      "asl": 10.7,
+      "words": 1067,
+      "pass": true
+    },
+    {
+      "id": "city-services/detroit--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 7.9,
+      "asl": 12,
+      "words": 1108,
+      "pass": true
+    },
+    {
+      "id": "city-services/detroit--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 8.6,
+      "asl": 11.9,
+      "words": 1195,
+      "pass": true
+    },
+    {
+      "id": "city-services/detroit--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 8.4,
+      "asl": 12,
+      "words": 1237,
+      "pass": true
+    },
+    {
+      "id": "city-services/detroit--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 7.9,
+      "asl": 10.5,
+      "words": 1158,
+      "pass": true
+    },
+    {
+      "id": "city-services/grand-rapids--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.9,
+      "asl": 16.3,
+      "words": 930,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 13.9,
+      "asl": 17.1,
+      "words": 956,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.1,
+      "words": 983,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.8,
+      "asl": 18,
+      "words": 1006,
+      "pass": false
+    },
+    {
+      "id": "city-services/grand-rapids--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.4,
+      "asl": 16.5,
+      "words": 990,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.9,
+      "asl": 15.9,
+      "words": 892,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 16.5,
+      "words": 907,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14,
+      "asl": 15.7,
+      "words": 955,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.7,
+      "asl": 17.4,
+      "words": 957,
+      "pass": false
+    },
+    {
+      "id": "city-services/lansing--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.1,
+      "asl": 16.4,
+      "words": 965,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 14.8,
+      "asl": 16.6,
+      "words": 895,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14,
+      "asl": 17,
+      "words": 901,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 13.8,
+      "asl": 15.9,
+      "words": 941,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.7,
+      "asl": 18.1,
+      "words": 957,
+      "pass": false
+    },
+    {
+      "id": "city-services/sterling-heights--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.3,
+      "asl": 16.7,
+      "words": 951,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--biohazard-cleanup.mdx",
+      "pageType": "city-service",
+      "grade": 15.3,
+      "asl": 16,
+      "words": 862,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--fire-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.3,
+      "asl": 16.5,
+      "words": 874,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--mold-remediation.mdx",
+      "pageType": "city-service",
+      "grade": 14.2,
+      "asl": 15.6,
+      "words": 922,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--plumbing.mdx",
+      "pageType": "city-service",
+      "grade": 13.9,
+      "asl": 17.7,
+      "words": 936,
+      "pass": false
+    },
+    {
+      "id": "city-services/warren--water-damage.mdx",
+      "pageType": "city-service",
+      "grade": 14.8,
+      "asl": 16.3,
+      "words": 927,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 17.6,
+      "words": 687,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 15.9,
+      "words": 650,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 12.9,
+      "asl": 17,
+      "words": 664,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.6,
+      "asl": 17,
+      "words": 664,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.5,
+      "asl": 17.1,
+      "words": 686,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 17.1,
+      "words": 684,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.4,
+      "asl": 16.6,
+      "words": 666,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/ann-arbor--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 17.3,
+      "words": 708,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.9,
+      "asl": 16.8,
+      "words": 740,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.2,
+      "asl": 16.8,
+      "words": 690,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.3,
+      "asl": 17.5,
+      "words": 700,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 17.5,
+      "words": 700,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 16.6,
+      "words": 699,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.6,
+      "asl": 16.5,
+      "words": 678,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 17.6,
+      "words": 705,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/detroit--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.9,
+      "asl": 17.1,
+      "words": 719,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 16.9,
+      "words": 692,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.8,
+      "asl": 15.9,
+      "words": 650,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13,
+      "asl": 17.3,
+      "words": 676,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.5,
+      "asl": 16.6,
+      "words": 663,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.1,
+      "asl": 16.9,
+      "words": 691,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.8,
+      "asl": 16.9,
+      "words": 691,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 12.9,
+      "asl": 17.1,
+      "words": 685,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/grand-rapids--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 17,
+      "words": 699,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 15.9,
+      "words": 635,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 16,
+      "words": 657,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.7,
+      "asl": 17.3,
+      "words": 674,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.6,
+      "asl": 16.2,
+      "words": 633,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.2,
+      "asl": 16.9,
+      "words": 692,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.1,
+      "asl": 17.2,
+      "words": 689,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13,
+      "asl": 16.2,
+      "words": 647,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/lansing--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.1,
+      "asl": 16.1,
+      "words": 662,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.5,
+      "asl": 16.6,
+      "words": 646,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 16.2,
+      "words": 649,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.2,
+      "asl": 17.2,
+      "words": 669,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.3,
+      "asl": 16.2,
+      "words": 633,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 14,
+      "asl": 16.6,
+      "words": 663,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.2,
+      "asl": 17.1,
+      "words": 683,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.1,
+      "asl": 16.3,
+      "words": 637,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/sterling-heights--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.4,
+      "asl": 16.4,
+      "words": 671,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--biohazard-cleanup--sewage-backup-cleanup.mdx",
+      "pageType": "city-subservice",
+      "grade": 15,
+      "asl": 16.9,
+      "words": 658,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--mold-remediation--mold-inspection-testing.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.1,
+      "asl": 16,
+      "words": 641,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--plumbing--drain-cleaning.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 17.2,
+      "words": 671,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--plumbing--emergency-plumber.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.9,
+      "asl": 15.6,
+      "words": 609,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--plumbing--leak-detection.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.8,
+      "asl": 16.8,
+      "words": 670,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--water-damage--basement-flooding.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.3,
+      "asl": 17.1,
+      "words": 684,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--water-damage--burst-pipe-water-damage.mdx",
+      "pageType": "city-subservice",
+      "grade": 13.3,
+      "asl": 15.8,
+      "words": 630,
+      "pass": false
+    },
+    {
+      "id": "city-subservices/warren--water-damage--emergency-water-removal.mdx",
+      "pageType": "city-subservice",
+      "grade": 14.3,
+      "asl": 16,
+      "words": 655,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--ann-arbor-hills.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.2,
+      "asl": 16,
+      "words": 766,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--bryant.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.8,
+      "asl": 15.5,
+      "words": 759,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--burns-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 14,
+      "asl": 16.6,
+      "words": 797,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--georgetown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.3,
+      "asl": 16,
+      "words": 754,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--kerrytown.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.5,
+      "asl": 16.3,
+      "words": 813,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--lower-town.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.1,
+      "asl": 16.3,
+      "words": 764,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--old-west-side.mdx",
+      "pageType": "neighborhood",
+      "grade": 14,
+      "asl": 16.1,
+      "words": 803,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/ann-arbor--water-hill.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.3,
+      "asl": 15.8,
+      "words": 775,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--boston-edison.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.8,
+      "asl": 16.1,
+      "words": 772,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--corktown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.4,
+      "asl": 15.7,
+      "words": 786,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--downtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.7,
+      "asl": 17.2,
+      "words": 842,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--east-english-village.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.7,
+      "asl": 16.1,
+      "words": 759,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--grandmont.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.9,
+      "asl": 16,
+      "words": 719,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--indian-village.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.7,
+      "asl": 15.7,
+      "words": 768,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--jefferson-chalmers.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.5,
+      "asl": 15.3,
+      "words": 751,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--midtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.6,
+      "asl": 15.8,
+      "words": 807,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--palmer-woods.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.3,
+      "asl": 15.5,
+      "words": 789,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--rosedale-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.6,
+      "asl": 16.2,
+      "words": 744,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--southwest-detroit.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.2,
+      "asl": 16.4,
+      "words": 773,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/detroit--university-district.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.3,
+      "asl": 16.1,
+      "words": 741,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--alger-heights.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.1,
+      "asl": 16.5,
+      "words": 757,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--belknap-lookout.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.1,
+      "asl": 15.4,
+      "words": 755,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--creston.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.5,
+      "asl": 16.1,
+      "words": 774,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--east-hills.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.2,
+      "asl": 16.8,
+      "words": 806,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--eastown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.4,
+      "asl": 15.5,
+      "words": 776,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--garfield-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.7,
+      "asl": 16.1,
+      "words": 787,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--heritage-hill.mdx",
+      "pageType": "neighborhood",
+      "grade": 15,
+      "asl": 16.5,
+      "words": 824,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--midtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.9,
+      "asl": 16.3,
+      "words": 784,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--ottawa-hills.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.5,
+      "asl": 16.2,
+      "words": 761,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/grand-rapids--roosevelt-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.6,
+      "asl": 15.3,
+      "words": 751,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--colonial-village.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.9,
+      "asl": 15.6,
+      "words": 751,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--downtown.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.9,
+      "asl": 16.3,
+      "words": 801,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--eastside.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.8,
+      "asl": 16,
+      "words": 769,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--groesbeck.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.6,
+      "asl": 15,
+      "words": 752,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--moores-park.mdx",
+      "pageType": "neighborhood",
+      "grade": 13.6,
+      "asl": 15.6,
+      "words": 748,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--old-town.mdx",
+      "pageType": "neighborhood",
+      "grade": 15.2,
+      "asl": 17.2,
+      "words": 810,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--reo-town.mdx",
+      "pageType": "neighborhood",
+      "grade": 14,
+      "asl": 15.3,
+      "words": 778,
+      "pass": false
+    },
+    {
+      "id": "neighborhoods/lansing--westside.mdx",
+      "pageType": "neighborhood",
+      "grade": 14.4,
+      "asl": 14.8,
+      "words": 740,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/fire-damage-restoration-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 15.8,
+      "asl": 22.4,
+      "words": 1614,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/leak-detection-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 15.1,
+      "asl": 23.5,
+      "words": 1995,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/mold-remediation-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 16.5,
+      "asl": 24.2,
+      "words": 1720,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/sewage-cleanup-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 17.4,
+      "asl": 24.9,
+      "words": 1868,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/sump-pump-repair-replacement-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 14.9,
+      "asl": 24.8,
+      "words": 2110,
+      "pass": false
+    },
+    {
+      "id": "cost-guides/water-damage-restoration-michigan.mdx",
+      "pageType": "cost-guide",
+      "grade": 16.3,
+      "asl": 23.6,
+      "words": 1934,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/basement-flooded-what-to-do.mdx",
+      "pageType": "problem-guide",
+      "grade": 14.9,
+      "asl": 21.5,
+      "words": 1590,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/ceiling-dripping-wet-spot-upstairs.mdx",
+      "pageType": "problem-guide",
+      "grade": 14.9,
+      "asl": 25,
+      "words": 1699,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/landlord-tenant-water-damage-mold.mdx",
+      "pageType": "problem-guide",
+      "grade": 16.7,
+      "asl": 23.6,
+      "words": 1696,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/mold-home-inspection-closing-michigan.mdx",
+      "pageType": "problem-guide",
+      "grade": 16.7,
+      "asl": 25.4,
+      "words": 1650,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/water-bill-suddenly-doubled-hidden-leak.mdx",
+      "pageType": "problem-guide",
+      "grade": 13.9,
+      "asl": 21.2,
+      "words": 1652,
+      "pass": false
+    },
+    {
+      "id": "problem-guides/water-meter-running-everything-off.mdx",
+      "pageType": "problem-guide",
+      "grade": 13.8,
+      "asl": 22.8,
+      "words": 1733,
+      "pass": false
+    },
+    {
+      "id": "trust/how-it-works.astro",
+      "pageType": "trust",
+      "grade": 14.7,
+      "asl": 17.3,
+      "words": 259,
+      "pass": false
+    },
+    {
+      "id": "trust/disclosure.astro",
+      "pageType": "trust",
+      "grade": 32.7,
+      "asl": 58,
+      "words": 116,
+      "pass": false
+    },
+    {
+      "id": "trust/editorial-policy.astro",
+      "pageType": "trust",
+      "grade": 22.5,
+      "asl": 35.3,
+      "words": 318,
+      "pass": false
+    },
+    {
+      "id": "trust/privacy.astro",
+      "pageType": "trust",
+      "grade": 26.4,
+      "asl": 43.3,
+      "words": 260,
+      "pass": false
+    },
+    {
+      "id": "trust/terms.astro",
+      "pageType": "trust",
+      "grade": 22.6,
+      "asl": 33.3,
+      "words": 133,
+      "pass": false
+    }
+  ]
+}

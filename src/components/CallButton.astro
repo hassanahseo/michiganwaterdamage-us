@@ -1,0 +1,39 @@
+---
+import { getPhone } from '../utils/phone';
+import Disclosure from './Disclosure.astro';
+
+interface Props {
+  service?: string;
+  serviceName?: string;
+  size?: 'md' | 'lg';
+  fullWidth?: boolean;
+  class?: string;
+}
+
+const {
+  service = 'water-damage',
+  serviceName = 'water damage',
+  size = 'lg',
+  fullWidth = false,
+  class: className = '',
+} = Astro.props;
+
+const phone = getPhone(service);
+const sizeClasses = size === 'lg' ? 'px-6 py-4 text-base sm:text-lg font-bold' : 'px-4 py-2.5 text-sm sm:text-base font-semibold';
+---
+
+<div class={`inline-block ${fullWidth ? 'w-full' : ''} ${className}`}>
+  <a
+    href={`tel:${phone.tel}`}
+    class={`flex items-center justify-center gap-2 rounded-xl bg-amber-600 text-white shadow-md hover:bg-amber-700 active:scale-[0.99] transition-all text-center ${sizeClasses} ${fullWidth ? 'w-full' : ''}`}
+    data-ga-event="tel-click"
+    data-phone-line={phone.display}
+    data-service={service}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current shrink-0" viewBox="0 0 24 24">
+      <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1c-9.39 0-17-7.61-17-17a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.24 1.02l-2.2 2.2z"/>
+    </svg>
+    <span>Call {phone.display} - 24/7 connection to a local {serviceName} provider</span>
+  </a>
+  <Disclosure variant="short" class="text-center" />
+</div>

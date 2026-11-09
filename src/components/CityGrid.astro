@@ -1,0 +1,35 @@
+---
+import citiesData from '../data/cities.json';
+
+interface Props {
+  serviceSlug?: string;
+  currentCity?: string;
+  title?: string;
+}
+
+const { serviceSlug, currentCity, title = 'Michigan Service Locations' } = Astro.props;
+---
+
+<section class="my-8" aria-label={title}>
+  <h2 class="text-2xl font-bold tracking-tight text-slate-900 mb-6">{title}</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+    {citiesData
+      .filter(city => !currentCity || city.slug !== currentCity)
+      .map(city => {
+        const link = serviceSlug ? `/${city.slug}-mi/${serviceSlug}/` : `/${city.slug}-mi/`;
+        return (
+          <a
+            href={link}
+            class="flex flex-col items-center justify-center p-4 text-center rounded-xl border border-slate-200 bg-white hover:border-amber-500 hover:shadow-md transition-all group"
+          >
+            <span class="text-sm sm:text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+              {city.name}
+            </span>
+            <span class="text-xs text-slate-500 mt-1">
+              {city.county.value}
+            </span>
+          </a>
+        );
+      })}
+  </div>
+</section>

@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "water-damage",
+    "name": "Water Damage Restoration",
+    "short_name": "Water Damage",
+    "phone_vertical": "restoration",
+    "description": "24/7 connection to local water extraction, structural drying, and flood cleanup specialists across Michigan."
+  },
+  {
+    "slug": "mold-remediation",
+    "name": "Mold Remediation",
+    "short_name": "Mold Remediation",
+    "phone_vertical": "restoration",
+    "description": "Connect with local Michigan mold removal, inspection, and air quality remediation specialists 24/7."
+  },
+  {
+    "slug": "fire-damage",
+    "name": "Fire & Smoke Damage",
+    "short_name": "Fire & Smoke",
+    "phone_vertical": "restoration",
+    "description": "24/7 referral to independent Michigan smoke damage, soot removal, and fire cleanup contractors."
+  },
+  {
+    "slug": "biohazard-cleanup",
+    "name": "Biohazard Cleanup",
+    "short_name": "Biohazard Cleanup",
+    "phone_vertical": "restoration",
+    "description": "Emergency 24/7 connection to local sewage backup cleanup, trauma, and biohazard remediation providers."
+  },
+  {
+    "slug": "plumbing",
+    "name": "Plumbing",
+    "short_name": "Plumbing",
+    "phone_vertical": "plumbing",
+    "description": "24/7 connection to local licensed Michigan plumbing contractors for leak detection, burst pipes, and drain emergencies."
+  }
+]

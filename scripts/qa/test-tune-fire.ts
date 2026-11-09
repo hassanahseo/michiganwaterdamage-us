@@ -1,0 +1,105 @@
+import { calculateReadability } from './readability.ts';
+
+// Let's optimize Fire Damage
+let fire = `## Fire Damage Restoration in Detroit, MI
+
+House fires and kitchen grease blazes cause heavy damage across Detroit homes. Acid soot stains walls fast, and strong smoke odors soak into wood framing. Fire cleanup needs quick board-up and professional soot cleaning before stains set permanently.
+
+Michigan Water Damage Referral Network connects Wayne County property owners with local fire repair contractors. The phone line is open 24/7. Call **(877) 422-0329** to speak with a local fire restoration specialist. Contractors provide emergency roof tarping, soot cleaning, wall bracing, and smoke odor removal. Independent specialists explain safety steps on the phone and arrange prompt on-site service.
+
+---
+
+## Structural Realities and Fire Hazards in Detroit Properties
+
+Fire and smoke spread in Detroit homes depend on historical building methods. With a population of 620,376, Detroit has many pre-1950 houses. Most are wood-frame bungalows, brick Tudors, or two-story Colonials.
+
+Many older Detroit homes were built with balloon framing between 1880 and 1930. In balloon framing, wall studs run from the basement sill to the roofline without fire stops. If a fire starts on the first floor, hollow wall cavities act like chimneys. Flames and smoke rush upward through walls in minutes. Fire reaches upper bedrooms and attics before firefighters arrive.
+
+Cold Michigan winters put heavy strain on old home wiring. Sub-zero cold snaps increase demand on vintage knob-and-tube or early cloth wiring. Space heaters and old boilers running near wood trim create high fire risks in neighborhoods like Palmer Woods, Grandmont, and Southwest Detroit.
+
+Putting out fires creates a secondary water problem. Municipal firefighters pump thousands of gallons of city water supplied by the Detroit Water and Sewerage Department (DWSD) into burning rooms. Water soaks plaster ceilings and runs into basements. Because Detroit subsoils are heavy clay that drains slowly, water pools in basements. This water must be pumped out right away to stop wood rot.
+
+---
+
+## Balloon-Frame Construction and Rapid Smoke Movement in Detroit
+
+A serious hazard in older Detroit homes is balloon-frame construction. Modern homes have wood plates between floors to slow fire spread. Older Detroit homes lack these draft stops inside walls.
+
+During a room fire, hot smoke rises through hollow wall cavities. Even when firefighters put out the main blaze on the first floor, hot acidic smoke moves through floor joists and roof rafters.
+
+As smoke cools, it leaves an oily soot film on hidden surfaces. In cold winter months, this residue sticks tight to cold exterior wall cavities. If contractors do not open these hollow walls, scrub the studs, and seal the wood, smoke odors return every summer when humidity rises.
+
+---
+
+## Immediate Safety Protocol Following a Detroit Fire Loss
+
+Entering a burned building too soon puts you in danger from weak floors and toxic smoke soot. Follow these key safety rules:
+
+1. **Wait for official safety clearance.** Never enter a fire-damaged home until city fire officials or building inspectors say it is safe.
+2. **Check electrical safety first.** If the electrical panel is in a wet basement or has fire damage, stay out. Call DTE Energy to shut off power from the street.
+3. **Do not touch soot on walls.** Skin oils react with acid soot. Touching walls sets dark carbon stains permanently into paint and wood.
+4. **Keep the heating fan turned off.** Running central fans blows soot through ductwork into clean rooms. Keep all ventilation fans off.
+5. **Call for 24/7 fire restoration help.** Dial **(877) 422-0329** to speak with an independent fire repair contractor serving Detroit and Wayne County.
+
+---
+
+## How Professional Fire and Smoke Cleanup Works
+
+Local fire restoration contractors follow clear steps to secure damaged homes and clean salvageable items:
+
+- **Emergency Board-Up and Roof Tarping:** Contractors cover broken windows, burned doors, and open roofs with sturdy plywood and tarps to protect against rain and intruders.
+- **Water Extraction and Structural Drying:** Contractors pump out leftover firefighting water from basements. They run commercial dehumidifiers to stop mold growth on wet framing.
+- **Dry Sponge Soot Cleaning:** Contractors use natural rubber dry sponges to wipe soot off walls and ceilings without smearing. Heavy soot spots get washed with alkaline cleaners to cut acid.
+- **Thermal Fogging and Odor Removal:** Industrial foggers and air machines release deodorizing mist. This mist penetrates wood pores along the same paths smoke took to break down odor particles.
+- **Duct Cleaning and Wood Sealing:** Air ducts are brushed and vacuumed under negative air pressure. Charred framing lumber is coated with sealer paint to lock in leftover smoke odors for good.
+
+---
+
+## Detroit Fire Restoration Costs and BSEED Permits
+
+According to the Forbes Home Fire Restoration Study, fire and smoke repair in Michigan averages **$3,000 to $14,000**. Small kitchen smoke jobs cost less. Large structural fires cost more. Final costs depend on the amount of burned wood removed, soot damage, and required rebuilding.
+
+In Detroit, building safety rules are run by the Buildings, Safety Engineering, and Environmental Department (BSEED). Emergency board-up, water pumping, and soot cleaning do not require city permits. Contractors can start immediate safety work. However, rebuilding burned roofs, replacing wall studs, or rewiring rooms requires standard trade permits from BSEED before families can move back in.
+
+---
+
+## Frequently Asked Questions About Detroit Fire Damage
+
+### Why is fire soot harmful to home surfaces?
+When plastics and foam cushions burn, they make soot with acidic chemicals. This acid pits metal faucets, stains bathtubs, and etches window glass within days if not washed off quickly.
+
+### Can clothes and furniture damaged by smoke be saved?
+Yes. Many fabrics, clothing, and chairs can be saved through professional dry cleaning and ozone wash chambers that remove smoke odors without harming fabrics.
+
+### How do contractors get smoke odors out of old wood framing?
+Contractors scrape charred wood down to clean lumber. They treat the wood with odor-neutralizing machines and coat the framing with sealers that lock in smells.
+
+### How long does fire repair take on a Detroit home?
+Board-up and water removal take one to two days. Thorough soot cleaning and odor removal take one to two weeks. Full structural rebuilding depends on city permits and construction scope.
+
+---
+
+## Related Emergency Services in Detroit
+
+Explore related emergency restoration services and guides available to Detroit property owners:
+
+- [Statewide Michigan Fire Damage Overview](/fire-damage/)
+- [Detroit Emergency Services Hub](/detroit-mi/)
+- [Emergency Water Removal in Detroit](/detroit-mi/water-damage/emergency-water-removal/)
+- [Basement Flooding Cleanup in Detroit](/detroit-mi/water-damage/basement-flooding/)
+- [Basement Flooded First-Hour Guide](/guides/basement-flooded-what-to-do/)
+- [Ceiling Dripping Guide](/guides/ceiling-dripping-wet-spot-upstairs/)
+
+### Detroit Neighborhoods Served
+
+Our 24/7 telephone line connects residential and commercial property owners across all Detroit neighborhoods, including [Downtown](/detroit-mi/downtown/), [Midtown](/detroit-mi/midtown/), [Corktown](/detroit-mi/corktown/), [Southwest Detroit](/detroit-mi/southwest-detroit/), [Palmer Woods](/detroit-mi/palmer-woods/), [Boston-Edison](/detroit-mi/boston-edison/), [Indian Village](/detroit-mi/indian-village/), [Rosedale Park](/detroit-mi/rosedale-park/), [Grandmont](/detroit-mi/grandmont/), [East English Village](/detroit-mi/east-english-village/), [Jefferson-Chalmers](/detroit-mi/jefferson-chalmers/), and [University District](/detroit-mi/university-district/).
+
+---
+
+## 24/7 Phone Connections for Detroit Fire Emergencies
+
+Do not let acid soot and smoke odors ruin your property. Call our Michigan referral desk at **(877) 422-0329**. Get connected 24/7 with an independent local fire restoration contractor ready to help your Detroit property.
+`;
+
+const mFire = calculateReadability(fire);
+console.log('Optimized Fire: Grade', mFire.fleschKincaidGrade, '| ASL', mFire.avgSentenceLength, '| Words', mFire.totalWords);

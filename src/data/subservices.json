@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "emergency-water-removal",
+    "service": "water-damage",
+    "name": "Emergency Water Removal",
+    "priority": true,
+    "primary_keyword": "emergency water removal michigan",
+    "secondary_keywords": ["water extraction", "standing water cleanup"],
+    "caller_phrases": ["water on the floor right now", "standing water in house"]
+  },
+  {
+    "slug": "basement-flooding",
+    "service": "water-damage",
+    "name": "Basement Flooding Cleanup",
+    "priority": true,
+    "primary_keyword": "flooded basement cleanup michigan",
+    "secondary_keywords": ["basement water damage", "flooded basement pump out"],
+    "caller_phrases": ["basement flooded after storm", "water coming up in basement"]
+  },
+  {
+    "slug": "burst-pipe-water-damage",
+    "service": "water-damage",
+    "name": "Burst & Frozen Pipe Water Damage",
+    "priority": true,
+    "primary_keyword": "burst pipe water damage cleanup michigan",
+    "secondary_keywords": ["broken pipe water cleanup", "frozen pipe damage restoration"],
+    "caller_phrases": ["pipe burst while at work", "water spraying everywhere"]
+  },
+  {
+    "slug": "ceiling-leak",
+    "service": "water-damage",
+    "name": "Ceiling & Wall Leak Damage",
+    "priority": false,
+    "primary_keyword": "ceiling water damage repair michigan",
+    "secondary_keywords": ["water dripping through ceiling", "drywall water damage"],
+    "caller_phrases": ["ceiling dripping downstairs", "water spot in ceiling"]
+  },
+  {
+    "slug": "sump-pump-failure",
+    "service": "water-damage",
+    "name": "Sump Pump Failure Cleanup",
+    "priority": false,
+    "primary_keyword": "sump pump backup cleanup michigan",
+    "secondary_keywords": ["sump pump overflow remediation", "failed sump pump water removal"],
+    "caller_phrases": ["sump pump stopped working", "water rising in sump pit"]
+  },
+  {
+    "slug": "appliance-leak",
+    "service": "water-damage",
+    "name": "Appliance & Water Heater Leak Damage",
+    "priority": false,
+    "primary_keyword": "water heater leak cleanup michigan",
+    "secondary_keywords": ["washing machine overflow cleanup", "dishwasher leak damage"],
+    "caller_phrases": ["water heater flooded basement", "dishwasher leaked all over floor"]
+  },
+  {
+    "slug": "storm-flood-damage",
+    "service": "water-damage",
+    "name": "Storm & Flood Damage",
+    "priority": false,
+    "primary_keyword": "storm water damage cleanup michigan",
+    "secondary_keywords": ["rain flood restoration", "severe weather water damage"],
+    "caller_phrases": ["heavy rain flooded house", "storm water coming through foundation"]
+  },
+  {
+    "slug": "mold-inspection-testing",
+    "service": "mold-remediation",
+    "name": "Mold Inspection & Testing",
+    "priority": true,
+    "primary_keyword": "mold inspection testing michigan",
+    "secondary_keywords": ["mold air quality testing", "professional mold assessment"],
+    "caller_phrases": ["smell mold in house", "need mold test before buying"]
+  },
+  {
+    "slug": "basement-mold",
+    "service": "mold-remediation",
+    "name": "Basement Mold Remediation",
+    "priority": false,
+    "primary_keyword": "basement mold removal michigan",
+    "secondary_keywords": ["black mold in basement", "cinder block wall mold"],
+    "caller_phrases": ["mold on basement walls", "musty smell in basement"]
+  },
+  {
+    "slug": "attic-mold",
+    "service": "mold-remediation",
+    "name": "Attic Mold Remediation",
+    "priority": false,
+    "primary_keyword": "attic mold remediation michigan",
+    "secondary_keywords": ["roof sheathing mold", "attic ventilation mold"],
+    "caller_phrases": ["inspector found mold in attic", "mold on roof trusses"]
+  },
+  {
+    "slug": "bathroom-mold",
+    "service": "mold-remediation",
+    "name": "Bathroom Mold Remediation",
+    "priority": false,
+    "primary_keyword": "bathroom mold removal michigan",
+    "secondary_keywords": ["shower drywall mold", "exhaust fan mold damage"],
+    "caller_phrases": ["mold behind bathroom tile", "black mold around tub"]
+  },
+  {
+    "slug": "mold-after-leak",
+    "service": "mold-remediation",
+    "name": "Mold After a Leak",
+    "priority": false,
+    "primary_keyword": "mold cleanup after plumbing leak michigan",
+    "secondary_keywords": ["post-leak mold remediation", "hidden leak mold removal"],
+    "caller_phrases": ["mold grew after toilet leak", "closet wall mold from pipe"]
+  },
+  {
+    "slug": "real-estate-mold-clearance",
+    "service": "mold-remediation",
+    "name": "Mold Clearance for Home Sales & Lenders",
+    "priority": false,
+    "primary_keyword": "real estate mold clearance michigan",
+    "secondary_keywords": ["home sale mold remediation", "lender required mold removal"],
+    "caller_phrases": ["bank won't issue loan with mold", "home inspection flagged mold"]
+  },
+  {
+    "slug": "smoke-soot-cleanup",
+    "service": "fire-damage",
+    "name": "Smoke & Soot Cleanup",
+    "priority": false,
+    "primary_keyword": "smoke and soot cleanup michigan",
+    "secondary_keywords": ["fire soot removal", "kitchen fire smoke damage"],
+    "caller_phrases": ["black soot on walls", "furnace puffback soot cleanup"]
+  },
+  {
+    "slug": "smoke-odor-removal",
+    "service": "fire-damage",
+    "name": "Smoke Odor Removal",
+    "priority": false,
+    "primary_keyword": "smoke odor removal michigan",
+    "secondary_keywords": ["thermal fogging smoke odor", "eliminate fire smell"],
+    "caller_phrases": ["house smells like smoke", "can't get smoke smell out"]
+  },
+  {
+    "slug": "sewage-backup-cleanup",
+    "service": "biohazard-cleanup",
+    "name": "Sewage Backup Cleanup",
+    "priority": true,
+    "primary_keyword": "sewage backup cleanup michigan",
+    "secondary_keywords": ["raw sewage removal", "drain backup sanitation"],
+    "caller_phrases": ["sewage coming out of basement drain", "toilet backed up raw waste"]
+  },
+  {
+    "slug": "rodent-droppings-cleanup",
+    "service": "biohazard-cleanup",
+    "name": "Rodent Droppings Cleanup",
+    "priority": false,
+    "primary_keyword": "rodent droppings cleanup michigan",
+    "secondary_keywords": ["mice droppings disinfection", "attic rodent waste cleanup"],
+    "caller_phrases": ["mouse droppings in crawlspace", "attic contaminated with rat waste"]
+  },
+  {
+    "slug": "trauma-cleanup",
+    "service": "biohazard-cleanup",
+    "name": "Trauma & Crime Scene Cleanup",
+    "priority": false,
+    "primary_keyword": "trauma crime scene cleanup michigan",
+    "secondary_keywords": ["biohazard disinfection", "blood cleanup service"],
+    "caller_phrases": ["need biohazard cleanup team", "unattended death cleanup"]
+  },
+  {
+    "slug": "leak-detection",
+    "service": "plumbing",
+    "name": "Leak Detection",
+    "priority": true,
+    "primary_keyword": "water leak detection michigan",
+    "secondary_keywords": ["hidden pipe leak locate", "slab leak detection"],
+    "caller_phrases": ["water bill tripled", "meter is running with water off"]
+  },
+  {
+    "slug": "emergency-plumber",
+    "service": "plumbing",
+    "name": "Emergency Plumber",
+    "priority": true,
+    "primary_keyword": "emergency plumber michigan",
+    "secondary_keywords": ["urgent plumbing repair", "24/7 plumbing connection"],
+    "caller_phrases": ["need a plumber right now", "plumbing emergency water won't stop"]
+  },
+  {
+    "slug": "drain-cleaning",
+    "service": "plumbing",
+    "name": "Drain Cleaning",
+    "priority": true,
+    "primary_keyword": "emergency drain cleaning michigan",
+    "secondary_keywords": ["clogged sewer line clearing", "hydro jetting drain service"],
+    "caller_phrases": ["main drain backed up", "all sinks and toilets gurgling"]
+  },
+  {
+    "slug": "slab-leak",
+    "service": "plumbing",
+    "name": "Slab Leak Repair",
+    "priority": false,
+    "primary_keyword": "slab leak repair michigan",
+    "secondary_keywords": ["concrete slab water leak", "under foundation pipe leak"],
+    "caller_phrases": ["warm spot on concrete floor", "water seeping up through slab"]
+  },
+  {
+    "slug": "water-line-leak",
+    "service": "plumbing",
+    "name": "Water Service Line Leak",
+    "priority": false,
+    "primary_keyword": "main water service line repair michigan",
+    "secondary_keywords": ["yard water line leak", "underground water supply repair"],
+    "caller_phrases": ["water bubbling up in front yard", "main line leak from street"]
+  },
+  {
+    "slug": "high-water-bill-leak",
+    "service": "plumbing",
+    "name": "High Water Bill Leak Investigation",
+    "priority": false,
+    "primary_keyword": "high water bill leak detection michigan",
+    "secondary_keywords": ["find hidden leak high bill", "unexplained water bill spike"],
+    "caller_phrases": ["water bill doubled no reason", "DWSD bill spiked"]
+  },
+  {
+    "slug": "frozen-pipe-repair",
+    "service": "plumbing",
+    "name": "Frozen Pipe Repair & Thawing",
+    "priority": false,
+    "primary_keyword": "frozen pipe thawing repair michigan",
+    "secondary_keywords": ["thaw frozen water pipe", "fix burst frozen pipe"],
+    "caller_phrases": ["pipes froze no water coming out", "pipe thawed and cracked"]
+  },
+  {
+    "slug": "sump-pump-repair",
+    "service": "plumbing",
+    "name": "Sump Pump Repair & Installation",
+    "priority": false,
+    "primary_keyword": "sump pump repair installation michigan",
+    "secondary_keywords": ["replace sump pump", "battery backup sump pump install"],
+    "caller_phrases": ["need new sump pump installed", "sump pump motor humming but not pumping"]
+  },
+  {
+    "slug": "sewer-line-repair",
+    "service": "plumbing",
+    "name": "Sewer Line Repair & Replacement",
+    "priority": false,
+    "primary_keyword": "sewer line repair replacement michigan",
+    "secondary_keywords": ["trenchless sewer repair", "broken sewer pipe fix"],
+    "caller_phrases": ["tree roots in sewer line", "collapsed sewer pipe under yard"]
+  },
+  {
+    "slug": "water-heater-repair",
+    "service": "plumbing",
+    "name": "Water Heater Repair & Replacement",
+    "priority": false,
+    "primary_keyword": "water heater repair replacement michigan",
+    "secondary_keywords": ["emergency hot water heater service", "leaking tank water heater"],
+    "caller_phrases": ["water heater leaking from bottom", "pilot light out no hot water"]
+  }
+]

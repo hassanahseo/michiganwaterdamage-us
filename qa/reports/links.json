@@ -1,0 +1,166 @@
+{
+  "totalPages": 176,
+  "brokenLinksCount": 39,
+  "brokenLinks": [
+    {
+      "from": "/ann-arbor-mi/mold-remediation/",
+      "to": "/ann-arbor-mi/mold-remediation/basement-mold/"
+    },
+    {
+      "from": "/ann-arbor-mi/mold-remediation/",
+      "to": "/ann-arbor-mi/mold-remediation/attic-mold/"
+    },
+    {
+      "from": "/detroit-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/detroit-mi/mold-remediation/",
+      "to": "/detroit-mi/mold-remediation/basement-mold/"
+    },
+    {
+      "from": "/detroit-mi/mold-remediation/",
+      "to": "/detroit-mi/mold-remediation/attic-mold/"
+    },
+    {
+      "from": "/detroit-mi/mold-remediation/mold-inspection-testing/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/detroit-mi/plumbing/drain-cleaning/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/detroit-mi/plumbing/emergency-plumber/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/detroit-mi/plumbing/leak-detection/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/detroit-mi/water-damage/basement-flooding/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/detroit-mi/water-damage/burst-pipe-water-damage/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/detroit-mi/water-damage/emergency-water-removal/",
+      "to": "/detroit-mi/woodbridge/"
+    },
+    {
+      "from": "/grand-rapids-mi/mold-remediation/",
+      "to": "/grand-rapids-mi/mold-remediation/basement-mold/"
+    },
+    {
+      "from": "/grand-rapids-mi/mold-remediation/",
+      "to": "/grand-rapids-mi/mold-remediation/attic-mold/"
+    },
+    {
+      "from": "/lansing-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/lansing-mi/mold-remediation/",
+      "to": "/lansing-mi/mold-remediation/basement-mold/"
+    },
+    {
+      "from": "/lansing-mi/mold-remediation/",
+      "to": "/lansing-mi/mold-remediation/attic-mold/"
+    },
+    {
+      "from": "/lansing-mi/mold-remediation/mold-inspection-testing/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/mold-remediation/mold-inspection-testing/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/lansing-mi/plumbing/drain-cleaning/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/plumbing/drain-cleaning/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/lansing-mi/plumbing/emergency-plumber/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/plumbing/emergency-plumber/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/lansing-mi/plumbing/leak-detection/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/plumbing/leak-detection/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/lansing-mi/water-damage/basement-flooding/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/water-damage/basement-flooding/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/lansing-mi/water-damage/burst-pipe-water-damage/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/water-damage/burst-pipe-water-damage/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/lansing-mi/water-damage/emergency-water-removal/",
+      "to": "/lansing-mi/downtown-lansing/"
+    },
+    {
+      "from": "/lansing-mi/water-damage/emergency-water-removal/",
+      "to": "/lansing-mi/genesee/"
+    },
+    {
+      "from": "/sterling-heights-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "to": "/guides/drain-backup-what-to-do/"
+    },
+    {
+      "from": "/sterling-heights-mi/mold-remediation/",
+      "to": "/sterling-heights-mi/mold-remediation/basement-mold/"
+    },
+    {
+      "from": "/sterling-heights-mi/mold-remediation/",
+      "to": "/sterling-heights-mi/mold-remediation/attic-mold/"
+    },
+    {
+      "from": "/sterling-heights-mi/plumbing/drain-cleaning/",
+      "to": "/guides/drain-backup-what-to-do/"
+    },
+    {
+      "from": "/sterling-heights-mi/water-damage/",
+      "to": "/guides/sump-pump-failure-cleanup/"
+    },
+    {
+      "from": "/warren-mi/mold-remediation/",
+      "to": "/warren-mi/mold-remediation/basement-mold/"
+    },
+    {
+      "from": "/warren-mi/mold-remediation/",
+      "to": "/warren-mi/mold-remediation/attic-mold/"
+    }
+  ],
+  "underLinkedPagesCount": 0,
+  "underLinkedPages": [],
+  "missingFromXmlSitemap": [],
+  "missingFromHtmlSitemap": []
+}

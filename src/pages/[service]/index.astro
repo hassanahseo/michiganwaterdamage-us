@@ -1,0 +1,96 @@
+---
+import ServicePage from '../../layouts/ServicePage.astro';
+import servicesData from '../../data/services.json';
+import subservicesData from '../../data/subservices.json';
+import faqsData from '../../data/faqs.json';
+import CostTable from '../../components/CostTable.astro';
+import CallButton from '../../components/CallButton.astro';
+
+export async function getStaticPaths() {
+  return servicesData.map((service) => {
+    const subservices = subservicesData.filter((sub) => sub.service === service.slug);
+    const faqs = faqsData.filter((f) => f.category === service.slug || f.category === 'general');
+    return {
+      params: { service: service.slug },
+      props: { service, subservices, faqs },
+    };
+  });
+}
+
+const { service, subservices, faqs } = Astro.props;
+
+// Dynamically load MDX content if available
+const mdxModules = import.meta.glob('/src/content/services/*.mdx', { eager: true }) as Record<string, any>;
+const mdxPath = `/src/content/services/${service.slug}.mdx`;
+const BodyContent = mdxModules[mdxPath]?.default;
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: service.name, url: `/${service.slug}/` },
+];
+---
+
+<ServicePage
+  title={`${service.name} in Michigan | 24/7 Local Referral`}
+  metaDescription={`Connect 24/7 with independent Michigan ${service.name.toLowerCase()} specialists for emergency extraction, cleanup, and structural restoration.`}
+  h1={`${service.name} Services Across Michigan`}
+  service={service.slug}
+  serviceName={service.short_name}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  pageType="service-pillar"
+  showFaqComponent={!BodyContent}
+  showCityGridComponent={!BodyContent}
+>
+  {BodyContent ? (
+    <BodyContent />
+  ) : (
+    <>
+      <h2>Immediate Action and Direct Referral Connection</h2>
+      <p>
+        Property damage from water, mold, fire, or plumbing failures demands rapid response to prevent secondary structural decay. Michigan Water Damage Referral Network connects Michigan property owners 24/7 with independent, licensed contractors specializing in {service.name.toLowerCase()}.
+      </p>
+      <p>
+        When you call our dedicated line, you speak directly with an independent local contractor who can discuss diagnostic assessments, emergency stabilization, and estimated pricing for your specific municipal area.
+      </p>
+
+      <h2>What to Do in the First 60 Minutes</h2>
+      <ol>
+        <li><strong>Ensure personal safety:</strong> Disconnect main electrical breakers if water or hazards contact wiring or lower elevation outlets.</li>
+        <li><strong>Stop the source:</strong> Turn off main water shutoff valves or isolate leaking plumbing supply lines immediately.</li>
+        <li><strong>Document the damage:</strong> Take high-resolution photographs and videos of all affected rooms, furniture, and building materials.</li>
+        <li><strong>Call our 24/7 referral line:</strong> Connect with an independent local professional to coordinate rapid water extraction and structural drying.</li>
+      </ol>
+
+      <h2>Sub-Service Categories in Michigan</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6 not-prose">
+        {subservices.map((sub) => (
+          <a
+            href={`/${service.slug}/${sub.slug}/`}
+            class="block rounded-xl border border-slate-200 bg-white p-5 hover:border-amber-500 hover:shadow-md transition-all"
+          >
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="text-base font-bold text-slate-900">{sub.name}</h3>
+              {sub.priority && <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-100 text-amber-800">Priority Line</span>}
+            </div>
+            <p class="text-xs text-slate-500">Explore emergency guidance, causes, and local contractor routing →</p>
+          </a>
+        ))}
+      </div>
+
+      <h2>Michigan Cost Ranges & Pricing Estimates</h2>
+      <p>
+        Restoration costs depend heavily on the severity of damage, square footage affected, and category of water or contamination. Independent contractors evaluate structural moisture depth and materials on-site before establishing final project agreements.
+      </p>
+      <CostTable />
+
+      <h2>Insurance Considerations in Michigan</h2>
+      <p>
+        Most standard Michigan homeowners insurance policies cover sudden and accidental water damage, such as a ruptured frozen pipe or sudden appliance malfunction. However, gradual seepage, unresolved maintenance issues, and surface flooding typically require specific endorsements.
+      </p>
+      <p>
+        Always consult directly with your insurance adjuster to determine your individual coverage limits, deductible requirements, and claim filing procedures.
+      </p>
+    </>
+  )}
+</ServicePage>

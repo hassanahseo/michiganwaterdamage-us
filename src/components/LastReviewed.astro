@@ -1,0 +1,13 @@
+---
+interface Props {
+  date?: string;
+}
+
+const { date = 'November 2026' } = Astro.props;
+---
+
+<div class="mt-8 border-t border-slate-200 pt-4 text-xs text-slate-500">
+  <p>
+    Last reviewed: <span class="font-medium text-slate-700">{date}</span> · Researched and reviewed according to our <a href="/editorial-policy/" class="underline hover:text-slate-900">Editorial Policy</a>.
+  </p>
+</div>

@@ -1,0 +1,197 @@
+---
+import CityPage from '../../../layouts/CityPage.astro';
+import NeighborhoodPage from '../../../layouts/NeighborhoodPage.astro';
+import citiesData from '../../../data/cities.json';
+import servicesData from '../../../data/services.json';
+import subservicesData from '../../../data/subservices.json';
+import neighborhoodsData from '../../../data/neighborhoods.json';
+import faqsData from '../../../data/faqs.json';
+import CostTable from '../../../components/CostTable.astro';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+
+  // 1. City x Service combinations (6 cities x 5 services = 30 pages)
+  for (const city of citiesData) {
+    for (const service of servicesData) {
+      const citySubs = subservicesData.filter(
+        (sub) => sub.service === service.slug && sub.priority
+      );
+      const faqs = faqsData.filter(
+        (f) => f.category === service.slug || f.category === 'general'
+      );
+      paths.push({
+        params: { city: city.slug, service: service.slug },
+        props: {
+          type: 'city-service',
+          city,
+          service,
+          citySubs,
+          faqs,
+        },
+      });
+    }
+  }
+
+  // 2. Neighborhood pages (38 neighborhoods across Detroit, Grand Rapids, Ann Arbor, Lansing)
+  for (const neighborhood of neighborhoodsData) {
+    const city = citiesData.find((c) => c.slug === neighborhood.city);
+    if (city) {
+      paths.push({
+        params: { city: city.slug, service: neighborhood.slug },
+        props: {
+          type: 'neighborhood',
+          city,
+          neighborhood,
+        },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { type, city, service, neighborhood, citySubs, faqs } = Astro.props;
+
+// Dynamically load MDX content for city-service if available
+const cityServiceMdx = import.meta.glob('/src/content/city-services/*.mdx', { eager: true }) as Record<string, any>;
+const csPath = type === 'city-service' && service ? `/src/content/city-services/${city.slug}--${service.slug}.mdx` : '';
+const CSBodyContent = csPath ? cityServiceMdx[csPath]?.default : null;
+
+// Dynamically load MDX content for neighborhood if available
+const neighborhoodMdx = import.meta.glob('/src/content/neighborhoods/*.mdx', { eager: true }) as Record<string, any>;
+const nPath = type === 'neighborhood' && neighborhood ? `/src/content/neighborhoods/${city.slug}--${neighborhood.slug}.mdx` : '';
+const NBodyContent = nPath ? neighborhoodMdx[nPath]?.default : null;
+
+const nBreadcrumbs = type === 'neighborhood' && neighborhood
+  ? [
+      { name: 'Home', url: '/' },
+      { name: `${city.name}, MI`, url: `/${city.slug}-mi/` },
+      { name: neighborhood.name, url: `/${city.slug}-mi/${neighborhood.slug}/` },
+    ]
+  : [];
+
+const csBreadcrumbs = type === 'city-service' && service
+  ? [
+      { name: 'Home', url: '/' },
+      { name: `${city.name}, MI`, url: `/${city.slug}-mi/` },
+      { name: `${service.name} in ${city.name}`, url: `/${city.slug}-mi/${service.slug}/` },
+    ]
+  : [];
+---
+
+{type === 'neighborhood' && neighborhood ? (
+  <NeighborhoodPage
+    title={`${neighborhood.name} Water Damage & Plumbing Referral | ${city.name}, MI`}
+    metaDescription={`24/7 emergency water damage, mold, sewage, and plumbing referral in ${neighborhood.name}, ${city.name}. Connect with independent local specialists.`}
+    h1={`${neighborhood.name} Emergency Property Damage & Plumbing Referral`}
+    citySlug={city.slug}
+    cityName={city.name}
+    neighborhoodSlug={neighborhood.slug}
+    neighborhoodName={neighborhood.name}
+    breadcrumbs={nBreadcrumbs}
+    showServiceGrid={!NBodyContent}
+  >
+    {NBodyContent ? (
+      <NBodyContent />
+    ) : (
+      <>
+        <h2>Neighborhood Housing Profile & Infrastructure</h2>
+        <p>
+          {neighborhood.name} represents one of {city.name}'s key residential and historic communities. Properties throughout {neighborhood.name} are characterized by:
+        </p>
+        <ul>
+          <li>
+            <strong>Architectural Context:</strong> {neighborhood.housing_profile.value}
+          </li>
+          {neighborhood.facts.map((fact: any) => (
+            <li>
+              <strong>Local Infrastructure Note:</strong> {fact.value}
+            </li>
+          ))}
+        </ul>
+
+        <h2>Common Property & Water Hazards in {neighborhood.name}</h2>
+        <p>
+          Due to foundation profiles, ground elevation, and neighborhood infrastructure age, {neighborhood.name} homeowners frequently experience moisture intrusions requiring professional intervention. During severe seasonal weather transitions, hydrostatic pressure and older plumbing lateral connections test foundation perimeters.
+        </p>
+        <p>
+          Michigan Water Damage Referral Network connects {neighborhood.name} residents 24/7 with independent, licensed contractors specializing in water extraction, structural drying, mold remediation, sewage sanitation, and urgent plumbing repairs.
+        </p>
+
+        <h2>Steps to Take During an Emergency</h2>
+        <ol>
+          <li>Isolate main water supply valves immediately if active pipes have failed.</li>
+          <li>Avoid standing in basement water where electrical fixtures or outlets may be submerged.</li>
+          <li>Call our dedicated referral line to connect with an independent contractor servicing {neighborhood.name}.</li>
+        </ol>
+      </>
+    )}
+  </NeighborhoodPage>
+) : type === 'city-service' && service ? (
+  <CityPage
+    title={`${service.name} in ${city.name}, MI | 24/7 Local Referral`}
+    metaDescription={`Emergency ${service.name.toLowerCase()} in ${city.name}, MI. 24/7 referral connection to independent licensed contractors for rapid extraction and repair.`}
+    h1={`${service.name} in ${city.name}, MI`}
+    citySlug={city.slug}
+    cityName={city.name}
+    service={service.slug}
+    serviceName={service.short_name}
+    breadcrumbs={csBreadcrumbs}
+    faqs={faqs}
+    pageType="city-service"
+    showFaqComponent={!CSBodyContent}
+    showNeighborhoodGrid={!CSBodyContent}
+    showServiceGrid={!CSBodyContent}
+    showCityGrid={!CSBodyContent}
+    showLandlordBlock={!CSBodyContent}
+  >
+    {CSBodyContent ? (
+      <CSBodyContent />
+    ) : (
+      <>
+        <h2>How {service.name} Impacts {city.name} Properties</h2>
+        <p>
+          {city.local_angles[service.slug] || `${service.name} presents acute challenges in ${city.name} due to regional climate dynamics and local municipal plumbing conditions.`}
+        </p>
+        <p>
+          When property damage strikes your home or business in {city.name}, immediate stabilization is essential. Michigan Water Damage Referral Network connects you 24/7 with independent local restoration and plumbing contractors.
+        </p>
+
+        <h2>Local Municipal Context & Building Facts</h2>
+        <ul>
+          <li>
+            <strong>Housing & Foundations:</strong> {city.housing_age.value}
+          </li>
+          <li>
+            <strong>Municipal Water System:</strong> {city.water_utility.value}
+          </li>
+          <li>
+            <strong>Sewer & Storm Drainage:</strong> {city.sewer_system.value}
+          </li>
+          <li>
+            <strong>Permit & Safety Office:</strong> {city.permit_office.value}
+          </li>
+        </ul>
+
+        <h2>Priority {service.short_name} Services in {city.name}</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6 not-prose">
+          {citySubs.map((sub: any) => (
+            <a
+              href={`/${city.slug}-mi/${service.slug}/${sub.slug}/`}
+              class="p-4 rounded-xl border border-slate-200 bg-white hover:border-amber-500 hover:shadow-sm text-sm font-bold text-slate-900 hover:text-amber-600 transition-all"
+            >
+              {sub.name} in {city.name} →
+            </a>
+          ))}
+        </div>
+
+        <h2>Typical Cost Considerations in {city.name}</h2>
+        <p>
+          Restoration and repair costs vary based on square footage, class of water intrusion, and the extent of required structural demolition. Independent contractors provide transparent assessments on-site.
+        </p>
+        <CostTable />
+      </>
+    )}
+  </CityPage>
+) : null}

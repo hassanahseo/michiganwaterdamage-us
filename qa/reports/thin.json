@@ -1,0 +1,1413 @@
+{
+  "totalPages": 176,
+  "results": [
+    {
+      "url": "/404.html",
+      "pageType": "utility",
+      "wordCount": 97,
+      "targetMin": 50,
+      "targetMax": 500,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/ann-arbor-hills/",
+      "pageType": "neighborhood",
+      "wordCount": 779,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/biohazard-cleanup/",
+      "pageType": "city-service",
+      "wordCount": 938,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "pageType": "city-subservice",
+      "wordCount": 699,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/bryant/",
+      "pageType": "neighborhood",
+      "wordCount": 749,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/burns-park/",
+      "pageType": "neighborhood",
+      "wordCount": 813,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/fire-damage/",
+      "pageType": "city-service",
+      "wordCount": 942,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/georgetown/",
+      "pageType": "neighborhood",
+      "wordCount": 776,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/",
+      "pageType": "city-hub",
+      "wordCount": 1775,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/kerrytown/",
+      "pageType": "neighborhood",
+      "wordCount": 826,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/lower-town/",
+      "pageType": "neighborhood",
+      "wordCount": 782,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/mold-remediation/",
+      "pageType": "city-service",
+      "wordCount": 980,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/mold-remediation/mold-inspection-testing/",
+      "pageType": "city-subservice",
+      "wordCount": 654,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/old-west-side/",
+      "pageType": "neighborhood",
+      "wordCount": 818,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/ann-arbor-mi/plumbing/drain-cleaning/",
+      "pageType": "city-subservice",
+      "wordCount": 657,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/plumbing/emergency-plumber/",
+      "pageType": "city-subservice",
+      "wordCount": 678,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/plumbing/",
+      "pageType": "city-service",
+      "wordCount": 986,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/plumbing/leak-detection/",
+      "pageType": "city-subservice",
+      "wordCount": 687,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/water-damage/basement-flooding/",
+      "pageType": "city-subservice",
+      "wordCount": 692,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/water-damage/burst-pipe-water-damage/",
+      "pageType": "city-subservice",
+      "wordCount": 674,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/water-damage/emergency-water-removal/",
+      "pageType": "city-subservice",
+      "wordCount": 712,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/water-damage/",
+      "pageType": "city-service",
+      "wordCount": 993,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/ann-arbor-mi/water-hill/",
+      "pageType": "neighborhood",
+      "wordCount": 793,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/biohazard-cleanup/",
+      "pageType": "service-pillar",
+      "wordCount": 2348,
+      "targetMin": 1800,
+      "targetMax": 2500,
+      "status": "pass"
+    },
+    {
+      "url": "/biohazard-cleanup/rodent-droppings-cleanup/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1743,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/biohazard-cleanup/sewage-backup-cleanup/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1757,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/biohazard-cleanup/trauma-cleanup/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1768,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/contact/",
+      "pageType": "trust",
+      "wordCount": 347,
+      "targetMin": 250,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/cost/fire-damage-restoration-michigan/",
+      "pageType": "cost-guide",
+      "wordCount": 1676,
+      "targetMin": 1500,
+      "targetMax": 2200,
+      "status": "pass"
+    },
+    {
+      "url": "/cost/leak-detection-michigan/",
+      "pageType": "cost-guide",
+      "wordCount": 2026,
+      "targetMin": 1500,
+      "targetMax": 2200,
+      "status": "pass"
+    },
+    {
+      "url": "/cost/mold-remediation-michigan/",
+      "pageType": "cost-guide",
+      "wordCount": 1781,
+      "targetMin": 1500,
+      "targetMax": 2200,
+      "status": "pass"
+    },
+    {
+      "url": "/cost/sewage-cleanup-michigan/",
+      "pageType": "cost-guide",
+      "wordCount": 1923,
+      "targetMin": 1500,
+      "targetMax": 2200,
+      "status": "pass"
+    },
+    {
+      "url": "/cost/sump-pump-repair-replacement-michigan/",
+      "pageType": "cost-guide",
+      "wordCount": 2169,
+      "targetMin": 1500,
+      "targetMax": 2200,
+      "status": "pass"
+    },
+    {
+      "url": "/cost/water-damage-restoration-michigan/",
+      "pageType": "cost-guide",
+      "wordCount": 1987,
+      "targetMin": 1500,
+      "targetMax": 2200,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/biohazard-cleanup/",
+      "pageType": "city-service",
+      "wordCount": 923,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "pageType": "city-subservice",
+      "wordCount": 750,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/boston-edison/",
+      "pageType": "neighborhood",
+      "wordCount": 776,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/corktown/",
+      "pageType": "neighborhood",
+      "wordCount": 803,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/downtown/",
+      "pageType": "neighborhood",
+      "wordCount": 845,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/east-english-village/",
+      "pageType": "neighborhood",
+      "wordCount": 772,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/fire-damage/",
+      "pageType": "city-service",
+      "wordCount": 939,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/grandmont/",
+      "pageType": "neighborhood",
+      "wordCount": 739,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/",
+      "pageType": "city-hub",
+      "wordCount": 1686,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/indian-village/",
+      "pageType": "neighborhood",
+      "wordCount": 782,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/jefferson-chalmers/",
+      "pageType": "neighborhood",
+      "wordCount": 756,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/midtown/",
+      "pageType": "neighborhood",
+      "wordCount": 825,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/mold-remediation/",
+      "pageType": "city-service",
+      "wordCount": 982,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/mold-remediation/mold-inspection-testing/",
+      "pageType": "city-subservice",
+      "wordCount": 695,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/palmer-woods/",
+      "pageType": "neighborhood",
+      "wordCount": 783,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/plumbing/drain-cleaning/",
+      "pageType": "city-subservice",
+      "wordCount": 693,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/plumbing/emergency-plumber/",
+      "pageType": "city-subservice",
+      "wordCount": 709,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/plumbing/",
+      "pageType": "city-service",
+      "wordCount": 993,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/plumbing/leak-detection/",
+      "pageType": "city-subservice",
+      "wordCount": 703,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/rosedale-park/",
+      "pageType": "neighborhood",
+      "wordCount": 768,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/southwest-detroit/",
+      "pageType": "neighborhood",
+      "wordCount": 789,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/university-district/",
+      "pageType": "neighborhood",
+      "wordCount": 757,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/detroit-mi/water-damage/basement-flooding/",
+      "pageType": "city-subservice",
+      "wordCount": 688,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/water-damage/burst-pipe-water-damage/",
+      "pageType": "city-subservice",
+      "wordCount": 712,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/water-damage/emergency-water-removal/",
+      "pageType": "city-subservice",
+      "wordCount": 727,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/detroit-mi/water-damage/",
+      "pageType": "city-service",
+      "wordCount": 1006,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/disclosure/",
+      "pageType": "trust",
+      "wordCount": 753,
+      "targetMin": 250,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/editorial-policy/",
+      "pageType": "trust",
+      "wordCount": 733,
+      "targetMin": 250,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/fire-damage/",
+      "pageType": "service-pillar",
+      "wordCount": 2289,
+      "targetMin": 1800,
+      "targetMax": 2500,
+      "status": "pass"
+    },
+    {
+      "url": "/fire-damage/smoke-odor-removal/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1797,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/fire-damage/smoke-soot-cleanup/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1766,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/alger-heights/",
+      "pageType": "neighborhood",
+      "wordCount": 773,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/belknap-lookout/",
+      "pageType": "neighborhood",
+      "wordCount": 772,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/biohazard-cleanup/",
+      "pageType": "city-service",
+      "wordCount": 931,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "pageType": "city-subservice",
+      "wordCount": 695,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/creston/",
+      "pageType": "neighborhood",
+      "wordCount": 789,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/east-hills/",
+      "pageType": "neighborhood",
+      "wordCount": 823,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/eastown/",
+      "pageType": "neighborhood",
+      "wordCount": 794,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/fire-damage/",
+      "pageType": "city-service",
+      "wordCount": 955,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/garfield-park/",
+      "pageType": "neighborhood",
+      "wordCount": 778,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/heritage-hill/",
+      "pageType": "neighborhood",
+      "wordCount": 839,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/",
+      "pageType": "city-hub",
+      "wordCount": 1677,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/midtown/",
+      "pageType": "neighborhood",
+      "wordCount": 802,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/mold-remediation/",
+      "pageType": "city-service",
+      "wordCount": 985,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/mold-remediation/mold-inspection-testing/",
+      "pageType": "city-subservice",
+      "wordCount": 657,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/ottawa-hills/",
+      "pageType": "neighborhood",
+      "wordCount": 781,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/plumbing/drain-cleaning/",
+      "pageType": "city-subservice",
+      "wordCount": 666,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/plumbing/emergency-plumber/",
+      "pageType": "city-subservice",
+      "wordCount": 673,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/plumbing/",
+      "pageType": "city-service",
+      "wordCount": 1003,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/plumbing/leak-detection/",
+      "pageType": "city-subservice",
+      "wordCount": 695,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/roosevelt-park/",
+      "pageType": "neighborhood",
+      "wordCount": 764,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/grand-rapids-mi/water-damage/basement-flooding/",
+      "pageType": "city-subservice",
+      "wordCount": 699,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/water-damage/burst-pipe-water-damage/",
+      "pageType": "city-subservice",
+      "wordCount": 687,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/water-damage/emergency-water-removal/",
+      "pageType": "city-subservice",
+      "wordCount": 703,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/grand-rapids-mi/water-damage/",
+      "pageType": "city-service",
+      "wordCount": 992,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/guides/basement-flooded-what-to-do/",
+      "pageType": "problem-guide",
+      "wordCount": 1643,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/guides/ceiling-dripping-wet-spot-upstairs/",
+      "pageType": "problem-guide",
+      "wordCount": 1745,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/guides/landlord-tenant-water-damage-mold/",
+      "pageType": "problem-guide",
+      "wordCount": 1755,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/guides/mold-home-inspection-closing-michigan/",
+      "pageType": "problem-guide",
+      "wordCount": 1703,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/guides/water-bill-suddenly-doubled-hidden-leak/",
+      "pageType": "problem-guide",
+      "wordCount": 1702,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/guides/water-meter-running-everything-off/",
+      "pageType": "problem-guide",
+      "wordCount": 1778,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/how-it-works/",
+      "pageType": "trust",
+      "wordCount": 781,
+      "targetMin": 250,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/",
+      "pageType": "home",
+      "wordCount": 1273,
+      "targetMin": 1200,
+      "targetMax": 1600,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/biohazard-cleanup/",
+      "pageType": "city-service",
+      "wordCount": 892,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "pageType": "city-subservice",
+      "wordCount": 642,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/colonial-village/",
+      "pageType": "neighborhood",
+      "wordCount": 763,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/downtown/",
+      "pageType": "neighborhood",
+      "wordCount": 807,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/eastside/",
+      "pageType": "neighborhood",
+      "wordCount": 785,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/fire-damage/",
+      "pageType": "city-service",
+      "wordCount": 902,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/groesbeck/",
+      "pageType": "neighborhood",
+      "wordCount": 741,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/",
+      "pageType": "city-hub",
+      "wordCount": 1693,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/mold-remediation/",
+      "pageType": "city-service",
+      "wordCount": 953,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/mold-remediation/mold-inspection-testing/",
+      "pageType": "city-subservice",
+      "wordCount": 655,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/moores-park/",
+      "pageType": "neighborhood",
+      "wordCount": 759,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/old-town/",
+      "pageType": "neighborhood",
+      "wordCount": 822,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/plumbing/drain-cleaning/",
+      "pageType": "city-subservice",
+      "wordCount": 668,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/plumbing/emergency-plumber/",
+      "pageType": "city-subservice",
+      "wordCount": 639,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/plumbing/",
+      "pageType": "city-service",
+      "wordCount": 950,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/plumbing/leak-detection/",
+      "pageType": "city-subservice",
+      "wordCount": 692,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/reo-town/",
+      "pageType": "neighborhood",
+      "wordCount": 793,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/lansing-mi/water-damage/basement-flooding/",
+      "pageType": "city-subservice",
+      "wordCount": 698,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/water-damage/burst-pipe-water-damage/",
+      "pageType": "city-subservice",
+      "wordCount": 653,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/water-damage/emergency-water-removal/",
+      "pageType": "city-subservice",
+      "wordCount": 660,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/water-damage/",
+      "pageType": "city-service",
+      "wordCount": 962,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/lansing-mi/westside/",
+      "pageType": "neighborhood",
+      "wordCount": 751,
+      "targetMin": 700,
+      "targetMax": 1100,
+      "status": "pass"
+    },
+    {
+      "url": "/mold-remediation/attic-mold/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1786,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/mold-remediation/basement-mold/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1780,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/mold-remediation/bathroom-mold/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1769,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/mold-remediation/",
+      "pageType": "service-pillar",
+      "wordCount": 2343,
+      "targetMin": 1800,
+      "targetMax": 2500,
+      "status": "pass"
+    },
+    {
+      "url": "/mold-remediation/mold-after-leak/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1768,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/mold-remediation/mold-inspection-testing/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1690,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/mold-remediation/real-estate-mold-clearance/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1745,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/drain-cleaning/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1746,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/emergency-plumber/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1786,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/frozen-pipe-repair/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1728,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/high-water-bill-leak/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1718,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/",
+      "pageType": "service-pillar",
+      "wordCount": 2356,
+      "targetMin": 1800,
+      "targetMax": 2500,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/leak-detection/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1799,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/sewer-line-repair/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1770,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/slab-leak/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1790,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/sump-pump-repair/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1738,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/water-heater-repair/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1716,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/plumbing/water-line-leak/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1752,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/privacy/",
+      "pageType": "trust",
+      "wordCount": 1331,
+      "targetMin": 250,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/sitemap/",
+      "pageType": "sitemap",
+      "wordCount": 772,
+      "targetMin": 200,
+      "targetMax": 2000,
+      "status": "pass"
+    },
+    {
+      "url": "/sterling-heights-mi/biohazard-cleanup/",
+      "pageType": "city-service",
+      "wordCount": 895,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "pageType": "city-subservice",
+      "wordCount": 654,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/fire-damage/",
+      "pageType": "city-service",
+      "wordCount": 896,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/",
+      "pageType": "city-hub",
+      "wordCount": 1786,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/sterling-heights-mi/mold-remediation/",
+      "pageType": "city-service",
+      "wordCount": 940,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/mold-remediation/mold-inspection-testing/",
+      "pageType": "city-subservice",
+      "wordCount": 657,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/plumbing/drain-cleaning/",
+      "pageType": "city-subservice",
+      "wordCount": 668,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/plumbing/emergency-plumber/",
+      "pageType": "city-subservice",
+      "wordCount": 647,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/plumbing/",
+      "pageType": "city-service",
+      "wordCount": 954,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/plumbing/leak-detection/",
+      "pageType": "city-subservice",
+      "wordCount": 669,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/water-damage/basement-flooding/",
+      "pageType": "city-subservice",
+      "wordCount": 699,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/water-damage/burst-pipe-water-damage/",
+      "pageType": "city-subservice",
+      "wordCount": 643,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/water-damage/emergency-water-removal/",
+      "pageType": "city-subservice",
+      "wordCount": 680,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/sterling-heights-mi/water-damage/",
+      "pageType": "city-service",
+      "wordCount": 949,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/terms/",
+      "pageType": "trust",
+      "wordCount": 1338,
+      "targetMin": 250,
+      "targetMax": 1500,
+      "status": "pass"
+    },
+    {
+      "url": "/warren-mi/biohazard-cleanup/",
+      "pageType": "city-service",
+      "wordCount": 866,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/biohazard-cleanup/sewage-backup-cleanup/",
+      "pageType": "city-subservice",
+      "wordCount": 666,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/fire-damage/",
+      "pageType": "city-service",
+      "wordCount": 875,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/",
+      "pageType": "city-hub",
+      "wordCount": 1782,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/warren-mi/mold-remediation/",
+      "pageType": "city-service",
+      "wordCount": 925,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/mold-remediation/mold-inspection-testing/",
+      "pageType": "city-subservice",
+      "wordCount": 644,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/plumbing/drain-cleaning/",
+      "pageType": "city-subservice",
+      "wordCount": 665,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/plumbing/emergency-plumber/",
+      "pageType": "city-subservice",
+      "wordCount": 621,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/plumbing/",
+      "pageType": "city-service",
+      "wordCount": 932,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/plumbing/leak-detection/",
+      "pageType": "city-subservice",
+      "wordCount": 672,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/water-damage/basement-flooding/",
+      "pageType": "city-subservice",
+      "wordCount": 694,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/water-damage/burst-pipe-water-damage/",
+      "pageType": "city-subservice",
+      "wordCount": 639,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/water-damage/emergency-water-removal/",
+      "pageType": "city-subservice",
+      "wordCount": 663,
+      "targetMin": 800,
+      "targetMax": 1200,
+      "status": "too-thin"
+    },
+    {
+      "url": "/warren-mi/water-damage/",
+      "pageType": "city-service",
+      "wordCount": 930,
+      "targetMin": 1000,
+      "targetMax": 1500,
+      "status": "too-thin"
+    },
+    {
+      "url": "/water-damage/appliance-leak/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1783,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/water-damage/basement-flooding/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1740,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/water-damage/burst-pipe-water-damage/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1772,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/water-damage/ceiling-leak/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1767,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/water-damage/emergency-water-removal/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1566,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/water-damage/",
+      "pageType": "service-pillar",
+      "wordCount": 2323,
+      "targetMin": 1800,
+      "targetMax": 2500,
+      "status": "pass"
+    },
+    {
+      "url": "/water-damage/storm-flood-damage/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1770,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    },
+    {
+      "url": "/water-damage/sump-pump-failure/",
+      "pageType": "subservice-statewide",
+      "wordCount": 1779,
+      "targetMin": 1200,
+      "targetMax": 1800,
+      "status": "pass"
+    }
+  ]
+}

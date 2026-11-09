@@ -1,0 +1,33 @@
+---
+import neighborhoodsData from '../data/neighborhoods.json';
+
+interface Props {
+  citySlug: string;
+  cityName: string;
+  currentNeighborhood?: string;
+}
+
+const { citySlug, cityName, currentNeighborhood } = Astro.props;
+
+const cityNeighborhoods = neighborhoodsData.filter(
+  n => n.city === citySlug && (!currentNeighborhood || n.slug !== currentNeighborhood)
+);
+---
+
+{cityNeighborhoods.length > 0 && (
+  <section class="my-8" aria-labelledby="neighborhood-heading">
+    <h2 id="neighborhood-heading" class="text-2xl font-bold tracking-tight text-slate-900 mb-4">
+      {cityName} Neighborhoods & Coverage Areas
+    </h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+      {cityNeighborhoods.map(n => (
+        <a
+          href={`/${citySlug}-mi/${n.slug}/`}
+          class="p-3 text-center rounded-lg border border-slate-200 bg-white hover:border-amber-500 hover:shadow-sm text-sm font-medium text-slate-800 hover:text-amber-600 transition-all"
+        >
+          {n.name}
+        </a>
+      ))}
+    </div>
+  </section>
+)}

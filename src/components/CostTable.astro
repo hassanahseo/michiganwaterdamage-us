@@ -1,0 +1,46 @@
+---
+import costsData from '../data/costs.json';
+
+interface Props {
+  topic?: string;
+}
+
+const { topic } = Astro.props;
+const items = topic ? costsData.filter(c => c.topic === topic) : costsData;
+---
+
+<div class="my-6 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+  <div class="overflow-x-auto">
+    <table class="min-w-full divide-y divide-slate-200 text-left text-sm text-slate-700">
+      <thead class="bg-slate-50 text-xs uppercase font-semibold text-slate-700">
+        <tr>
+          <th scope="col" class="px-6 py-4">Service Scope</th>
+          <th scope="col" class="px-6 py-4">Low Range</th>
+          <th scope="col" class="px-6 py-4">High Range</th>
+          <th scope="col" class="px-6 py-4">Basis</th>
+          <th scope="col" class="px-6 py-4">Source Data</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200">
+        {items.map(cost => (
+          <tr class="hover:bg-slate-50/50 transition-colors">
+            <td class="px-6 py-4 font-medium text-slate-900">{cost.name}</td>
+            <td class="px-6 py-4 text-emerald-700 font-semibold">${cost.low.toLocaleString()}</td>
+            <td class="px-6 py-4 text-emerald-800 font-semibold">${cost.high.toLocaleString()}</td>
+            <td class="px-6 py-4 text-slate-500">{cost.unit}</td>
+            <td class="px-6 py-4 text-xs">
+              <a
+                href={cost.source_url}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                class="text-amber-700 underline hover:text-amber-800"
+              >
+                Benchmark Citation ({cost.as_of})
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>

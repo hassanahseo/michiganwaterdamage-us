@@ -1,0 +1,83 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CallBar from '../components/CallBar.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalUrl?: string;
+  service?: string;
+  serviceName?: string;
+  city?: string;
+  pageType?: string;
+}
+
+const {
+  title,
+  description,
+  canonicalUrl = Astro.url.href,
+  service = 'water-damage',
+  serviceName = 'damage specialist',
+  city = '',
+  pageType = 'standard',
+} = Astro.props;
+
+const cleanCanonical = canonicalUrl.endsWith('/') ? canonicalUrl : `${canonicalUrl}/`;
+---
+
+<!doctype html>
+<html lang="en" class="h-full bg-white antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={cleanCanonical} />
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={cleanCanonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content="Michigan Water Damage Referral Network" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <slot name="head" />
+  </head>
+  <body class="flex min-h-full flex-col text-slate-800">
+    <Header currentService={service} />
+    
+    <main class="flex-1 pb-16 sm:pb-0">
+      <slot />
+    </main>
+
+    <Footer />
+    <CallBar service={service} serviceName={serviceName} />
+
+    <!-- GA4 Client-Side Analytics for tel: Clicks -->
+    <script is:inline define:vars={{ pageType, city, service }}>
+      document.addEventListener('click', (e) => {
+        const target = e.target.closest('a[href^="tel:"]');
+        if (target) {
+          const phoneLine = target.getAttribute('data-phone-line') || target.getAttribute('href');
+          const serviceAttr = target.getAttribute('data-service') || service;
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'tel_click', {
+              page_type: pageType,
+              city: city || 'statewide',
+              service: serviceAttr,
+              phone_line: phoneLine,
+            });
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

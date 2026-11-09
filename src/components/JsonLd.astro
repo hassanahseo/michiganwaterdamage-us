@@ -1,0 +1,96 @@
+---
+interface Props {
+  type: 'website' | 'service' | 'article' | 'faq';
+  title?: string;
+  description?: string;
+  url?: string;
+  areaServed?: string;
+  faqs?: Array<{ question: string; answer: string }>;
+}
+
+const {
+  type,
+  title = 'Michigan Water Damage Referral Network',
+  description = '24/7 Michigan property damage and emergency plumbing referral service.',
+  url = 'https://michiganwaterdamage.us/',
+  areaServed = 'Michigan',
+  faqs = [],
+} = Astro.props;
+
+const siteUrl = 'https://michiganwaterdamage.us';
+
+let schemas: any[] = [];
+
+if (type === 'website') {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    'name': 'Michigan Water Damage Referral Network',
+    'url': siteUrl,
+    'description': 'Michigan property damage and plumbing 24/7 referral network connecting homeowners with independent local contractors.',
+  });
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    'name': 'Michigan Water Damage Referral Network',
+    'url': siteUrl,
+  });
+}
+
+if (type === 'service') {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    'name': title,
+    'description': description,
+    'provider': {
+      '@type': 'Organization',
+      'name': 'Michigan Water Damage Referral Network',
+      'url': siteUrl,
+    },
+    'areaServed': {
+      '@type': 'AdministrativeArea',
+      'name': areaServed,
+    },
+  });
+}
+
+if (type === 'article') {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': title,
+    'description': description,
+    'author': {
+      '@type': 'Organization',
+      'name': 'Michigan Water Damage Referral Network Editorial Team',
+      'url': `${siteUrl}/editorial-policy/`,
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'Michigan Water Damage Referral Network',
+      'url': siteUrl,
+    },
+    'mainEntityOfPage': url.startsWith('http') ? url : `${siteUrl}${url}`,
+  });
+}
+
+if (faqs && faqs.length > 0) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': faqs.map(faq => ({
+      '@type': 'Question',
+      'name': faq.question,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': faq.answer,
+      },
+    })),
+  });
+}
+---
+
+{schemas.map(s => (
+  <script type="application/ld+json" set:html={JSON.stringify(s)} />
+))}

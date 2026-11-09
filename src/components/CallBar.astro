@@ -1,0 +1,35 @@
+---
+import { getPhone } from '../utils/phone';
+
+interface Props {
+  service?: string;
+  serviceName?: string;
+}
+
+const {
+  service = 'water-damage',
+} = Astro.props;
+
+const phone = getPhone(service);
+---
+
+<aside class="fixed bottom-0 left-0 right-0 z-50 border-t border-amber-600 bg-amber-500 p-2.5 shadow-2xl sm:hidden" aria-label="Emergency Call Bar">
+  <div class="mx-auto flex max-w-md items-center justify-between gap-2 px-2">
+    <div class="flex flex-col text-white leading-tight">
+      <span class="text-xs uppercase tracking-wider font-semibold text-amber-100">24/7 Local Referral</span>
+      <span class="text-sm font-bold truncate max-w-[170px]">{phone.display}</span>
+    </div>
+    <a
+      href={`tel:${phone.tel}`}
+      class="flex items-center gap-1.5 rounded-lg bg-slate-900 px-4 py-2 text-sm font-bold text-white shadow-md hover:bg-slate-800 active:scale-95 transition-transform"
+      data-ga-event="tel-click"
+      data-phone-line={phone.display}
+      data-service={service}
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-amber-400 shrink-0" viewBox="0 0 24 24">
+        <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1c-9.39 0-17-7.61-17-17a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.24 1.02l-2.2 2.2z"/>
+      </svg>
+      <span>Call Now</span>
+    </a>
+  </div>
+</aside>

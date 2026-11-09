@@ -1,0 +1,101 @@
+---
+import CityPage from '../../../layouts/CityPage.astro';
+import citiesData from '../../../data/cities.json';
+import servicesData from '../../../data/services.json';
+import subservicesData from '../../../data/subservices.json';
+import faqsData from '../../../data/faqs.json';
+import CostTable from '../../../components/CostTable.astro';
+
+export async function getStaticPaths() {
+  const prioritySubs = subservicesData.filter((s) => s.priority);
+  const paths: any[] = [];
+
+  for (const city of citiesData) {
+    for (const sub of prioritySubs) {
+      const service = servicesData.find((s) => s.slug === sub.service)!;
+      const faqs = faqsData.filter((f) => f.category === sub.service || f.category === 'general');
+      paths.push({
+        params: { city: city.slug, service: sub.service, sub: sub.slug },
+        props: { city, service, subservice: sub, faqs },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { city, service, subservice, faqs } = Astro.props;
+
+// Dynamically load MDX content for city-subservice if available
+const citySubMdx = import.meta.glob('/src/content/city-subservices/*.mdx', { eager: true }) as Record<string, any>;
+const csubPath = `/src/content/city-subservices/${city.slug}--${service.slug}--${subservice.slug}.mdx`;
+const CSubBody = citySubMdx[csubPath]?.default;
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: `${city.name}, MI`, url: `/${city.slug}-mi/` },
+  { name: `${service.name} in ${city.name}`, url: `/${city.slug}-mi/${service.slug}/` },
+  { name: `${subservice.name} in ${city.name}`, url: `/${city.slug}-mi/${service.slug}/${subservice.slug}/` },
+];
+---
+
+<CityPage
+  title={`${subservice.name} in ${city.name}, MI | 24/7 Local Referral`}
+  metaDescription={`Emergency ${subservice.name.toLowerCase()} referral in ${city.name}, MI. 24/7 direct telephone connection to independent local contractors.`}
+  h1={`${subservice.name} in ${city.name}, MI`}
+  citySlug={city.slug}
+  cityName={city.name}
+  service={service.slug}
+  serviceName={subservice.name}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  pageType="city-subservice"
+  showFaqComponent={!CSubBody}
+  showNeighborhoodGrid={!CSubBody}
+  showServiceGrid={!CSubBody}
+  showCityGrid={!CSubBody}
+  showLandlordBlock={!CSubBody}
+>
+  {CSubBody ? (
+    <CSubBody />
+  ) : (
+    <>
+      <h2>Direct Answer & Urgent {subservice.name} in {city.name}</h2>
+      <p>
+        When {subservice.name.toLowerCase()} impacts your property in {city.name}, fast professional mitigation is essential to avoid long-term structural rot and mold colonization. Michigan Water Damage Referral Network connects {city.name} residents 24/7 with independent, licensed specialists.
+      </p>
+      <p>
+        Call our telephone routing line now to discuss your situation directly with an independent local contractor ready to dispatch emergency drying and repair support in {city.name}.
+      </p>
+
+      <h2>Local Municipal Context & Building Factors</h2>
+      <p>
+        Properties across {city.name} encounter unique drainage and structural pressures:
+      </p>
+      <ul>
+        <li>
+          <strong>Infrastructure Age:</strong> {city.housing_age.value}
+        </li>
+        <li>
+          <strong>Sewer & Storm Dynamics:</strong> {city.sewer_system.value}
+        </li>
+        <li>
+          <strong>Water Utility Administration:</strong> {city.water_utility.value}
+        </li>
+      </ul>
+
+      <h2>Immediate Response Steps</h2>
+      <ol>
+        <li>Isolate water supply or electrical breakers if flooding threatens service panels.</li>
+        <li>Avoid direct skin contact with contaminated floodwater or raw sewage.</li>
+        <li>Call our 24/7 referral line to connect with an independent contractor serving {city.name}.</li>
+      </ol>
+
+      <h2>Michigan Cost Estimates for {subservice.name}</h2>
+      <p>
+        Actual project costs in {city.name} depend on affected square footage, contamination levels, and building materials involved. Independent contractors evaluate damages on-site to provide clear, upfront pricing agreements.
+      </p>
+      <CostTable />
+    </>
+  )}
+</CityPage>

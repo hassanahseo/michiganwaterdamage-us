@@ -1,0 +1,72 @@
+---
+import GuidePage from '../../layouts/GuidePage.astro';
+import problemGuides from '../../data/guides.json';
+
+export async function getStaticPaths() {
+  return problemGuides.map((guide) => ({
+    params: { topic: guide.topic },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props;
+
+// Dynamically load MDX content for problem guide if available
+const problemGuidesMdx = import.meta.glob('/src/content/problem-guides/*.mdx', { eager: true }) as Record<string, any>;
+const pPath = `/src/content/problem-guides/${guide.topic}.mdx`;
+const ProblemBodyContent = problemGuidesMdx[pPath]?.default;
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Emergency Guides', url: '/guides/basement-flooded-what-to-do/' },
+  { name: guide.title, url: `/guides/${guide.topic}/` },
+];
+---
+
+<GuidePage
+  title={`${guide.title} | Michigan Emergency Guide`}
+  metaDescription={guide.metaDescription}
+  h1={guide.title}
+  breadcrumbs={breadcrumbs}
+  service={guide.service}
+  serviceName={guide.serviceName}
+  pageType="problem-guide"
+>
+  {ProblemBodyContent ? (
+    <ProblemBodyContent />
+  ) : (
+    <>
+      <h2>Direct Answer & Emergency Action Plan</h2>
+      <p>
+        Property damage symptoms like water meter movement, ceiling leaks, or inspection mold require decisive intervention. Michigan Water Damage Referral Network provides direct guidance and connects Michigan property owners 24/7 with independent, licensed specialists.
+      </p>
+      <p>
+        When addressing unexpected water infiltration or plumbing failure, prioritize structural safety and shut off main supply valves before beginning diagnostic inspections.
+      </p>
+
+      <h2>Step-by-Step Diagnostic & Safety Protocol</h2>
+      <ol>
+        <li>
+          <strong>Identify & Isolate the Hazard:</strong> Locate your home's main water shutoff valve (typically located where the municipal water service enters the basement or utility closet) and shut it off if water is visibly flowing.
+        </li>
+        <li>
+          <strong>Eliminate Electrical Risks:</strong> If water has accumulated near baseboards, appliances, or electrical wiring, do not touch switches or wade through standing water until circuit breakers are shut off.
+        </li>
+        <li>
+          <strong>Document Conditions:</strong> Capture photographs and video clips of all damaged areas and visible water sources before altering the area.
+        </li>
+        <li>
+          <strong>Contact a Local Specialist:</strong> Call our 24/7 telephone referral line to connect with an independent local professional equipped with moisture meters and thermal imaging cameras.
+        </li>
+      </ol>
+
+      <h2>When to Call a Professional vs. Monitor</h2>
+      <p>
+        Minor toilet tank flapper leaks can often be addressed with basic hardware replacement. However, unexplained meter dials turning with all fixtures off, water bubbling through concrete slab floors, or mold colonies spanning more than 10 square feet warrant prompt professional evaluation.
+      </p>
+      <p>
+        Independent contractors in our network provide complete diagnostic testing, acoustic leak detection, thermal imaging moisture mapping, and structural drying protocols.
+      </p>
+    </>
+  )}
+</GuidePage>

@@ -1,0 +1,169 @@
+---
+import Base from '../layouts/Base.astro';
+import servicesData from '../data/services.json';
+import subservicesData from '../data/subservices.json';
+import citiesData from '../data/cities.json';
+import neighborhoodsData from '../data/neighborhoods.json';
+import costsData from '../data/costs.json';
+
+const prioritySubservices = subservicesData.filter(s => s.priority);
+
+const problemGuides = [
+  { topic: 'water-bill-suddenly-doubled-hidden-leak', title: 'Water Bill Suddenly Doubled? How to Check for a Hidden Leak' },
+  { topic: 'water-meter-running-everything-off', title: 'Water Meter Running With Everything Off: What It Means' },
+  { topic: 'mold-home-inspection-closing-michigan', title: 'Mold Found During a Home Inspection or Before Closing in Michigan' },
+  { topic: 'basement-flooded-what-to-do', title: 'Basement Flooded: What to Do in the First Hour' },
+  { topic: 'ceiling-dripping-wet-spot-upstairs', title: 'Ceiling Dripping or a Wet Spot from Upstairs: What to Do' },
+  { topic: 'landlord-tenant-water-damage-mold', title: 'Landlord Guide: Tenant Reports Water Damage or Mold' },
+];
+
+const trustPages = [
+  { url: '/how-it-works/', title: 'How It Works' },
+  { url: '/disclosure/', title: 'Referral Disclosure' },
+  { url: '/editorial-policy/', title: 'Editorial Policy' },
+  { url: '/privacy/', title: 'Privacy Policy' },
+  { url: '/terms/', title: 'Terms of Service' },
+  { url: '/contact/', title: 'Contact' },
+];
+---
+
+<Base
+  title="HTML Sitemap | Michigan Water Damage Referral Network"
+  description="Complete index of all Michigan property damage restoration, emergency plumbing, city coverage hubs, neighborhood guides, and cost benchmarks."
+  pageType="utility"
+>
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <header class="mb-10 text-center">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900">Website Directory & Sitemap</h1>
+      <p class="mt-2 text-base text-slate-600">Browse all statewide services, city hubs, neighborhood directories, cost resources, and guides.</p>
+    </header>
+
+    <div class="space-y-12">
+      <!-- Section 1: Services & Subservices -->
+      <section class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 class="text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">Emergency Services (Statewide)</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {servicesData.map(service => {
+            const subs = subservicesData.filter(s => s.service === service.slug);
+            return (
+              <div class="space-y-2">
+                <a href={`/${service.slug}/`} class="text-lg font-bold text-amber-700 hover:text-amber-800 underline block">
+                  {service.name}
+                </a>
+                <ul class="space-y-1 text-sm text-slate-600 pl-4 border-l-2 border-slate-200">
+                  {subs.map(sub => (
+                    <li>
+                      <a href={`/${service.slug}/${sub.slug}/`} class="hover:text-amber-700">
+                        {sub.name} {sub.priority && <span class="text-xs text-amber-600 font-semibold">(Priority)</span>}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <!-- Section 2: City Hubs & Local Services -->
+      <section class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 class="text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">Michigan City Hubs & Local Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {citiesData.map(city => (
+            <div class="space-y-3">
+              <a href={`/${city.slug}-mi/`} class="text-xl font-bold text-slate-900 hover:text-amber-600 block">
+                {city.name}, MI Hub
+              </a>
+              <div class="text-xs uppercase font-semibold text-slate-400">City × Service Pages</div>
+              <ul class="space-y-1 text-sm text-slate-600 pl-3 border-l-2 border-amber-300">
+                {servicesData.map(service => (
+                  <li>
+                    <a href={`/${city.slug}-mi/${service.slug}/`} class="hover:text-amber-700 font-medium">
+                      {service.name} in {city.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <div class="text-xs uppercase font-semibold text-slate-400 mt-3">Priority Sub-Services</div>
+              <ul class="space-y-1 text-xs text-slate-500 pl-3 border-l-2 border-slate-200">
+                {prioritySubservices.map(sub => (
+                  <li>
+                    <a href={`/${city.slug}-mi/${sub.service}/${sub.slug}/`} class="hover:text-amber-700">
+                      {sub.name} in {city.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Section 3: Neighborhoods -->
+      <section class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 class="text-2xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">Neighborhood Directories</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          {citiesData.filter(c => c.neighborhoods && c.neighborhoods.length > 0).map(city => {
+            const neighs = neighborhoodsData.filter(n => n.city === city.slug);
+            return (
+              <div>
+                <h3 class="text-base font-bold text-slate-800 mb-2">{city.name} Neighborhoods</h3>
+                <ul class="space-y-1 text-sm text-slate-600">
+                  {neighs.map(n => (
+                    <li>
+                      <a href={`/${city.slug}-mi/${n.slug}/`} class="hover:text-amber-700">
+                        {n.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <!-- Section 4: Cost Guides, Problem Guides & Trust -->
+      <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-bold text-slate-900 mb-3 pb-2 border-b border-slate-200">Michigan Cost Guides</h2>
+          <ul class="space-y-2 text-sm text-slate-600">
+            {costsData.map(c => (
+              <li>
+                <a href={`/cost/${c.topic}/`} class="hover:text-amber-700">
+                  {c.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-bold text-slate-900 mb-3 pb-2 border-b border-slate-200">Emergency Problem Guides</h2>
+          <ul class="space-y-2 text-sm text-slate-600">
+            {problemGuides.map(g => (
+              <li>
+                <a href={`/guides/${g.topic}/`} class="hover:text-amber-700">
+                  {g.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-bold text-slate-900 mb-3 pb-2 border-b border-slate-200">Trust & Legal Information</h2>
+          <ul class="space-y-2 text-sm text-slate-600">
+            {trustPages.map(p => (
+              <li>
+                <a href={p.url} class="hover:text-amber-700">
+                  {p.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</Base>

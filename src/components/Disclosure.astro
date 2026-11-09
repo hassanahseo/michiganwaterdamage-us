@@ -1,0 +1,21 @@
+---
+interface Props {
+  variant?: 'full' | 'short';
+  class?: string;
+}
+
+const { variant = 'full', class: className = '' } = Astro.props;
+---
+
+{variant === 'full' ? (
+  <div class={`rounded-lg border border-slate-200 bg-slate-50 p-4 text-xs leading-relaxed text-slate-600 ${className}`}>
+    <p class="font-semibold text-slate-800 mb-1">Referral Service Disclosure</p>
+    <p>
+      Michigan Water Damage Referral Network is a referral service available 24/7. We do not perform restoration, plumbing or any other work. Your call is connected to an independent, third-party provider who may pay us for the referral. Providers set their own prices, hours, licensing and insurance — please confirm these with them before work begins. Calls may be recorded for quality.
+    </p>
+  </div>
+) : (
+  <p class={`text-xs text-slate-500 mt-1.5 ${className}`}>
+    Referral line connected 24/7 to an independent local contractor. Calls may be recorded.
+  </p>
+)}
