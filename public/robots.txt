@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://michiganwaterdamage.us/sitemap.xml
 Sitemap: https://michiganwaterdamage.us/sitemap-index.xml
